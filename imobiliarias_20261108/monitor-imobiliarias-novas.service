@@ -1,0 +1,16 @@
+[Unit]
+Description=Monitor de imobiliarias adicionais para compra
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=opc
+WorkingDirectory=/home/opc/monitor_imobiliarias_novas
+Environment=MONITOR_SITES=chave_santos,torres_prime,myx,raiz,mape,listagem,expoente,maneco,pousada,rochedo,lopes_conceito,prime_trade,balduino,cerejo,casabella,familia,viver_em_santos,gavea,fabricio,bw,remax_evoke_iv
+ExecStart=/bin/bash /home/opc/monitor_imobiliarias_novas/start_monitor.sh
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,37 @@
+{
+  "site": "pousada",
+  "rows": [
+    {
+      "site": "pousada",
+      "id": "3866",
+      "url": "https://imobiliariapousada.com.br/imovel/apartamento-a-venda-2-quartos-embare-santos-sp-122m2-id-3866",
+      "bairro": "Embaré",
+      "preco": 530000.0,
+      "condominio": null,
+      "area": 122.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Major Santos Silva - Embaré",
+      "titulo": "R$ 530.000 Apartamento à Venda com 2 quartos, 122m² Rua Major Santos Silva - Embaré, Santos-SP 2 Quartos 2 Banheiros 1 Vaga 122 m² 🏠 INFORMAÇÕES DO APARTAMENTO – ED. BROADWAY 📍 Endereço: Rua Major Santos Silva – Embaré, Santos/SP 🔹 Andar: 6º andar 🔹 ",
+      "data_publicacao": null
+    },
+    {
+      "site": "pousada",
+      "id": "2711",
+      "url": "https://imobiliariapousada.com.br/imovel/apartamento-a-venda-2-quartos-embare-santos-sp-125m2-id-2711",
+      "bairro": "Embaré",
+      "preco": 530000.0,
+      "condominio": 750.0,
+      "area": 125.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Estácio de Sá - Embaré",
+      "titulo": "R$ 530.000 Apartamento à Venda com 2 quartos, 125m² Rua Estácio de Sá - Embaré, Santos-SP 2 Quartos 2 Banheiros 1 Vaga 125 m² Apto de frente, andar alto c/ vista livre nos quartos, sala, área de serviço. Sendo 02 quartos tendo 01 c/Armário Embutido, ",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 149
+}

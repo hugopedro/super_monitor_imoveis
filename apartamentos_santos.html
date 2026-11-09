@@ -1,0 +1,1302 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apartamentos em Santos — perfil principal</title>
+<style>
+.actions{display:flex;gap:7px;margin-top:10px}.actions button{flex:1;padding:8px 5px;border:1px solid #cbd8d4;border-radius:7px;background:#fff;cursor:pointer;font-weight:650;font-size:.78rem}.actions .consider{color:#176c5c}.actions .exclude{color:#8d3636}.actions .undo{display:none}.card.considered{outline:3px solid #d8a21d;background:#fffdf3;order:-1}.card.considered .consider{background:#fff0bd;border-color:#d8a21d}.card.excluded{display:none}.actions button:disabled{opacity:.55;cursor:wait}
+.excluded-toggle{margin:18px 0 0;padding:9px 14px;border:1px solid #cbd8d4;border-radius:8px;background:#fff;color:#344c50;font-weight:650;cursor:pointer}body.show-excluded .card.excluded{display:flex;opacity:.68}
+*{box-sizing:border-box}body{margin:0;background:#f3f5f5;color:#172931;font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}.hero{background:#123d45;color:#fff;padding:52px max(24px,calc((100vw - 1120px)/2)) 48px}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.73rem;font-weight:750;color:#a9d7ca}h1{font-size:clamp(2rem,5vw,3.3rem);line-height:1.08;max-width:800px;margin:12px 0 14px}.lead{max-width:760px;color:#d5e7e5;margin:0}main{max-width:1168px;margin:auto;padding:30px 24px 70px}.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:-55px;position:relative}.stat{background:#fff;border:1px solid #dbe4e1;border-radius:14px;padding:16px 20px;box-shadow:0 6px 25px #142c2810;min-width:180px}.stat b{display:block;font-size:1.5rem;line-height:1.1;color:#12544f}.stat span{font-size:.8rem;color:#556a70}.note{background:#fff;border-left:4px solid #3f8a79;border-radius:6px;padding:16px 20px;margin:28px 0;color:#374f55}.note p{margin:.4em 0}h2{font-size:1.55rem;letter-spacing:-.02em;margin:38px 0 5px}.sub{color:#566b70;margin:0 0 20px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,315px),1fr));gap:15px}.card{background:white;border:1px solid #dce5e2;border-radius:14px;padding:19px;display:flex;flex-direction:column;box-shadow:0 5px 17px #102d2609}.cardtop{display:flex;justify-content:space-between;align-items:center}.badge{background:#e4f2ed;color:#196351;border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:750}.rank{color:#809390;font-size:.8rem}h3{font-size:1.2rem;margin:13px 0 0}.address{font-size:.85rem;color:#607377;min-height:2.7em;margin:2px 0 10px}.price{font-size:1.36rem;font-weight:800;letter-spacing:-.03em;margin:0 0 14px;color:#164b49}.price span{color:#748381;font-size:.85rem;font-weight:500;letter-spacing:0}.facts{display:grid;grid-template-columns:1fr 1fr;gap:11px;padding:14px 0;border-top:1px solid #edf0ef}small{display:block;font-size:.7rem;color:#708381}.facts strong{font-size:.82rem}.score{display:flex;justify-content:space-between;gap:10px;background:#f2f7f5;border-radius:8px;padding:10px;font-size:.78rem;margin:auto 0 14px}.score b{text-align:right;color:#125c4e}.button{display:block;text-align:center;text-decoration:none;color:white;background:#176c5c;border-radius:8px;padding:10px;font-weight:700;font-size:.9rem}.button:hover{background:#104b40}details{margin-top:24px}summary{cursor:pointer;font-weight:750;color:#12544f}table{border-collapse:collapse;width:100%;font-size:.85rem;margin-top:15px}th,td{text-align:left;border-bottom:1px solid #dde6e3;padding:9px}.table-wrap{overflow:auto}.empty{padding:18px;background:#fff;border-radius:10px}footer{color:#667b7d;font-size:.8rem;margin-top:40px}@media(max-width:600px){.hero{padding-top:35px;padding-bottom:40px}.stats{margin-top:-45px}.stat{min-width:0;flex:1}}
+</style></head><body><header class="hero"><div class="eyebrow">Pesquisa de apartamentos · Santos / SP</div><h1>Uma visão dos imóveis que se encaixam</h1><p class="lead">Comparação dos anúncios disponíveis nas fontes monitoradas, com as limitações de data e informações em destaque.</p></header>
+<main><div class="stats"><div class="stat"><b>1</b><span>anúncios com data no período</span></div><div class="stat"><b>127</b><span>sem data verificável</span></div><div class="stat"><b>08 Jun – 08 Nov 2026</b><span>janela de cinco meses</span></div></div><button class="excluded-toggle" id="excludedToggle" type="button">Mostrar excluídos</button>
+<div class="note"><p><b>Como ler a lista.</b> O período usa a data de cadastro ou publicação que a fonte efetivamente informa; não é possível saber se o mesmo imóvel já era anunciado antes. Foram excluídos 2 anúncios com data anterior ao período.</p>
+<p><b>Ordenação:</b> menor <em>(preço de compra + 60 mensalidades de condomínio) ÷ área</em> aparece primeiro. É uma comparação ilustrativa, não uma previsão do custo total: não inclui IPTU, financiamento, taxas, reformas, reajustes ou qualidade do imóvel. Quando o condomínio está ausente ou zerado sem confirmação, o índice não é calculado; esses anúncios ficam depois dos comparáveis, ordenados pelo preço por m².</p>
+<p><b>Perfil principal apenas.</b> Apartamentos à venda em Santos nos bairros Aparecida, Boqueirão, Embaré, Gonzaga e Pompéia; até R$ 530 mil; 2 quartos; mínimo de 70 m²; pelo menos uma vaga (coletiva aceita); não térreo; elevador confirmado; condomínio informado até R$ 1.100; avenidas excluídas. Condomínio e andar não informados não eliminam o anúncio.</p>
+<p>Quando a fonte não informa a data de publicação/cadastro de forma verificável, o anúncio aparece separado e não entra na contagem do período. Data de atualização de preço não é tratada como data de publicação, salvo quando a página a fornece explicitamente como <code>datePosted</code>.</p>
+<p>A coleta reflete os resultados que os sites entregaram em 08/11/2026, não uma garantia de cobertura completa. Anúncios de Viva Real e Zap com o mesmo identificador, preço e área foram reunidos; outros anúncios podem ser do mesmo imóvel, mas não foram unificados sem confirmação.</p></div>
+<h2>Dentro dos últimos cinco meses</h2><p class="sub">Data de publicação/cadastro verificável entre 08/06/2026 e 08/11/2026, inclusive. Ordem por menor índice em 5 anos por m².</p><div class="grid"><article class="card" data-key="vivareal:2916375351" data-search="embaré rua benjamin constant viva real">
+      <div class="cardtop"><span class="badge">Viva Real</span><span class="rank">#01</span></div>
+      <h3>Embaré</h3><p class="address">Rua Benjamin Constant</p>
+      <p class="price">R$ 520.000 <span>· 110 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 700/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.727</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>07/10/2026</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.109/m²</b></div>
+      <a class="button" href="https://www.vivareal.com.br/imovel/2916375351/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a><a class="alt" href="https://www.zapimoveis.com.br/imovel/2916375351/" target="_blank" rel="noopener noreferrer">Ver também no Zap Imóveis ↗</a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article></div>
+<details><summary>Ver também 127 anúncios sem data verificável</summary><p class="sub">São candidatos aos mesmos filtros, mas <b>não foi possível confirmar se foram publicados nos últimos cinco meses</b>. Não estão incluídos na contagem acima.</p><div class="grid"><article class="card" data-key="proprietario:863850711218671737" data-search="embare rua professor torres homem - embaré, santos - sp, brasil - embaré proprietário direto">
+      <div class="cardtop"><span class="badge">Proprietário Direto</span><span class="rank">#01</span></div>
+      <h3>Embare</h3><p class="address">Rua Professor Torres Homem - Embaré, Santos - SP, Brasil - Embaré</p>
+      <p class="price">R$ 390.000 <span>· 103 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 600/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 3.786</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.136/m²</b></div>
+      <a class="button" href="https://www.proprietariodireto.com.br/comprar-apartamento-embare-santos-direto-com-proprietario/863850711218671737" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:43696625" data-search="aparecida rua comendador alfaia rodrigues 547 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#02</span></div>
+      <h3>Aparecida</h3><p class="address">rua comendador alfaia rodrigues 547 aparecida santos sp</p>
+      <p class="price">R$ 530.000 <span>· 127 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 600/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.173</strong></div>
+      <div><small>Vagas informadas</small><strong>1.0</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.457/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-127m2-RS530000/id-43696625/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:44665220" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#03</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 525.000 <span>· 125 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 747/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.200</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.559/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-125m2-RS525000/id-44665220/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="pousada:2711" data-search="embaré rua estácio de sá - embaré imobiliária pousada">
+      <div class="cardtop"><span class="badge">Imobiliária Pousada</span><span class="rank">#04</span></div>
+      <h3>Embaré</h3><p class="address">Rua Estácio de Sá - Embaré</p>
+      <p class="price">R$ 530.000 <span>· 125 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 750/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.240</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.600/m²</b></div>
+      <a class="button" href="https://imobiliariapousada.com.br/imovel/apartamento-a-venda-2-quartos-embare-santos-sp-125m2-id-2711" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:42890995" data-search="embaré estacio de sa 7 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#05</span></div>
+      <h3>Embaré</h3><p class="address">estacio de sa 7 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 125 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 760/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.240</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.605/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-125m2-RS530000/id-42890995/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46291632" data-search="embaré rua estacio de sa 7 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#06</span></div>
+      <h3>Embaré</h3><p class="address">rua estacio de sa 7 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 125 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 760/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.240</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.605/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-125m2-RS530000/id-46291632/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46781668" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#07</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 580/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.630/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-141m2-RS530000/id-46781668/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47096467" data-search="embaré rua major santos silva 74 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#08</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva 74 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 580/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.630/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-47096467/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47073872" data-search="embaré rua major santos silva embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#09</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 580/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.630/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-47073872/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47054634" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#10</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 580/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.630/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS530000/id-47054634/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46917975" data-search="embaré rua major santos silva embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#11</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.762/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-46917975/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46959873" data-search="embaré rua major santos silva 74 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#12</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva 74 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.762/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-46959873/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46987694" data-search="embaré rua major santos silva embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#13</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.762/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-46987694/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="torres_prime:AP6523-C8E" data-search="embaré ap6523-c8e apartamento embaré - santos - sp 122 m² 2 quartos 2 banheiros 1 vaga venda r$ 530.000 torres prime">
+      <div class="cardtop"><span class="badge">Torres Prime</span><span class="rank">#14</span></div>
+      <h3>Embaré</h3><p class="address">AP6523-C8E Apartamento Embaré - Santos - SP 122 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 530.000</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.762/m²</b></div>
+      <a class="button" href="https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-122-m/AP6523-C8E" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47597313" data-search="embaré rua major santos silva 74 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#15</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva 74 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 900/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.787/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-163m2-RS530000/id-47597313/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:15260918" data-search="embaré rua major santos silva 000 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#16</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva 000 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 900/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.787/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS530000/id-15260918/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47120447" data-search="embaré rua major santos silva 51 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#17</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva 51 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 120 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.417</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.842/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-120m2-RS530000/id-47120447/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="lopes_conceito:REO1213449" data-search="embaré rua major santos silva - embaré lopes conceito">
+      <div class="cardtop"><span class="badge">Lopes Conceito</span><span class="rank">#18</span></div>
+      <h3>Embaré</h3><p class="address">Rua Major Santos Silva - Embaré</p>
+      <p class="price">R$ 530.000 <span>· 120 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.417</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.842/m²</b></div>
+      <a class="button" href="https://www.lopesconceito.com.br/imovel/REO1213449/apartamento-a-venda-2-quartos-embare-santos-sp-brasil" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="proprietario:863850711218650812" data-search="embare rua senador dantas - embaré proprietário direto">
+      <div class="cardtop"><span class="badge">Proprietário Direto</span><span class="rank">#19</span></div>
+      <h3>Embare</h3><p class="address">Rua Senador Dantas - Embaré</p>
+      <p class="price">R$ 365.000 <span>· 79 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 600/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.620</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.076/m²</b></div>
+      <a class="button" href="https://www.proprietariodireto.com.br/comprar-apartamento-embare-santos-direto-com-proprietario/863850711218650812" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:26881399" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#20</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 489.000 <span>· 107 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.000/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.570</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.131/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS489000/id-26881399/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="proprietario:863850711218751701" data-search="aparecida rua nabuco de araújo - aparecida proprietário direto">
+      <div class="cardtop"><span class="badge">Proprietário Direto</span><span class="rank">#21</span></div>
+      <h3>Aparecida</h3><p class="address">Rua Nabuco de Araújo - Aparecida</p>
+      <p class="price">R$ 429.000 <span>· 95 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.100/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.516</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.211/m²</b></div>
+      <a class="button" href="https://www.proprietariodireto.com.br/comprar-apartamento-aparecida-santos-direto-com-proprietario/863850711218751701" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="torres_prime:AP4477-C8E" data-search="aparecida aparecida - santos/sp torres prime">
+      <div class="cardtop"><span class="badge">Torres Prime</span><span class="rank">#22</span></div>
+      <h3>Aparecida</h3><p class="address">Aparecida - Santos/SP</p>
+      <p class="price">R$ 425.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 750/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.722</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.222/m²</b></div>
+      <a class="button" href="https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-90-m/AP4477-C8E" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45897403" data-search="aparecida rua comendador alfaia rodrigues aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#23</span></div>
+      <h3>Aparecida</h3><p class="address">rua comendador alfaia rodrigues aparecida santos sp</p>
+      <p class="price">R$ 488.000 <span>· 99 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 533/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.929</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.252/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-99m2-RS488000/id-45897403/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48405289" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#24</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 460.000 <span>· 96 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 876/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.792</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.339/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-100m2-RS460000/id-48405289/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:34936351" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#25</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 109 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 900/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.862</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.358/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS530000/id-34936351/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47418484" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#26</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 499.000 <span>· 99 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 586/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.040</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.396/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-RS499000/id-47418484/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:33619460" data-search="embaré rua sampaio moreira 3 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#27</span></div>
+      <h3>Embaré</h3><p class="address">rua sampaio moreira 3 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 109 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.060/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.862</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.446/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-109m2-RS530000/id-33619460/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:42238898" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#28</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 439.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 872/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.878</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.459/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-RS439000/id-42238898/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45897747" data-search="gonzaga rua euclydes da cunha gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#29</span></div>
+      <h3>Gonzaga</h3><p class="address">rua euclydes da cunha gonzaga santos sp</p>
+      <p class="price">R$ 430.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 620/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.059</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.496/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-89m2-RS430000/id-45897747/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="prime_trade:29668" data-search="aparecida rua da paz prime trade imóveis">
+      <div class="cardtop"><span class="badge">Prime Trade Imóveis</span><span class="rank">#30</span></div>
+      <h3>Aparecida</h3><p class="address">Rua da Paz</p>
+      <p class="price">R$ 350.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 580/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.000</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.497/m²</b></div>
+      <a class="button" href="https://www.primetradeimoveis.com.br/imovel/apartamento-2-quartos-aparecida-santos-1-vaga-70m2-code-29668" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="prime_trade:29653" data-search="embare rua da paz prime trade imóveis">
+      <div class="cardtop"><span class="badge">Prime Trade Imóveis</span><span class="rank">#31</span></div>
+      <h3>Embare</h3><p class="address">Rua da Paz</p>
+      <p class="price">R$ 480.000 <span>· 98 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.000/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.898</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.510/m²</b></div>
+      <a class="button" href="https://www.primetradeimoveis.com.br/imovel/apartamento-2-quartos-embare-santos-1-vaga-142m2-code-29653" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45897922" data-search="aparecida rua alexandre martins aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#32</span></div>
+      <h3>Aparecida</h3><p class="address">rua alexandre martins aparecida santos sp</p>
+      <p class="price">R$ 430.000 <span>· 87 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 929/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.943</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.583/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-87m2-RS430000/id-45897922/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48061694" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#33</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 480.000 <span>· 94 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 848/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.106</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.648/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-106m2-RS480000/id-48061694/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45224095" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#34</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 525.000 <span>· 100 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 675/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.250</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.655/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-100m2-RS525000/id-45224095/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="prime_trade:29708" data-search="aparecida rua da paz prime trade imóveis">
+      <div class="cardtop"><span class="badge">Prime Trade Imóveis</span><span class="rank">#35</span></div>
+      <h3>Aparecida</h3><p class="address">Rua da Paz</p>
+      <p class="price">R$ 455.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 958/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.056</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.694/m²</b></div>
+      <a class="button" href="https://www.primetradeimoveis.com.br/imovel/apartamento-padrao-2-quartos-aparecida-santos-1-vaga-90m2-code-29708" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47597707" data-search="gonzaga rua euclides da cunha 50 gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#36</span></div>
+      <h3>Gonzaga</h3><p class="address">rua euclides da cunha 50 gonzaga santos sp</p>
+      <p class="price">R$ 449.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 620/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.282</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.720/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-89m2-RS449000/id-47597707/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47418254" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#37</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 420.000 <span>· 79 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 610/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.316</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.780/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-79m2-RS420000/id-47418254/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:44805381" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#38</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 103 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.100/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.146</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.786/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-148m2-RS530000/id-44805381/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47317237" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#39</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 520.000 <span>· 98 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 790/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.306</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.790/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-155m2-RS520000/id-47317237/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:18783287" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#40</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 99 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 770/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.354</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.820/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-99m2-RS530000/id-18783287/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47851490" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#41</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 470.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 975/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.222</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.872/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-135m2-RS470000/id-47851490/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:20103734" data-search="embaré rua professor torres homem embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#42</span></div>
+      <h3>Embaré</h3><p class="address">rua professor torres homem embare santos sp</p>
+      <p class="price">R$ 470.000 <span>· 84 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 415/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.595</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.892/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS470000/id-20103734/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:42672749" data-search="aparecida rua comendador alfaia rodrigues 547 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#43</span></div>
+      <h3>Aparecida</h3><p class="address">rua comendador alfaia rodrigues 547 aparecida santos sp</p>
+      <p class="price">R$ 499.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 586/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.544</strong></div>
+      <div><small>Vagas informadas</small><strong>1.0</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.935/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-90m2-RS499000/id-42672749/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45896088" data-search="aparecida rua comendador alfaia rodrigues aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#44</span></div>
+      <h3>Aparecida</h3><p class="address">rua comendador alfaia rodrigues aparecida santos sp</p>
+      <p class="price">R$ 499.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 640/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.544</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.971/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-90m2-RS499000/id-45896088/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:39492118" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#45</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 96 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 760/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.521</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.996/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS530000/id-39492118/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:16785834" data-search="embaré rua estacio de sa 7 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#46</span></div>
+      <h3>Embaré</h3><p class="address">rua estacio de sa 7 embare santos sp</p>
+      <p class="price">R$ 525.000 <span>· 95 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 762/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.526</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.008/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-125m2-RS525000/id-16785834/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46872804" data-search="embaré rua major santos silva 74 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#47</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva 74 embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 96 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.521</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.052/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS530000/id-46872804/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45899278" data-search="embaré rua estacio de sa embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#48</span></div>
+      <h3>Embaré</h3><p class="address">rua estacio de sa embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 95 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 750/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.579</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.053/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-95m2-RS530000/id-45899278/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:38582309" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#49</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 95 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 750/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.579</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.053/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-95m2-RS530000/id-38582309/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47112010" data-search="gonzaga endereco indisponivel gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#50</span></div>
+      <h3>Gonzaga</h3><p class="address">endereco indisponivel gonzaga santos sp</p>
+      <p class="price">R$ 490.000 <span>· 89 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 890/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.506</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.106/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-89m2-RS490000/id-47112010/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:3541843" data-search="embaré rua nabuco de araujo 173 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#51</span></div>
+      <h3>Embaré</h3><p class="address">rua nabuco de araujo 173 embare santos sp</p>
+      <p class="price">R$ 520.000 <span>· 92 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 700/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.652</strong></div>
+      <div><small>Vagas informadas</small><strong>1.0</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.109/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-92m2-RS520000/id-3541843/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47954938" data-search="aparecida rua comendador alfaia rodrigues 547 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#52</span></div>
+      <h3>Aparecida</h3><p class="address">rua comendador alfaia rodrigues 547 aparecida santos sp</p>
+      <p class="price">R$ 516.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 570/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.733</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.113/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-RS516000/id-47954938/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="lopes_conceito:REO1210212" data-search="boqueirão rua governador pedro de toledo - boqueirão lopes conceito">
+      <div class="cardtop"><span class="badge">Lopes Conceito</span><span class="rank">#53</span></div>
+      <h3>Boqueirão</h3><p class="address">Rua Governador Pedro de Toledo - Boqueirão</p>
+      <p class="price">R$ 470.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 855/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.529</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.133/m²</b></div>
+      <a class="button" href="https://www.lopesconceito.com.br/imovel/REO1210212/apartamento-a-venda-2-quartos-boqueirao-santos-sp-brasil" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:35900298" data-search="embaré rua liberdade 242 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#54</span></div>
+      <h3>Embaré</h3><p class="address">rua liberdade 242 embare santos sp</p>
+      <p class="price">R$ 460.000 <span>· 84 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 955/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.476</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.158/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-116m2-RS460000/id-35900298/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:40481359" data-search="aparecida rua comendador alfaia rodrigues aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#55</span></div>
+      <h3>Aparecida</h3><p class="address">rua comendador alfaia rodrigues aparecida santos sp</p>
+      <p class="price">R$ 499.000 <span>· 86 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 586/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.802</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.211/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-86m2-RS499000/id-40481359/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:24444580" data-search="aparecida rua oswaldo cochrane 03 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#56</span></div>
+      <h3>Aparecida</h3><p class="address">rua oswaldo cochrane 03 aparecida santos sp</p>
+      <p class="price">R$ 520.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 671/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.778</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.225/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-90m2-RS520000/id-24444580/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:16787731" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#57</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 500.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.050/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.556</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.256/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-RS500000/id-16787731/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="proprietario:863850711218679476" data-search="embare rua professor torres homem - embaré proprietário direto">
+      <div class="cardtop"><span class="badge">Proprietário Direto</span><span class="rank">#58</span></div>
+      <h3>Embare</h3><p class="address">Rua Professor Torres Homem - Embaré</p>
+      <p class="price">R$ 430.000 <span>· 74 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 550/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.811</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.257/m²</b></div>
+      <a class="button" href="https://www.proprietariodireto.com.br/comprar-apartamento-embare-santos-direto-com-proprietario/863850711218679476" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47185910" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#59</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 485.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 790/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.706</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.264/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-85m2-RS485000/id-47185910/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:40659186" data-search="gonzaga endereco indisponivel gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#60</span></div>
+      <h3>Gonzaga</h3><p class="address">endereco indisponivel gonzaga santos sp</p>
+      <p class="price">R$ 500.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.100/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.556</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.289/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-RS500000/id-40659186/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46683147" data-search="gonzaga rua doutor galeao carvalhal gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#61</span></div>
+      <h3>Gonzaga</h3><p class="address">rua doutor galeao carvalhal gonzaga santos sp</p>
+      <p class="price">R$ 470.000 <span>· 79 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 450/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.949</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.291/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-79m2-RS470000/id-46683147/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:30039270" data-search="boqueirão endereco indisponivel boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#62</span></div>
+      <h3>Boqueirão</h3><p class="address">endereco indisponivel boqueirao santos sp</p>
+      <p class="price">R$ 490.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 761/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.765</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.302/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-85m2-RS490000/id-30039270/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="viver_em_santos:4702" data-search="boqueirão rua nabuco de araújo viver em santos imóveis">
+      <div class="cardtop"><span class="badge">Viver em Santos Imóveis</span><span class="rank">#63</span></div>
+      <h3>Boqueirão</h3><p class="address">Rua Nabuco de Araújo</p>
+      <p class="price">R$ 490.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 761/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.765</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.302/m²</b></div>
+      <a class="button" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-2-dormitorios-com-2-banheiros-elevador-no-embare/4702" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:42672953" data-search="aparecida bartolomeu de gusmao de 73 74 a 129 130 71 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#64</span></div>
+      <h3>Aparecida</h3><p class="address">bartolomeu de gusmao de 73 74 a 129 130 71 aparecida santos sp</p>
+      <p class="price">R$ 510.000 <span>· 86 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 650/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.930</strong></div>
+      <div><small>Vagas informadas</small><strong>1.0</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.384/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-86m2-RS510000/id-42672953/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="torres_prime:AP6334-C8E" data-search="embaré embaré - santos/sp torres prime">
+      <div class="cardtop"><span class="badge">Torres Prime</span><span class="rank">#65</span></div>
+      <h3>Embaré</h3><p class="address">Embaré - Santos/SP</p>
+      <p class="price">R$ 530.000 <span>· 90 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 760/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.889</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.396/m²</b></div>
+      <a class="button" href="https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-90-m/AP6334-C8E" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:15435091" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#66</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 520.000 <span>· 87 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 650/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.977</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.425/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-87m2-RS520000/id-15435091/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:42387852" data-search="boqueirão rua alexandre herculano 69 boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#67</span></div>
+      <h3>Boqueirão</h3><p class="address">rua alexandre herculano 69 boqueirao santos sp</p>
+      <p class="price">R$ 480.000 <span>· 80 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 615/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.000</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.461/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-RS480000/id-42387852/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="torres_prime:AP3668-C8E" data-search="aparecida aparecida - santos/sp torres prime">
+      <div class="cardtop"><span class="badge">Torres Prime</span><span class="rank">#68</span></div>
+      <h3>Aparecida</h3><p class="address">Aparecida - Santos/SP</p>
+      <p class="price">R$ 420.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 558/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.000</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.478/m²</b></div>
+      <a class="button" href="https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-70-m/AP3668-C8E" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47707589" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#69</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 485.000 <span>· 81 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 666/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.988</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.481/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-108m2-RS485000/id-47707589/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:43726087" data-search="boqueirão rua doutor artur porchat de assis 43 boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#70</span></div>
+      <h3>Boqueirão</h3><p class="address">rua doutor artur porchat de assis 43 boqueirao santos sp</p>
+      <p class="price">R$ 440.000 <span>· 76 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 916/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.789</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.513/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-RS440000/id-43726087/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48062130" data-search="boqueirão endereco indisponivel boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#71</span></div>
+      <h3>Boqueirão</h3><p class="address">endereco indisponivel boqueirao santos sp</p>
+      <p class="price">R$ 440.000 <span>· 76 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 916/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.789</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.513/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-76m2-RS440000/id-48062130/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47211529" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#72</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 500.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 970/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.882</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.567/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-85m2-RS500000/id-47211529/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:38847739" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#73</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 499.000 <span>· 81 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 600/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.160</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.605/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-99m2-RS499000/id-38847739/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47995093" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#74</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 509.000 <span>· 86 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 996/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.919</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.613/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-100m2-RS509000/id-47995093/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45915963" data-search="gonzaga rua doutor manoel victorino 34 gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#75</span></div>
+      <h3>Gonzaga</h3><p class="address">rua doutor manoel victorino 34 gonzaga santos sp</p>
+      <p class="price">R$ 430.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 570/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.143</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.631/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-70m2-RS430000/id-45915963/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48623928" data-search="gonzaga rua doutor manoel victorino 34 gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#76</span></div>
+      <h3>Gonzaga</h3><p class="address">rua doutor manoel victorino 34 gonzaga santos sp</p>
+      <p class="price">R$ 430.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 570/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.143</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.631/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-70m2-RS430000/id-48623928/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="balduino:366" data-search="boqueirão oportunidade cod.: 366 aceita financiamento apartamento em santos, boqueirão 2 dorm. --- suíte(s) 2 banheiro(s) --- vaga(s) 87 m² área (útil) apartamento de 2 quartos sendo 2 banheiro 1 estilo lavabo, sacada na balduino imóveis">
+      <div class="cardtop"><span class="badge">Balduino Imóveis</span><span class="rank">#77</span></div>
+      <h3>Boqueirão</h3><p class="address">OPORTUNIDADE Cod.: 366 ACEITA FINANCIAMENTO Apartamento em Santos, Boqueirão 2 dorm. --- suíte(s) 2 banheiro(s) --- vaga(s) 87 m² Área (útil) apartamento de 2 quartos sendo 2 banheiro 1 estilo lavabo, sacada na</p>
+      <p class="price">R$ 530.000 <span>· 87 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 800/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.092</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.644/m²</b></div>
+      <a class="button" href="https://balduinocorretordeimoveis.com.br/366-apartamento-em-santos-bairro-boqueirao.html" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="gavea:GV26823" data-search="embaré apartamento 2 dormitórios (2 suítes), 1 vaga à venda no embaré, santos | ed. itacolomy - ref. gv26823 gávea imobiliária">
+      <div class="cardtop"><span class="badge">Gávea Imobiliária</span><span class="rank">#78</span></div>
+      <h3>Embaré</h3><p class="address">Apartamento 2 Dormitórios (2 Suítes), 1 Vaga à Venda no Embaré, Santos | Ed. Itacolomy - Ref. GV26823</p>
+      <p class="price">R$ 520.000 <span>· 85.06 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 790/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.113</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.671/m²</b></div>
+      <a class="button" href="https://www.gaveaimobi.com.br/site/imovel/GV26823" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48322168" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#79</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 520.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 790/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.118</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.675/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS520000/id-48322168/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47266079" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#80</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 520.000 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 790/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.118</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.675/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-85m2-RS520000/id-47266079/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45897051" data-search="aparecida rua nabuco de araujo aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#81</span></div>
+      <h3>Aparecida</h3><p class="address">rua nabuco de araujo aparecida santos sp</p>
+      <p class="price">R$ 520.000 <span>· 82 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 580/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.341</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.766/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-82m2-RS520000/id-45897051/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:39802709" data-search="boqueirão rua pindorama boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#82</span></div>
+      <h3>Boqueirão</h3><p class="address">rua pindorama boqueirao santos sp</p>
+      <p class="price">R$ 430.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 980/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.972</strong></div>
+      <div><small>Vagas informadas</small><strong>1.0</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.789/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-72m2-RS430000/id-39802709/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:38542904" data-search="aparecida rua nabuco de araujo 579 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#83</span></div>
+      <h3>Aparecida</h3><p class="address">rua nabuco de araujo 579 aparecida santos sp</p>
+      <p class="price">R$ 450.000 <span>· 76 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.100/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.921</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.789/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-RS450000/id-38542904/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:21037331" data-search="gonzaga rua galeao carvalhal 34 gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#84</span></div>
+      <h3>Gonzaga</h3><p class="address">rua galeao carvalhal 34 gonzaga santos sp</p>
+      <p class="price">R$ 467.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 480/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.486</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.886/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-72m2-RS467000/id-21037331/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48230711" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#85</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 510.000 <span>· 82 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 960/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.220</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.922/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-82m2-RS510000/id-48230711/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:36400182" data-search="aparecida rua alexandre martins 1 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#86</span></div>
+      <h3>Aparecida</h3><p class="address">rua alexandre martins 1 aparecida santos sp</p>
+      <p class="price">R$ 490.000 <span>· 80 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.080/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.125</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.935/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-80m2-RS490000/id-36400182/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:22135356" data-search="gonzaga endereco indisponivel gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#87</span></div>
+      <h3>Gonzaga</h3><p class="address">endereco indisponivel gonzaga santos sp</p>
+      <p class="price">R$ 480.000 <span>· 78 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.100/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.154</strong></div>
+      <div><small>Vagas informadas</small><strong>Não informadas</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.000/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-sp-santos-gonzaga-78m2-RS480000/id-22135356/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="invista:45651" data-search="embare apartamento a venda em santos sp no bairro embare com 2 dormitorios e 70m2 invista">
+      <div class="cardtop"><span class="badge">Invista</span><span class="rank">#88</span></div>
+      <h3>Embare</h3><p class="address">Apartamento A Venda Em Santos Sp No Bairro Embare Com 2 Dormitorios E 70M2</p>
+      <p class="price">R$ 450.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 680/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.429</strong></div>
+      <div><small>Vagas informadas</small><strong>2</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.011/m²</b></div>
+      <a class="button" href="https://invistaii.com.br/imovel/apartamento-a-venda-em-santos-sp-no-bairro-embare-com-2-dormitorios-e-70m2/45651/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48231175" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#89</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 450.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 680/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.429</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.011/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-70m2-RS450000/id-48231175/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="raiz:AP0332-RIMOB" data-search="boqueirão ap0332-rimob apartamento boqueirão - santos - sp 77 m² 2 quartos 2 banheiros 1 vaga venda r$ 500.000 raiz imobiliária">
+      <div class="cardtop"><span class="badge">Raiz Imobiliária</span><span class="rank">#90</span></div>
+      <h3>Boqueirão</h3><p class="address">AP0332-RIMOB Apartamento Boqueirão - Santos - SP 77 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 500.000</p>
+      <p class="price">R$ 500.000 <span>· 77 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 700/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.494</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.039/m²</b></div>
+      <a class="button" href="https://www.raizimobiliariasantos.com.br/imovel/apartamento-santos-2-quartos-77-m/AP0332-RIMOB" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48321592" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#91</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 499.000 <span>· 75 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 536/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.653</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.082/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-99m2-RS499000/id-48321592/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="gavea:GV25243" data-search="aparecida apartamento 2 dormitórios, 1 vaga à venda no aparecida, santos | ed. tauna - ref. gv25243 gávea imobiliária">
+      <div class="cardtop"><span class="badge">Gávea Imobiliária</span><span class="rank">#92</span></div>
+      <h3>Aparecida</h3><p class="address">Apartamento 2 Dormitórios, 1 Vaga à Venda no Aparecida, Santos | Ed. Tauna - Ref. GV25243</p>
+      <p class="price">R$ 499.000 <span>· 75 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 536/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.653</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.082/m²</b></div>
+      <a class="button" href="https://www.gaveaimobi.com.br/site/imovel/GV25243" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:27443267" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#93</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 530.000 <span>· 80 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 620/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.625</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.090/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-110m2-RS530000/id-27443267/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="viver_em_santos:3278" data-search="aparecida rua comendador alfaia rodrigues viver em santos imóveis">
+      <div class="cardtop"><span class="badge">Viver em Santos Imóveis</span><span class="rank">#94</span></div>
+      <h3>Aparecida</h3><p class="address">Rua Comendador Alfaia Rodrigues</p>
+      <p class="price">R$ 530.000 <span>· 80 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 620/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.625</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.090/m²</b></div>
+      <a class="button" href="https://www.viveremsantosimoveis.com.br/imovel/titulo-apartamento-de-frente-2-dormitorios-vista-livre-e-garagem-fechada-na-aparecida-santos-sp/3278" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45924401" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#95</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 499.000 <span>· 75 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 610/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.653</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.141/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-75m2-RS499000/id-45924401/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:25640021" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#96</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 480.000 <span>· 75 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.000/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.400</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.200/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-85m2-RS480000/id-25640021/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:42893770" data-search="aparecida rua alexandre martins 30 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#97</span></div>
+      <h3>Aparecida</h3><p class="address">rua alexandre martins 30 aparecida santos sp</p>
+      <p class="price">R$ 528.000 <span>· 80 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 810/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.600</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.208/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-80m2-RS528000/id-42893770/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:23660786" data-search="boqueirão endereco indisponivel boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#98</span></div>
+      <h3>Boqueirão</h3><p class="address">endereco indisponivel boqueirao santos sp</p>
+      <p class="price">R$ 470.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.528</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.236/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-88m2-RS470000/id-23660786/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="viver_em_santos:3370" data-search="aparecida rua comendador alfaia rodrigues viver em santos imóveis">
+      <div class="cardtop"><span class="badge">Viver em Santos Imóveis</span><span class="rank">#99</span></div>
+      <h3>Aparecida</h3><p class="address">Rua Comendador Alfaia Rodrigues</p>
+      <p class="price">R$ 530.000 <span>· 78.2 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 645/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.777</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.272/m²</b></div>
+      <a class="button" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-com-2-dormitorios-aparecida-santos-sp/3370" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:44113908" data-search="aparecida rua comendador alfaia rodrigues 519 aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#100</span></div>
+      <h3>Aparecida</h3><p class="address">rua comendador alfaia rodrigues 519 aparecida santos sp</p>
+      <p class="price">R$ 530.000 <span>· 78 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 650/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.795</strong></div>
+      <div><small>Vagas informadas</small><strong>1.0</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.295/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-78m2-RS530000/id-44113908/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45582587" data-search="gonzaga rua galeao carvalhal gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#101</span></div>
+      <h3>Gonzaga</h3><p class="address">rua galeao carvalhal gonzaga santos sp</p>
+      <p class="price">R$ 480.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 540/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.857</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.320/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-70m2-RS480000/id-45582587/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="raiz:AP0325-RIMOB" data-search="pompéia ap0325-rimob apartamento pompéia - santos - sp 78 m² 2 quartos 2 banheiros 1 vaga venda r$ 520.000 raiz imobiliária">
+      <div class="cardtop"><span class="badge">Raiz Imobiliária</span><span class="rank">#102</span></div>
+      <h3>Pompéia</h3><p class="address">AP0325-RIMOB Apartamento Pompéia - Santos - SP 78 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 520.000</p>
+      <p class="price">R$ 520.000 <span>· 78 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.667</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.321/m²</b></div>
+      <a class="button" href="https://www.raizimobiliariasantos.com.br/imovel/apartamento-santos-2-quartos-78-m/AP0325-RIMOB" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:44963178" data-search="embaré rua comendador alfaia rodrigues 519 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#103</span></div>
+      <h3>Embaré</h3><p class="address">rua comendador alfaia rodrigues 519 embare santos sp</p>
+      <p class="price">R$ 479.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 644/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.843</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.395/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS479000/id-44963178/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:27443612" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#104</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 515.000 <span>· 75 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 680/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.867</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.411/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-75m2-RS515000/id-27443612/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="viver_em_santos:2701" data-search="aparecida rua comendador alfaia rodrigues viver em santos imóveis">
+      <div class="cardtop"><span class="badge">Viver em Santos Imóveis</span><span class="rank">#105</span></div>
+      <h3>Aparecida</h3><p class="address">Rua Comendador Alfaia Rodrigues</p>
+      <p class="price">R$ 515.000 <span>· 75 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 680/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.867</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.411/m²</b></div>
+      <a class="button" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-2-dormitorios-ambientes-amplos-elevador-e-vaga-demarcada-na-aparecida-santos-sp/2701" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47267200" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#106</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 77 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.883</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.545/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS530000/id-47267200/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46940721" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#107</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 77 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 850/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.883</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.545/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-46940721/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:44342694" data-search="boqueirão rua torres homem boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#108</span></div>
+      <h3>Boqueirão</h3><p class="address">rua torres homem boqueirao santos sp</p>
+      <p class="price">R$ 490.000 <span>· 73 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.050/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.712</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.575/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-73m2-RS490000/id-44342694/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:36585196" data-search="embaré rua liberdade embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#109</span></div>
+      <h3>Embaré</h3><p class="address">rua liberdade embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 78 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.080/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.795</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.626/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-78m2-RS530000/id-36585196/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45897035" data-search="embaré rua professor torres homem embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#110</span></div>
+      <h3>Embaré</h3><p class="address">rua professor torres homem embare santos sp</p>
+      <p class="price">R$ 490.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.040/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.806</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.672/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-72m2-RS490000/id-45897035/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:29676246" data-search="boqueirão endereco indisponivel boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#111</span></div>
+      <h3>Boqueirão</h3><p class="address">endereco indisponivel boqueirao santos sp</p>
+      <p class="price">R$ 529.000 <span>· 76 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.000/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.961</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.750/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-RS529000/id-29676246/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45735992" data-search="boqueirão endereco indisponivel boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#112</span></div>
+      <h3>Boqueirão</h3><p class="address">endereco indisponivel boqueirao santos sp</p>
+      <p class="price">R$ 529.000 <span>· 76 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.000/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.961</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.750/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-RS529000/id-45735992/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47437301" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#113</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 520.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 700/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.222</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.806/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-72m2-RS520000/id-47437301/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:29458770" data-search="embaré rua nabuco de araujo 170 embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#114</span></div>
+      <h3>Embaré</h3><p class="address">rua nabuco de araujo 170 embare santos sp</p>
+      <p class="price">R$ 520.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 700/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.222</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.806/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS520000/id-29458770/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:38036101" data-search="aparecida rua professor torres homem aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#115</span></div>
+      <h3>Aparecida</h3><p class="address">rua professor torres homem aparecida santos sp</p>
+      <p class="price">R$ 500.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 1.040/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.944</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.811/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-72m2-RS500000/id-38036101/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="viver_em_santos:7664" data-search="embaré rua liberdade viver em santos imóveis">
+      <div class="cardtop"><span class="badge">Viver em Santos Imóveis</span><span class="rank">#116</span></div>
+      <h3>Embaré</h3><p class="address">Rua Liberdade</p>
+      <p class="price">R$ 530.000 <span>· 74.06 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 990/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.156</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.958/m²</b></div>
+      <a class="button" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-reformado-2-quartos-elevador-e-vaga-de-garagem-demarcada-no-embare-santos-sp/7664" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:47212309" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#117</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 74 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 990/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.162</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.965/m²</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-74m2-RS530000/id-47212309/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="torres_prime:AP5781-C8E" data-search="aparecida ap5781-c8e apartamento aparecida - santos - sp 70 m² 2 quartos 1 banheiro 1 vaga venda r$ 528.000 torres prime">
+      <div class="cardtop"><span class="badge">Torres Prime</span><span class="rank">#118</span></div>
+      <h3>Aparecida</h3><p class="address">AP5781-C8E Apartamento Aparecida - Santos - SP 70 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 528.000</p>
+      <p class="price">R$ 528.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>R$ 633/mês</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.543</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 8.085/m²</b></div>
+      <a class="button" href="https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-70-m/AP5781-C8E" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:48372159" data-search="boqueirão rua pindorama boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#119</span></div>
+      <h3>Boqueirão</h3><p class="address">rua pindorama boqueirao santos sp</p>
+      <p class="price">R$ 3.500 <span>· 85 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 41</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-85m2-RS3500/id-48372159/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:46765795" data-search="embaré rua major santos silva embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#120</span></div>
+      <h3>Embaré</h3><p class="address">rua major santos silva embare santos sp</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-46765795/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="pousada:3866" data-search="embaré rua major santos silva - embaré imobiliária pousada">
+      <div class="cardtop"><span class="badge">Imobiliária Pousada</span><span class="rank">#121</span></div>
+      <h3>Embaré</h3><p class="address">Rua Major Santos Silva - Embaré</p>
+      <p class="price">R$ 530.000 <span>· 122 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 4.344</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://imobiliariapousada.com.br/imovel/apartamento-a-venda-2-quartos-embare-santos-sp-122m2-id-3866" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:45079769" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#122</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 490.000 <span>· 87 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 5.632</strong></div>
+      <div><small>Vagas informadas</small><strong>Não informadas</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-RS490000/id-45079769/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:29250987" data-search="boqueirão endereco indisponivel boqueirao santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#123</span></div>
+      <h3>Boqueirão</h3><p class="address">endereco indisponivel boqueirao santos sp</p>
+      <p class="price">R$ 500.000 <span>· 76 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.579</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-RS500000/id-29250987/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:42939024" data-search="gonzaga endereco indisponivel gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#124</span></div>
+      <h3>Gonzaga</h3><p class="address">endereco indisponivel gonzaga santos sp</p>
+      <p class="price">R$ 515.000 <span>· 78 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 6.603</strong></div>
+      <div><small>Vagas informadas</small><strong>Não informadas</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-78m2-RS515000/id-42939024/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:31971465" data-search="aparecida endereco indisponivel aparecida santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#125</span></div>
+      <h3>Aparecida</h3><p class="address">endereco indisponivel aparecida santos sp</p>
+      <p class="price">R$ 510.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.083</strong></div>
+      <div><small>Vagas informadas</small><strong>Não informadas</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-72m2-RS510000/id-31971465/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:27527231" data-search="gonzaga endereco indisponivel gonzaga santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#126</span></div>
+      <h3>Gonzaga</h3><p class="address">endereco indisponivel gonzaga santos sp</p>
+      <p class="price">R$ 500.000 <span>· 70 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.143</strong></div>
+      <div><small>Vagas informadas</small><strong>1</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-RS500000/id-27527231/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article>
+<article class="card" data-key="chaves:25660769" data-search="embaré endereco indisponivel embare santos sp chaves na mão">
+      <div class="cardtop"><span class="badge">Chaves na Mão</span><span class="rank">#127</span></div>
+      <h3>Embaré</h3><p class="address">endereco indisponivel embare santos sp</p>
+      <p class="price">R$ 516.000 <span>· 72 m²</span></p>
+      <div class="facts"><div><small>Condomínio</small><strong>Não informado ou não confirmado</strong></div><div><small>Preço de compra / m²</small><strong>R$ 7.167</strong></div>
+      <div><small>Vagas informadas</small><strong>Não informadas</strong></div><div><small>Elevador</small><strong>Confirmado</strong></div><div><small>Cadastro/publicação</small><strong>Não informada</strong></div></div>
+      <div class="score"><span>Índice em 5 anos por m²</span><b>Não comparável: condomínio não confirmado</b></div>
+      <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-72m2-RS516000/id-25660769/" target="_blank" rel="noopener noreferrer">Ver anúncio <span aria-hidden="true">↗</span></a>
+      <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+    </article></div></details>
+<details><summary>Fontes e abrangência da coleta</summary><p class="sub">“Anúncios analisados” representa os resultados retornados pela busca de cada fonte; “candidatos” são os anúncios que passaram pelos filtros antes da verificação da data. Na R3, a consulta percorreu até dez páginas, como no monitor.</p><div class="table-wrap"><table><thead><tr><th>Fonte</th><th>Anúncios analisados</th><th>Candidatos</th><th>Consulta</th></tr></thead><tbody><tr><td>Viva Real</td><td>932</td><td>3</td><td>concluída</td></tr><tr><td>Zap Imóveis</td><td>1000</td><td>2</td><td>parcial</td></tr><tr><td>R3 Imóveis</td><td>115</td><td>0</td><td>concluída</td></tr><tr><td>Invista</td><td>21</td><td>1</td><td>concluída</td></tr><tr><td>Chaves na Mão</td><td>1705</td><td>100</td><td>concluída</td></tr><tr><td>Roda Imóveis</td><td>72</td><td>0</td><td>concluída</td></tr><tr><td>Rhema Imóveis</td><td>55</td><td>0</td><td>concluída</td></tr><tr><td>Multiverso Imóveis</td><td>292</td><td>0</td><td>parcial</td></tr><tr><td>Proprietário Direto</td><td>308</td><td>4</td><td>concluída</td></tr><tr><td>Chave Santos Imóveis</td><td>71</td><td>0</td><td>concluída</td></tr><tr><td>Maneco Imóveis</td><td>595</td><td>0</td><td>concluída</td></tr><tr><td>Torres Prime</td><td>66</td><td>5</td><td>concluída</td></tr><tr><td>Myx Imóveis</td><td>28</td><td>0</td><td>concluída</td></tr><tr><td>Raiz Imobiliária</td><td>24</td><td>2</td><td>concluída</td></tr><tr><td>Mapê Negócios Imobiliários</td><td>4</td><td>0</td><td>concluída</td></tr><tr><td>Listagem Imobiliária</td><td>14</td><td>0</td><td>concluída</td></tr><tr><td>Expoente Imobiliária</td><td>4</td><td>0</td><td>concluída</td></tr><tr><td>Imobiliária Pousada</td><td>149</td><td>2</td><td>concluída</td></tr><tr><td>Rochedo Imóveis</td><td>24</td><td>0</td><td>concluída</td></tr><tr><td>Lopes Conceito</td><td>99</td><td>2</td><td>concluída</td></tr><tr><td>Prime Trade Imóveis</td><td>142</td><td>3</td><td>concluída</td></tr><tr><td>Balduino Imóveis</td><td>12</td><td>1</td><td>concluída</td></tr><tr><td>Cerejo Imóveis</td><td>2</td><td>0</td><td>concluída</td></tr><tr><td>Casabella Imóveis</td><td>4</td><td>0</td><td>concluída</td></tr><tr><td>Família Imóveis</td><td>318</td><td>0</td><td>concluída</td></tr><tr><td>Viver em Santos Imóveis</td><td>68</td><td>5</td><td>concluída</td></tr><tr><td>Gávea Imobiliária</td><td>2733</td><td>2</td><td>concluída</td></tr><tr><td>Fabrício Corretor de Imóveis</td><td>2</td><td>0</td><td>concluída</td></tr><tr><td>BW Imóveis</td><td>11</td><td>0</td><td>concluída</td></tr><tr><td>RE/MAX Evoke IV</td><td>21</td><td>0</td><td>concluída</td></tr></tbody></table></div></details>
+<footer>Pesquisa feita em 08/11/2026. Preços, disponibilidade e características podem mudar; confirme todos os dados na ficha original. Não inclui aluguel. Para salvar exclusões e favoritos, abra por abrir_relatorio.bat.</footer></main>
+<script>
+const decisionCards=[...document.querySelectorAll('.card[data-key]')];
+document.querySelector('#excludedToggle').onclick=event=>{document.body.classList.toggle('show-excluded');event.currentTarget.textContent=document.body.classList.contains('show-excluded')?'Ocultar excluídos':'Mostrar excluídos'};
+async function setDecision(card,status){const buttons=card.querySelectorAll('button');buttons.forEach(b=>b.disabled=true);try{const response=await fetch('/api/decision',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key:card.dataset.key,status})});if(!response.ok)throw Error('save failed');card.classList.toggle('excluded',status==='excluded');card.classList.toggle('considered',status==='considered');card.querySelector('.undo').style.display=status?'block':'none'}catch{alert('Não foi possível salvar. Abra o relatório usando abrir_relatorio.bat.')}finally{buttons.forEach(b=>b.disabled=false)}}
+decisionCards.forEach(card=>{card.querySelector('.consider').onclick=()=>setDecision(card,'considered');card.querySelector('.exclude').onclick=()=>setDecision(card,'excluded');card.querySelector('.undo').onclick=()=>setDecision(card,null)});
+fetch('/api/decisions').then(r=>{if(!r.ok)throw Error();return r.json()}).then(saved=>decisionCards.forEach(card=>{const status=saved[card.dataset.key];if(status){card.classList.add(status);card.querySelector('.undo').style.display='block'}})).catch(()=>document.body.insertAdjacentHTML('afterbegin','<div style="position:sticky;top:0;background:#ffe9b2;padding:10px;text-align:center;z-index:9">Banco local desconectado. Abra abrir_relatorio.bat para carregar e salvar decisões.</div>'));
+</script></body></html>

@@ -1,0 +1,111 @@
+{
+  "site": "multiverso",
+  "rows": [
+    {
+      "site": "multiverso",
+      "id": "14623",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-a-venda-2-quartos-no-bairro-aparecida-em-santos/14623",
+      "bairro": "Aparecida",
+      "preco": 426000.0,
+      "condominio": 400.0,
+      "area": 80.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-a-venda-2-quartos-no-bairro-aparecida-em-santos",
+      "data_publicacao": null
+    },
+    {
+      "site": "multiverso",
+      "id": "14911",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-de-2-dormitorios-a-venda-no-gonzaga-excelente-localizacao-e-72-m/14911",
+      "bairro": "Gonzaga",
+      "preco": 400000.0,
+      "condominio": 355.0,
+      "area": 72.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-de-2-dormitorios-a-venda-no-gonzaga-excelente-localizacao-e-72-m",
+      "data_publicacao": null
+    },
+    {
+      "site": "multiverso",
+      "id": "14659",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-2-quartos-2-banheiros-campo-grande-santos/14659",
+      "bairro": "Campo Grande",
+      "preco": 390000.0,
+      "condominio": 490.0,
+      "area": 79.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-2-quartos-2-banheiros-campo-grande-santos",
+      "data_publicacao": null
+    },
+    {
+      "site": "multiverso",
+      "id": "15262",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-a-venda-2-quartos-no-bairro-embare-em-santos/15262",
+      "bairro": "Embaré",
+      "preco": 389000.0,
+      "condominio": 470.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-a-venda-2-quartos-no-bairro-embare-em-santos",
+      "data_publicacao": null
+    },
+    {
+      "site": "multiverso",
+      "id": "12146",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-completo-na-aparecida-conforto-localizacao-e-praticidade-em-um-so-lugar/12146",
+      "bairro": "Aparecida",
+      "preco": 369900.0,
+      "condominio": 560.0,
+      "area": 77.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-completo-na-aparecida-conforto-localizacao-e-praticidade-em-um-so-lugar",
+      "data_publicacao": null
+    },
+    {
+      "site": "multiverso",
+      "id": "11962",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-a-venda-2-quartos-no-bairro-marape-em-santos/11962",
+      "bairro": "Marapé",
+      "preco": 365000.0,
+      "condominio": 500.0,
+      "area": 82.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-a-venda-2-quartos-no-bairro-marape-em-santos",
+      "data_publicacao": null
+    },
+    {
+      "site": "multiverso",
+      "id": "5909",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-a-venda-2-quartos-no-bairro-embare-em-santos/5909",
+      "bairro": "Embaré",
+      "preco": 359900.0,
+      "condominio": 480.0,
+      "area": 80.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-a-venda-2-quartos-no-bairro-embare-em-santos",
+      "data_publicacao": null
+    },
+    {
+      "site": "multiverso",
+      "id": "15062",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-a-venda-2-quartos-no-bairro-boqueirao-em-santos/15062",
+      "bairro": "Boqueirão",
+      "preco": 349000.0,
+      "condominio": 369.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "apartamento-a-venda-2-quartos-no-bairro-boqueirao-em-santos",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 124
+}

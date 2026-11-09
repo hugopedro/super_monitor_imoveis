@@ -1,0 +1,46 @@
+{
+  "site": "r3",
+  "rows": [
+    {
+      "site": "r3",
+      "id": "AP20108",
+      "url": "https://r3imoveis.com.br/imovel/apartamento-com-2-dormitorios-a-venda-70-m2-por-r-35000000-boqueirao-santossp-AP20108",
+      "bairro": "Boqueirão",
+      "preco": 350000,
+      "condominio": 550.0,
+      "area": 70.0,
+      "quartos": 2,
+      "vagas": 1,
+      "titulo": "Apartamento com 2 dormitórios à venda, 70 m² por R$ 350.000,00 - Boqueirão - Santos/SP",
+      "data_publicacao": null
+    },
+    {
+      "site": "r3",
+      "id": "AP20059",
+      "url": "https://r3imoveis.com.br/imovel/apartamento-com-2-dormitorios-a-venda-83-m2-por-r-37000000-jose-menino-santossp-AP20059",
+      "bairro": "José Menino",
+      "preco": 370000,
+      "condominio": 370.0,
+      "area": 83.0,
+      "quartos": 2,
+      "vagas": 1,
+      "titulo": "Apartamento com 2 dormitórios à venda, 83 m² por R$ 370.000,00 - José Menino - Santos/SP",
+      "data_publicacao": null
+    },
+    {
+      "site": "r3",
+      "id": "AP19471",
+      "url": "https://r3imoveis.com.br/imovel/apartamento-com-2-dormitorios-83-m2-venda-por-r-41000000-ou-aluguel-por-r-350000mes-marape-santossp-AP19471",
+      "bairro": "Marapé",
+      "preco": 410000,
+      "condominio": null,
+      "area": 83.0,
+      "quartos": 2,
+      "vagas": 1,
+      "titulo": "Apartamento com 2 dormitórios, 83 m² - venda por R$ 410.000,00 ou aluguel por R$ 3.500,00/mês - Marapé - Santos/SP",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 115
+}

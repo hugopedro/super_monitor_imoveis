@@ -1,0 +1,52 @@
+{
+  "site": "vivareal",
+  "rows": [
+    {
+      "site": "vivareal",
+      "id": "2427758425",
+      "url": "https://www.vivareal.com.br/imovel/2427758425/",
+      "bairro": "Boqueirão",
+      "endereco": "Rua Doutor Lincoln Feliciano",
+      "preco": 480000.0,
+      "condominio": 906.0,
+      "area": 84.0,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": "Confirmado",
+      "titulo": null,
+      "data_publicacao": "2018-10-18T18:56:34.707+00:00"
+    },
+    {
+      "site": "vivareal",
+      "id": "2916375351",
+      "url": "https://www.vivareal.com.br/imovel/2916375351/",
+      "bairro": "Embaré",
+      "endereco": "Rua Benjamin Constant",
+      "preco": 520000.0,
+      "condominio": 700.0,
+      "area": 110.0,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": "Confirmado",
+      "titulo": null,
+      "data_publicacao": "2026-10-07T18:03:05.811+00:00"
+    },
+    {
+      "site": "vivareal",
+      "id": "2790711978",
+      "url": "https://www.vivareal.com.br/imovel/2790711978/",
+      "bairro": "Embaré",
+      "endereco": "Rua Prefeito Antenor Bué",
+      "preco": 490000.0,
+      "condominio": 550.0,
+      "area": 70.0,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": "Confirmado",
+      "titulo": null,
+      "data_publicacao": "2025-03-25T23:24:51.798+00:00"
+    }
+  ],
+  "errors": [],
+  "total": 932
+}

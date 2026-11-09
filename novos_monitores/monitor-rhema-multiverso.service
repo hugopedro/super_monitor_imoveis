@@ -1,0 +1,16 @@
+[Unit]
+Description=Monitor de compra Rhema e Multiverso
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=opc
+WorkingDirectory=/home/opc/monitor_rhema_multiverso
+Environment=MONITOR_SITES=rhema,multiverso,roda,proprietario
+ExecStart=/bin/bash /home/opc/monitor_rhema_multiverso/start_monitor.sh
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,23 @@
+# Credenciais e estado local
+*.key
+*.key.pub
+.env
+.env.*
+*.sqlite3
+monitor_state.json
+imoveis_conhecidos.json
+state.json
+
+# Saídas temporárias e logs
+__pycache__/
+*.py[cod]
+*.log
+monitor_debug.html
+*.backup-*
+*.tmp
+
+# Dependências e configuração local
+.venv/
+venv/
+.idea/
+.vscode/

@@ -1,0 +1,82 @@
+{
+  "site": "viver_em_santos",
+  "rows": [
+    {
+      "site": "viver_em_santos",
+      "id": "7664",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-reformado-2-quartos-elevador-e-vaga-de-garagem-demarcada-no-embare-santos-sp/7664",
+      "bairro": "Embaré",
+      "preco": 530000.0,
+      "condominio": 990.0,
+      "area": 74.06,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Liberdade",
+      "titulo": "apartamento-reformado-2-quartos-elevador-e-vaga-de-garagem-demarcada-no-embare-santos-sp",
+      "data_publicacao": null
+    },
+    {
+      "site": "viver_em_santos",
+      "id": "3370",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-com-2-dormitorios-aparecida-santos-sp/3370",
+      "bairro": "Aparecida",
+      "preco": 530000.0,
+      "condominio": 645.0,
+      "area": 78.2,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Comendador Alfaia Rodrigues",
+      "titulo": "apartamento-com-2-dormitorios-aparecida-santos-sp",
+      "data_publicacao": null
+    },
+    {
+      "site": "viver_em_santos",
+      "id": "3278",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/titulo-apartamento-de-frente-2-dormitorios-vista-livre-e-garagem-fechada-na-aparecida-santos-sp/3278",
+      "bairro": "Aparecida",
+      "preco": 530000.0,
+      "condominio": 620.0,
+      "area": 80.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Comendador Alfaia Rodrigues",
+      "titulo": "titulo-apartamento-de-frente-2-dormitorios-vista-livre-e-garagem-fechada-na-aparecida-santos-sp",
+      "data_publicacao": null
+    },
+    {
+      "site": "viver_em_santos",
+      "id": "2701",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-2-dormitorios-ambientes-amplos-elevador-e-vaga-demarcada-na-aparecida-santos-sp/2701",
+      "bairro": "Aparecida",
+      "preco": 515000.0,
+      "condominio": 680.0,
+      "area": 75.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Comendador Alfaia Rodrigues",
+      "titulo": "apartamento-2-dormitorios-ambientes-amplos-elevador-e-vaga-demarcada-na-aparecida-santos-sp",
+      "data_publicacao": null
+    },
+    {
+      "site": "viver_em_santos",
+      "id": "4702",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-2-dormitorios-com-2-banheiros-elevador-no-embare/4702",
+      "bairro": "Boqueirão",
+      "preco": 490000.0,
+      "condominio": 761.0,
+      "area": 85.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Nabuco de Araújo",
+      "titulo": "apartamento-2-dormitorios-com-2-banheiros-elevador-no-embare",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 68
+}

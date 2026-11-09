@@ -1,0 +1,20 @@
+{
+  "site": "rhema",
+  "rows": [
+    {
+      "site": "rhema",
+      "id": "9713",
+      "url": "https://www.rhemaimoveis.com.br/imovel/apartamento-2-dormitorios-1-suite-no-jose-menino/9713",
+      "bairro": "José Menino",
+      "preco": 415000.0,
+      "condominio": 730.0,
+      "area": 75.0,
+      "quartos": "2",
+      "vagas": "1",
+      "titulo": "Apartamento 2 Dormitórios (1 suíte) no José Menino ",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 13
+}

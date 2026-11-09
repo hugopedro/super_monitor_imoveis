@@ -1,0 +1,22 @@
+{
+  "site": "invista",
+  "rows": [
+    {
+      "site": "invista",
+      "id": "45651",
+      "url": "https://invistaii.com.br/imovel/apartamento-a-venda-em-santos-sp-no-bairro-embare-com-2-dormitorios-e-70m2/45651/",
+      "bairro": "embare",
+      "preco": 450000.0,
+      "condominio": 680.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "2",
+      "elevador": "Confirmado",
+      "endereco": null,
+      "titulo": "Apartamento A Venda Em Santos Sp No Bairro Embare Com 2 Dormitorios E 70M2",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 21
+}

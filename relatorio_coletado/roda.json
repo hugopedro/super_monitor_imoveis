@@ -1,0 +1,77 @@
+{
+  "site": "roda",
+  "rows": [
+    {
+      "site": "roda",
+      "id": "2555102",
+      "url": "https://rodaimoveis.com.br/apartamento-a-venda-2-quartos-1-vaga-aparecida-santos/sp-685",
+      "bairro": "aparecida",
+      "preco": 370000.0,
+      "condominio": 560.0,
+      "area": 72.0,
+      "quartos": "2 Dormitório(s)",
+      "vagas": "1 Vaga(s)",
+      "titulo": "Apartamento à venda, 2 quartos, 1 vaga, Aparecida - Santos/SP",
+      "data_publicacao": "2026-10-17T09:19:43-03:00",
+      "data_atualizacao_preco": "2026-10-17"
+    },
+    {
+      "site": "roda",
+      "id": "2555922",
+      "url": "https://rodaimoveis.com.br/apartamento-residencial-a-venda-boqueirao-santos-nil",
+      "bairro": "boqueirao",
+      "preco": 210000.0,
+      "condominio": 300.0,
+      "area": 90.0,
+      "quartos": "2 Dormitório(s)",
+      "vagas": "1 Vaga(s)",
+      "titulo": "Apartamento residencial à venda, Boqueirão, Santos.",
+      "data_publicacao": "2026-10-17T09:29:32-03:00",
+      "data_atualizacao_preco": "2026-10-17"
+    },
+    {
+      "site": "roda",
+      "id": "2553011",
+      "url": "https://rodaimoveis.com.br/apartamento-a-venda-2-dormitorios-8547-m-1-vaga-gonzaga/santos-sp",
+      "bairro": "gonzaga",
+      "preco": 405000.0,
+      "condominio": 450.0,
+      "area": 85.0,
+      "quartos": "2 Dormitório(s)",
+      "vagas": "1 Vaga(s)",
+      "titulo": "Apartamento À venda | 2 Dormitórios |  85,47 m²  | 1 vaga | Gonzaga/Santos-sp",
+      "data_publicacao": "2026-10-17T07:59:28-03:00",
+      "data_atualizacao_preco": "2026-10-17"
+    },
+    {
+      "site": "roda",
+      "id": "2574053",
+      "url": "https://rodaimoveis.com.br/apartamento-a-venda-proximo-a-praia-2-dormitorios-1-suite-home-office-reversivel-1-vaga",
+      "bairro": "jose menino",
+      "preco": 415000.0,
+      "condominio": 730.0,
+      "area": 75.0,
+      "quartos": "2 Dormitório(s)",
+      "vagas": "1 Vaga(s)",
+      "titulo": "Apartamento à venda próximo à praia | 2 dormitórios | 1 suíte | Home office reversível | 1 vaga",
+      "data_publicacao": "2026-10-17T19:58:09-03:00",
+      "data_atualizacao_preco": "2026-10-17"
+    },
+    {
+      "site": "roda",
+      "id": "2571116",
+      "url": "https://rodaimoveis.com.br/apartamento-02-quartos-reformado-marape-santos-sp",
+      "bairro": "marape",
+      "preco": 425000.0,
+      "condominio": 560.0,
+      "area": 82.0,
+      "quartos": "2 Dormitório(s)",
+      "vagas": "1 Vaga(s)",
+      "titulo": "Apartamento 02 Quartos, Reformado, Marapé,  Santos SP",
+      "data_publicacao": "2026-10-17T17:53:18-03:00",
+      "data_atualizacao_preco": "2026-10-17"
+    }
+  ],
+  "errors": [],
+  "total": 18
+}

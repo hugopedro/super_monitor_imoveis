@@ -1,0 +1,37 @@
+{
+  "site": "lopes_conceito",
+  "rows": [
+    {
+      "site": "lopes_conceito",
+      "id": "REO1210212",
+      "url": "https://www.lopesconceito.com.br/imovel/REO1210212/apartamento-a-venda-2-quartos-boqueirao-santos-sp-brasil",
+      "bairro": "Boqueirão",
+      "preco": 470000.0,
+      "condominio": 855.0,
+      "area": 85.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Governador Pedro de Toledo - Boqueirão",
+      "titulo": "+25 fotos REO1210212 Boqueirão, Santos - SP Apartamento à venda com 2 quartos em Boqueirão, Santos, SP R$ 470.000,00 85 m 2 2 quartos",
+      "data_publicacao": null
+    },
+    {
+      "site": "lopes_conceito",
+      "id": "REO1213449",
+      "url": "https://www.lopesconceito.com.br/imovel/REO1213449/apartamento-a-venda-2-quartos-embare-santos-sp-brasil",
+      "bairro": "Embaré",
+      "preco": 530000.0,
+      "condominio": 850.0,
+      "area": 120.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Major Santos Silva - Embaré",
+      "titulo": "+13 fotos REO1213449 Embaré, Santos - SP Apartamento à venda com 2 quartos em Embaré, Santos, SP R$ 530.000,00 120 m 2 2 quartos 1 vaga",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 99
+}

@@ -1,0 +1,229 @@
+[
+  {
+    "site": "r3",
+    "id": "AP20108",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "r3",
+    "id": "AP20059",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "r3",
+    "id": "AP19471",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "14623",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "14911",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "14659",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "15262",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "12146",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "11962",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "5909",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "multiverso",
+    "id": "15062",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "roda",
+    "id": "2555102",
+    "found": [
+      [
+        "RealEstateListing",
+        "datePosted",
+        "2026-10-17T09:19:43-03:00",
+        "https://rodaimoveis.com.br/apartamento-a-venda-2-quartos-1-vaga-aparecida-santos/sp-685"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "site": "roda",
+    "id": "2555922",
+    "found": [
+      [
+        "RealEstateListing",
+        "datePosted",
+        "2026-10-17T09:29:32-03:00",
+        "https://rodaimoveis.com.br/apartamento-residencial-a-venda-boqueirao-santos-nil"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "site": "roda",
+    "id": "2553011",
+    "found": [
+      [
+        "RealEstateListing",
+        "datePosted",
+        "2026-10-17T07:59:28-03:00",
+        "https://rodaimoveis.com.br/apartamento-a-venda-2-dormitorios-8547-m-1-vaga-gonzaga/santos-sp"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "site": "roda",
+    "id": "2574053",
+    "found": [
+      [
+        "RealEstateListing",
+        "datePosted",
+        "2026-10-17T19:58:09-03:00",
+        "https://rodaimoveis.com.br/apartamento-a-venda-proximo-a-praia-2-dormitorios-1-suite-home-office-reversivel-1-vaga"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "site": "roda",
+    "id": "2571116",
+    "found": [
+      [
+        "RealEstateListing",
+        "datePosted",
+        "2026-10-17T17:53:18-03:00",
+        "https://rodaimoveis.com.br/apartamento-02-quartos-reformado-marape-santos-sp"
+      ]
+    ],
+    "error": null
+  },
+  {
+    "site": "rhema",
+    "id": "9713",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218749609",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218709092",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218634829",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218747481",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218688258",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218663194",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218650812",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218627212",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218671737",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218742130",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218708728",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218679031",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218674063",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218620889",
+    "found": [],
+    "error": null
+  },
+  {
+    "site": "proprietario",
+    "id": "863850711218769762",
+    "found": [],
+    "error": null
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "site": "proprietario",
+  "rows": [
+    {
+      "site": "proprietario",
+      "id": "863850711218751701",
+      "url": "https://www.proprietariodireto.com.br/comprar-apartamento-aparecida-santos-direto-com-proprietario/863850711218751701",
+      "bairro": "aparecida",
+      "preco": 429000.0,
+      "condominio": 1100.0,
+      "area": 95.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Nabuco de Araújo - Aparecida",
+      "titulo": "Erich Proprietário OPORTUNIDADE APTO AMPLO Rua Nabuco de Araújo - Aparecida 95 m² • 2 Dormitório s • 1 Vaga Venda R$ 429.000 Enviar Mensagem",
+      "data_publicacao": null
+    },
+    {
+      "site": "proprietario",
+      "id": "863850711218679476",
+      "url": "https://www.proprietariodireto.com.br/comprar-apartamento-embare-santos-direto-com-proprietario/863850711218679476",
+      "bairro": "embare",
+      "preco": 430000.0,
+      "condominio": 550.0,
+      "area": 74.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Professor Torres Homem - Embaré",
+      "titulo": "Viviane Proprietário Lindo apartamento Rua Professor Torres Homem - Embaré 74 m² • 2 Dormitório s • 1 Vaga Venda R$ 430.000 Enviar Mensagem",
+      "data_publicacao": null
+    },
+    {
+      "site": "proprietario",
+      "id": "863850711218650812",
+      "url": "https://www.proprietariodireto.com.br/comprar-apartamento-embare-santos-direto-com-proprietario/863850711218650812",
+      "bairro": "embare",
+      "preco": 365000.0,
+      "condominio": 600.0,
+      "area": 79.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Senador Dantas - Embaré",
+      "titulo": "Sollange Proprietário Otima oportunidade Vende-se apt no Embaré Rua Senador Dantas - Embaré 79 m² • 2 Dormitório s • 1 Vaga Venda R$ 365.000 Enviar Mensagem",
+      "data_publicacao": null
+    },
+    {
+      "site": "proprietario",
+      "id": "863850711218671737",
+      "url": "https://www.proprietariodireto.com.br/comprar-apartamento-embare-santos-direto-com-proprietario/863850711218671737",
+      "bairro": "embare",
+      "preco": 390000.0,
+      "condominio": 600.0,
+      "area": 103.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Professor Torres Homem - Embaré, Santos - SP, Brasil - Embaré",
+      "titulo": "Sem foto Fernando Proprietário Apartamento Rua Professor Torres Homem - Embaré, Santos - SP, Brasil - Embaré 103 m² • 2 Dormitório s • 1 Vaga Venda R$ 390.000 Enviar Mensagem",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 308
+}

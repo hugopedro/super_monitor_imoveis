@@ -1,0 +1,37 @@
+{
+  "site": "gavea",
+  "rows": [
+    {
+      "site": "gavea",
+      "id": "GV25243",
+      "url": "https://www.gaveaimobi.com.br/site/imovel/GV25243",
+      "bairro": "Aparecida",
+      "preco": 499000.0,
+      "condominio": 536.08,
+      "area": 75.0,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": "Confirmado",
+      "endereco": "",
+      "titulo": "Apartamento 2 Dormitórios, 1 Vaga à Venda no Aparecida, Santos | Ed. Tauna - Ref. GV25243",
+      "data_publicacao": null
+    },
+    {
+      "site": "gavea",
+      "id": "GV26823",
+      "url": "https://www.gaveaimobi.com.br/site/imovel/GV26823",
+      "bairro": "Embaré",
+      "preco": 520000.0,
+      "condominio": 790.0,
+      "area": 85.06,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": "Confirmado",
+      "endereco": "",
+      "titulo": "Apartamento 2 Dormitórios (2 Suítes), 1 Vaga à Venda no Embaré, Santos | Ed. Itacolomy - Ref. GV26823",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 2733
+}

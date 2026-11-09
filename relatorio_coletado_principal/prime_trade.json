@@ -1,0 +1,52 @@
+{
+  "site": "prime_trade",
+  "rows": [
+    {
+      "site": "prime_trade",
+      "id": "29653",
+      "url": "https://www.primetradeimoveis.com.br/imovel/apartamento-2-quartos-embare-santos-1-vaga-142m2-code-29653",
+      "bairro": "embare",
+      "preco": 480000.0,
+      "condominio": 1000.0,
+      "area": 98.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua da Paz",
+      "titulo": "chevron_left chevron_right Apartamento 2 Dormitórios e Varanda na Aparecida - Santos R$ 480.000 /venda Cód: 29653 Em excelente localização no bairro da Aparecida!!! 2 Dormitórios; Sala para dois ambientes com Varanda; 2 Banheiros (so... bed 2 2 direc",
+      "data_publicacao": null
+    },
+    {
+      "site": "prime_trade",
+      "id": "29668",
+      "url": "https://www.primetradeimoveis.com.br/imovel/apartamento-2-quartos-aparecida-santos-1-vaga-70m2-code-29668",
+      "bairro": "aparecida",
+      "preco": 350000.0,
+      "condominio": 580.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua da Paz",
+      "titulo": "chevron_left chevron_right Apartamento 2 Dormitórios com Suíte na Aparecida - Santos R$ 350.000 /venda Cód: 29668 Em ótima localização próximo à Pça. Nossa Srª. da Aparecida. Repleto de comércio e serviços variados no seu entrono, me... bed 2 2 batht",
+      "data_publicacao": null
+    },
+    {
+      "site": "prime_trade",
+      "id": "29708",
+      "url": "https://www.primetradeimoveis.com.br/imovel/apartamento-padrao-2-quartos-aparecida-santos-1-vaga-90m2-code-29708",
+      "bairro": "aparecida",
+      "preco": 455000.0,
+      "condominio": 958.0,
+      "area": 90.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua da Paz",
+      "titulo": "chevron_left chevron_right Apartamento Padrão em Aparecida - Santos R$ 455.000 /venda Cód: 29708 OPORTUNIDADE!!! Valor abaixo do mercado. Se você procura um apartamento à venda no bairro da Aparecida, Santos/SP , ... bed 2 2 directions_car 1 other_ho",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 142
+}

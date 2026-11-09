@@ -1,0 +1,16 @@
+[Unit]
+Description=Monitor de compra Chaves na Mao
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=opc
+WorkingDirectory=/home/opc/monitor_chaves
+Environment=MONITOR_SITE=chaves
+ExecStart=/bin/bash /home/opc/monitor_chaves/start_monitor.sh
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
