@@ -1,0 +1,1385 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Top 10 Escolhas Curadas (dos 127) — Apartamentos em Santos até R$ 426 mil</title>
+  <style>
+    :root {
+      --bg: #f3f5f5;
+      --surface: #ffffff;
+      --surface-soft: #f2f7f5;
+      --ink: #172931;
+      --ink-muted: #566b70;
+      --brand-dark: #123d45;
+      --brand: #176c5c;
+      --brand-hover: #104b40;
+      --brand-light: #e4f2ed;
+      --gold: #d8a21d;
+      --gold-soft: #fff9e6;
+      --gold-border: #ebd07a;
+      --danger: #8d3636;
+      --danger-soft: #fdf2f2;
+      --border: #dce5e2;
+      --radius: 14px;
+      --shadow: 0 6px 24px rgba(16, 45, 38, 0.06);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, #0e3138 0%, #123d45 60%, #18515b 100%);
+      color: #fff;
+      padding: 52px max(24px, calc((100vw - 1180px) / 2)) 68px;
+      border-bottom: 4px solid var(--gold);
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .74rem;
+      font-weight: 750;
+      color: #a9d7ca;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .hero h1 {
+      font-size: clamp(1.95rem, 4.5vw, 3.1rem);
+      line-height: 1.08;
+      max-width: 880px;
+      margin: 12px 0 14px;
+      letter-spacing: -0.02em;
+    }
+    .lead {
+      max-width: 820px;
+      color: #d5e7e5;
+      margin: 0 0 24px;
+      font-size: 1.04rem;
+    }
+    .nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .nav-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 15px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      text-decoration: none;
+      font-size: .84rem;
+      font-weight: 650;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      transition: background .15s, transform .15s;
+    }
+    .nav-pill:hover {
+      background: rgba(255, 255, 255, 0.22);
+      transform: translateY(-1px);
+    }
+    .nav-pill.gold {
+      background: var(--gold);
+      color: #172931;
+      border-color: var(--gold);
+      font-weight: 750;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 24px 80px;
+    }
+
+    /* Stats Bar */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin-top: -38px;
+      position: relative;
+      z-index: 2;
+    }
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      box-shadow: var(--shadow);
+    }
+    .stat b {
+      display: block;
+      font-size: 1.5rem;
+      line-height: 1.15;
+      color: #12544f;
+    }
+    .stat span {
+      font-size: .8rem;
+      color: var(--ink-muted);
+    }
+
+    /* Section Headings */
+    .section-header {
+      margin: 46px 0 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    h2 {
+      font-size: 1.6rem;
+      letter-spacing: -.02em;
+      margin: 0 0 4px;
+      color: var(--brand-dark);
+    }
+    .sub {
+      color: var(--ink-muted);
+      margin: 0;
+      font-size: .95rem;
+    }
+
+    /* Spotlight Winner #1 */
+    .winner-card {
+      background: linear-gradient(180deg, #fffdf6 0%, #ffffff 100%);
+      border: 2px solid var(--gold);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 12px 34px rgba(216, 162, 29, 0.14);
+      margin-top: 24px;
+      position: relative;
+    }
+    .winner-ribbon {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #123d45;
+      color: #ffd970;
+      font-weight: 800;
+      font-size: .78rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+    }
+    .winner-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 26px;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .winner-grid { grid-template-columns: 1fr; }
+    }
+    .winner-title {
+      font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+      margin: 0 0 6px;
+      color: var(--brand-dark);
+    }
+    .winner-price {
+      font-size: 1.75rem;
+      font-weight: 850;
+      color: #164b49;
+      margin: 10px 0 14px;
+      letter-spacing: -.03em;
+    }
+    .winner-price span {
+      font-size: .95rem;
+      font-weight: 500;
+      color: var(--ink-muted);
+    }
+    .dup-alert {
+      background: #fff4d1;
+      border-left: 4px solid var(--gold);
+      padding: 11px 14px;
+      border-radius: 8px;
+      font-size: .85rem;
+      color: #4d3900;
+      margin: 12px 0 16px;
+    }
+    .dup-alert strong { color: #2b2000; }
+
+    .reasons-list {
+      margin: 14px 0;
+      padding-left: 18px;
+    }
+    .reasons-list li {
+      margin-bottom: 8px;
+      font-size: .92rem;
+    }
+
+    .photo-strip {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .photo-strip img {
+      width: 100%;
+      height: 175px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      cursor: zoom-in;
+      transition: transform .18s, box-shadow .18s;
+      background: #e9eeee;
+    }
+    .photo-strip img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+    }
+    .photo-caption {
+      font-size: .75rem;
+      color: var(--ink-muted);
+      text-align: center;
+      margin-top: 6px;
+    }
+
+    /* Filter Bar */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .filter-btn {
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--ink);
+      font-weight: 650;
+      font-size: .82rem;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .filter-btn:hover {
+      border-color: var(--brand);
+      color: var(--brand);
+    }
+    .filter-btn.active {
+      background: var(--brand-dark);
+      color: #fff;
+      border-color: var(--brand-dark);
+    }
+
+    /* Top 10 Grid */
+    .top-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow);
+      transition: transform .15s;
+    }
+    .card.rank-1 {
+      border: 2px solid var(--gold);
+      background: linear-gradient(180deg, #fffdf7 0%, #ffffff 30%);
+    }
+    .card.considered {
+      outline: 3px solid var(--gold);
+      background: #fffdf3;
+    }
+    .card.excluded {
+      opacity: .45;
+    }
+    .cardtop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .rank-pill {
+      background: var(--brand-dark);
+      color: #fff;
+      font-weight: 800;
+      font-size: .8rem;
+      padding: 5px 11px;
+      border-radius: 999px;
+    }
+    .rank-1 .rank-pill {
+      background: var(--gold);
+      color: #172931;
+    }
+    .orig-ref {
+      font-size: .78rem;
+      font-weight: 700;
+      color: #196351;
+      background: var(--brand-light);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .card-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 7px;
+      margin: 6px 0 12px;
+    }
+    .card-gallery.two-cols {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .card-gallery img {
+      width: 100%;
+      height: 112px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #e1e8e6;
+      cursor: zoom-in;
+      background: #eef2f2;
+      transition: opacity .15s, transform .15s;
+    }
+    .card-gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin: 4px 0 2px;
+      color: var(--brand-dark);
+    }
+    .address {
+      font-size: .84rem;
+      color: var(--ink-muted);
+      margin: 0 0 10px;
+    }
+    .price {
+      font-size: 1.38rem;
+      font-weight: 800;
+      letter-spacing: -.03em;
+      margin: 0 0 12px;
+      color: #164b49;
+    }
+    .price span {
+      color: #748381;
+      font-size: .85rem;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    .tags-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .tag {
+      font-size: .72rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: #edf4f2;
+      color: #19594a;
+    }
+    .tag.highlight {
+      background: #fff0bd;
+      color: #5c4300;
+    }
+    .tag.blue {
+      background: #e6f0fa;
+      color: #164e87;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 12px 0;
+      border-top: 1px solid #edf0ef;
+      border-bottom: 1px solid #edf0ef;
+      margin-bottom: 12px;
+    }
+    .facts small {
+      display: block;
+      font-size: .7rem;
+      color: #708381;
+    }
+    .facts strong {
+      font-size: .82rem;
+    }
+
+    .analysis-box {
+      background: var(--surface-soft);
+      border-left: 3px solid var(--brand);
+      border-radius: 8px;
+      padding: 11px 13px;
+      font-size: .83rem;
+      color: #233b42;
+      margin-bottom: 14px;
+      flex-grow: 1;
+    }
+    .analysis-box b {
+      color: #0f463c;
+    }
+
+    .score {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      background: #eef5f3;
+      border-radius: 8px;
+      padding: 9px 12px;
+      font-size: .78rem;
+      margin-bottom: 12px;
+    }
+    .score b {
+      color: #125c4e;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-top: auto;
+    }
+    .button {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      background: var(--brand);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-weight: 700;
+      font-size: .88rem;
+      transition: background .15s;
+    }
+    .button:hover { background: var(--brand-hover); }
+    .button.secondary {
+      background: #eef4f2;
+      color: var(--brand-dark);
+      border: 1px solid #c8dad5;
+      font-size: .8rem;
+      padding: 7px 10px;
+    }
+    .button.secondary:hover {
+      background: #dfece8;
+    }
+
+    .actions {
+      display: flex;
+      gap: 7px;
+      margin-top: 8px;
+    }
+    .actions button {
+      flex: 1;
+      padding: 8px 6px;
+      border: 1px solid #cbd8d4;
+      border-radius: 7px;
+      background: #fff;
+      cursor: pointer;
+      font-weight: 650;
+      font-size: .78rem;
+    }
+    .actions .consider { color: #176c5c; }
+    .actions .exclude { color: #8d3636; }
+    .actions .undo { display: none; }
+    .card.considered .consider {
+      background: #fff0bd;
+      border-color: var(--gold);
+    }
+
+    /* Tables & Alerts */
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+      margin-top: 20px;
+    }
+    .panel h3 {
+      margin-top: 0;
+      color: var(--brand-dark);
+    }
+    .table-wrap { overflow-x: auto; }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: .86rem;
+    }
+    th, td {
+      text-align: left;
+      border-bottom: 1px solid #dde6e3;
+      padding: 10px 12px;
+    }
+    th {
+      background: #f2f7f5;
+      color: var(--brand-dark);
+      font-weight: 750;
+    }
+    .trap-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .trap-item {
+      background: var(--danger-soft);
+      border: 1px solid #f0cfd0;
+      border-left: 4px solid var(--danger);
+      border-radius: 10px;
+      padding: 14px;
+      font-size: .85rem;
+    }
+    .trap-item b {
+      color: #6e2222;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    /* Lightbox Modal */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 22, 26, 0.88);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      padding: 24px;
+      flex-direction: column;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: min(94vw, 1100px);
+      max-height: 82vh;
+      border-radius: 12px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.5);
+      background: #fff;
+    }
+    .lightbox-caption {
+      color: #fff;
+      margin-top: 12px;
+      font-size: .95rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 26px;
+      background: rgba(255,255,255,0.16);
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      width: 42px;
+      height: 42px;
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+
+    footer {
+      color: var(--ink-muted);
+      font-size: .82rem;
+      margin-top: 54px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">Curadoria Completa · Santos / SP · Até R$ 426 mil</div>
+  <h1>A Escolha #1 + O Top 10 Definitivo entre os 127 Apartamentos</h1>
+  <p class="lead">
+    Análise individual das fichas técnicas, endereços, andares, elevadores, garagens e inspeção visual das galerias de fotos dos 127 anúncios recentes do relatório de até R$ 426 mil.
+  </p>
+  <nav class="nav-pills">
+    <a class="nav-pill gold" href="#escolha-1">🏆 Minha Escolha #1 (#101)</a>
+    <a class="nav-pill" href="#top-10">🔟 Ranking Top 10 Completo</a>
+    <a class="nav-pill" href="#alternativas">✨ Menções Honrosas (#085 e #093)</a>
+    <a class="nav-pill" href="#seus-considerados">⭐ Seus 2 "Considerados" (#08 e #02)</a>
+    <a class="nav-pill" href="#duplicatas">🔁 Mapa de Duplicatas &amp; Armadilhas</a>
+    <a class="nav-pill gold" href="relatorio_530mil_elevador.html">🛗 Curadoria até R$ 530 mil c/ Elevador ↗</a>
+    <a class="nav-pill" href="apartamentos_santos_426mil.html">📋 Ver Lista Bruta dos 127 ↗</a>
+    <a class="nav-pill" href="apartamentos_santos.html">📊 Lista Bruta até R$ 530 mil ↗</a>
+  </nav>
+</header>
+
+<main>
+  <div class="stats">
+    <div class="stat">
+      <b>127 → 10</b>
+      <span>anúncios filtrados até o Top 10</span>
+    </div>
+    <div class="stat">
+      <b>#101 (R$ 413 mil)</b>
+      <span>Escolha #1 · 9º andar c/ elevador e suíte</span>
+    </div>
+    <div class="stat">
+      <b>6 grupos</b>
+      <span>de anúncios duplicados com preços diferentes</span>
+    </div>
+    <div class="stat">
+      <b>15 descartados</b>
+      <span>por 3º andar s/ elevador, térreo, reforma total ou erro</span>
+    </div>
+  </div>
+
+  <!-- ================= ESCOLHA #1 SPOTLIGHT ================= -->
+  <section id="escolha-1">
+    <div class="winner-card">
+      <div class="winner-ribbon">🏆 Se eu pudesse escolher APENAS 1 dos 127 imóveis</div>
+      <div class="winner-grid">
+        <div>
+          <h2 class="winner-title">1º Lugar Absoluto: Card #101 — José Menino (Rua Cel. Cândido Gomes, 14)</h2>
+          <p class="address">A 1 quadra da praia do José Menino (próximo ao Emissário Submarino e divisa com a Pompéia) · 9º Andar</p>
+          <p class="winner-price">R$ 413.000 <span>· 75 m² úteis · Condomínio R$ 730/mês · IPTU R$ 120/mês</span></p>
+
+          <div class="tags-row">
+            <span class="tag highlight">🛗 Prédio c/ Elevador</span>
+            <span class="tag highlight">🛡️ Portaria 24h</span>
+            <span class="tag blue">🌊 9º Andar (Vista Parcial Mar)</span>
+            <span class="tag">🛏️ 2 Quartos (1 Suíte) + Home Office (3º rev.)</span>
+            <span class="tag">🚿 2 Banheiros</span>
+            <span class="tag">🚗 1 Vaga Garantida</span>
+          </div>
+
+          <div class="dup-alert">
+            <strong>💡 Alerta de Duplicata (Economize R$ 2.000 logo na entrada):</strong>
+            Os cards <strong>#101 (R$ 413.000)</strong> e <strong>#104, #105, #106, #107 e #108 (R$ 415.000)</strong> são exatamente o mesmo apartamento físico no 9º andar. Chame sempre pelo link do <strong>#101</strong>!
+          </div>
+
+          <ul class="reasons-list">
+            <li><strong>Supera o maior gargalo dessa faixa em Santos:</strong> Enquanto mais de 85% dos imóveis até R$ 426 mil ficam em prédios antigos de escada, aqui você leva <strong>9º andar em edifício com elevador e portaria 24h</strong>, a uma quadra da praia.</li>
+            <li><strong>Planta rara e super funcional:</strong> Possui <strong>2 dormitórios (sendo 1 suíte)</strong>, banheiro social completo (2 banheiros no total) e dependência revertida para <strong>Home Office / 3º dormitório</strong>.</li>
+            <li><strong>Inspeção das fotos:</strong> Cozinha modernizada com piso em porcelanato cinza, bancada em "L" de granito preto São Gabriel, armários planejados novos e fogão embutido. Elétrica já refeita, ventilação cruzada e <strong>2 ar-condicionados novos de 12.000 BTUs</strong> inclusos.</li>
+          </ul>
+
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
+            <a class="button" style="flex:1;min-width:220px;" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-jose-menino-RS413000/id-47141554/" target="_blank" rel="noopener noreferrer">Abrir Anúncio #101 (R$ 413 mil - Mais barato) ↗</a>
+            <a class="button secondary" style="flex:1;min-width:220px;" href="https://rodaimoveis.com.br/apartamento-a-venda-proximo-a-praia-2-dormitorios-1-suite-home-office-reversivel-1-vaga" target="_blank" rel="noopener noreferrer">Abrir Ficha Completa #108 (Roda Imóveis) ↗</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="photo-strip">
+            <img src="fotos_top10/rk101_1.jpg" alt="Escolha #1 (#101) — Sala iluminada e vista do 9º andar" data-caption="#101 (José Menino) — Sala ampla no 9º andar com ventilação cruzada e vista livre">
+            <img src="fotos_top10/rk101_2.jpg" alt="Escolha #1 (#101) — Cozinha reformada com granito preto e porcelanato" data-caption="#101 (José Menino) — Cozinha modernizada com bancada em L de granito preto e porcelanato">
+            <img src="fotos_top10/rk104_2.jpg" alt="Escolha #1 (#104/#101) — Sala de jantar e estar integradas" data-caption="#101/#104 (José Menino) — Sala para 2 ambientes bem distribuídos">
+            <img src="fotos_top10/rk101_3.jpg" alt="Escolha #1 (#101) — Dormitório climatizado" data-caption="#101 (José Menino) — Dormitório com ar-condicionado novo instalado">
+          </div>
+          <p class="photo-caption">🔍 Clique em qualquer foto da página para ampliar em tela cheia</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TOP 10 COMPLETO ================= -->
+  <section id="top-10">
+    <div class="section-header">
+      <div>
+        <h2>🔟 O Top 10 Completo (Curadoria Final dos 127)</h2>
+        <p class="sub">Comparação direta considerando localização, estado de conservação nas fotos, andar, elevador, banheiros e condomínio.</p>
+      </div>
+      <div class="filter-bar" role="group" aria-label="Filtrar Top 10">
+        <button class="filter-btn active" data-filter="all" type="button">Todos (10)</button>
+        <button class="filter-btn" data-filter="elevador" type="button">🛗 Com Elevador</button>
+        <button class="filter-btn" data-filter="suite" type="button">🚿 Suíte / 2 Banheiros</button>
+        <button class="filter-btn" data-filter="orla" type="button">🏖️ Embaré / Gonzaga / José Menino</button>
+        <button class="filter-btn" data-filter="condo-baixo" type="button">💸 Condomínio ≤ R$ 500</button>
+      </div>
+    </div>
+
+    <div class="top-grid" id="top10Grid">
+
+      <!-- 1º LUGAR: #101 -->
+      <article class="card rank-1" data-key="chaves:47141554" data-tags="elevador suite orla">
+        <div class="cardtop">
+          <span class="rank-pill">🏆 1º Lugar</span>
+          <span class="orig-ref">Card #101 (dup. #104 a #108)</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk101_1.jpg" alt="#101 Sala" data-caption="1º Lugar (#101 - José Menino): Sala no 9º andar">
+          <img src="fotos_top10/rk101_2.jpg" alt="#101 Cozinha" data-caption="1º Lugar (#101 - José Menino): Cozinha reformada em porcelanato e granito São Gabriel">
+          <img src="fotos_top10/rk104_2.jpg" alt="#101 Sala ângulo 2" data-caption="1º Lugar (#101 - José Menino): Vista da sala de estar e jantar">
+        </div>
+        <h3>José Menino · 1 quadra da praia</h3>
+        <p class="address">Rua Coronel Cândido Gomes, 14 · 9º andar</p>
+        <p class="price">R$ 413.000 <span>· 75 m² úteis</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">🛗 Elevador + Portaria 24h</span>
+          <span class="tag blue">🛏️ 1 Suíte + Escritório</span>
+          <span class="tag">🚿 2 Banheiros</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 730 / R$ 120</strong></div>
+          <div><small>Andar / Prédio</small><strong>9º andar (c/ elevador)</strong></div>
+          <div><small>Garagem</small><strong>1 vaga garantida</strong></div>
+          <div><small>Estado nas fotos</small><strong>Cozinha e elétrica novas</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #1:</b> Pacote imbatível com <b>elevador, portaria 24h, 9º andar (vista parcial mar)</b>, 2 quartos (1 suíte) + escritório reversível e cozinha já reformada. Nos cards #104 a #108 custa R$ 415 mil.
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.091/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-jose-menino-RS413000/id-47141554/" target="_blank" rel="noopener noreferrer">Ver anúncio #101 (R$ 413k) ↗</a>
+          <a class="button secondary" href="https://rodaimoveis.com.br/apartamento-a-venda-proximo-a-praia-2-dormitorios-1-suite-home-office-reversivel-1-vaga" target="_blank" rel="noopener noreferrer">Ver anúncio #108 (Roda Imóveis) ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 2º LUGAR: #116 -->
+      <article class="card" data-key="chaves:48547890" data-tags="elevador">
+        <div class="cardtop">
+          <span class="rank-pill">🥈 2º Lugar</span>
+          <span class="orig-ref">Card #116 · Chaves na Mão</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk116_1.jpg" alt="#116 Sala" data-caption="2º Lugar (#116 - Campo Grande): Sala ampla e muito iluminada">
+          <img src="fotos_top10/rk116_2.jpg" alt="#116 Sala 2" data-caption="2º Lugar (#116 - Campo Grande): Sala para 2 ambientes com esquadrias novas">
+          <img src="fotos_top10/rk116_3.jpg" alt="#116 Quarto" data-caption="2º Lugar (#116 - Campo Grande): Dormitório espaçoso">
+        </div>
+        <h3>Campo Grande · Rua Nobre</h3>
+        <p class="address">Rua Doutor Arnaldo de Carvalho, 102</p>
+        <p class="price">R$ 400.000 <span>· 70 m² úteis (98 m² total)</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">🛗 3 Elevadores + Portaria 24h</span>
+          <span class="tag highlight">🚗🚗 2 Vagas de Garagem</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 700 / R$ 146</strong></div>
+          <div><small>Infraestrutura</small><strong>Portaria 24h + 3 Elev.</strong></div>
+          <div><small>Garagem</small><strong>2 vagas informadas</strong></div>
+          <div><small>Estado nas fotos</small><strong>Muito claro e conservado</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #2:</b> Raridade estrutural até R$ 400 mil: edifício completo com <b>portaria 24h, 3 elevadores e 2 vagas de garagem</b> em rua tranquila e arborizada do Campo Grande.
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.314/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-campo-grande-98m2-RS400000/id-48547890/" target="_blank" rel="noopener noreferrer">Ver anúncio #116 ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 3º LUGAR: #017 / #120 -->
+      <article class="card" data-key="chaves:45896002" data-tags="suite condo-baixo">
+        <div class="cardtop">
+          <span class="rank-pill">🥉 3º Lugar</span>
+          <span class="orig-ref">Card #017 (dup. #120 e #121)</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk017_1.jpg" alt="#017 Sala" data-caption="3º Lugar (#017/#120 - Boqueirão): Sala reformada de frente com ar split">
+          <img src="fotos_top10/rk017_2.jpg" alt="#017 Jantar" data-caption="3º Lugar (#017/#120 - Boqueirão): Sala de jantar integrada e cozinha planejada">
+          <img src="fotos_top10/rk120_2.jpg" alt="#120 Quarto" data-caption="3º Lugar (#017/#120 - Boqueirão): Dormitório repleto de armários planejados">
+        </div>
+        <h3>Boqueirão · Reformado c/ Suíte</h3>
+        <p class="address">Av. Conselheiro Nébias, 515 · 1º andar de frente</p>
+        <p class="price">R$ 420.000 <span>no #120 (R$ 424k no #017) · 70 m² úteis (93 m² total)</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">✨ 100% Reformado + Planejados</span>
+          <span class="tag blue">🚿 2 Quartos (1 Suíte)</span>
+          <span class="tag">1º Andar (1 lance)</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 500 a R$ 557 / R$ 143</strong></div>
+          <div><small>Andar</small><strong>1º andar (frente)</strong></div>
+          <div><small>Banheiros</small><strong>2 (sendo 1 suíte)</strong></div>
+          <div><small>Estado nas fotos</small><strong>Impecável / Entrar e morar</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #3:</b> No Boqueirão, apenas 1 lance de escada, <b>totalmente reformado com marcenaria planejada nova</b> nos quartos e cozinha, 1 suíte + social. Use o link do <b>#120 (R$ 420 mil)</b> para negociar!
+        </div>
+        <div class="score"><span>Índice em 5 anos por m² (#017)</span><b>R$ 4.882/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-RS420000/id-47597299/" target="_blank" rel="noopener noreferrer">Ver anúncio #120 (R$ 420k - Mais barato) ↗</a>
+          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-93m2-RS424000/id-45896002/" target="_blank" rel="noopener noreferrer">Ver anúncio #017 (R$ 424k - 93m² total) ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 4º LUGAR: #094 -->
+      <article class="card" data-key="chaves:45676427" data-tags="suite orla condo-baixo">
+        <div class="cardtop">
+          <span class="rank-pill">4º Lugar</span>
+          <span class="orig-ref">Card #094 · Chaves na Mão</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk094_1.jpg" alt="#094 Sala" data-caption="4º Lugar (#094 - Embaré): Sala super ampla e clara a poucos metros da praia">
+          <img src="fotos_top10/rk094_2.jpg" alt="#094 Sala 2" data-caption="4º Lugar (#094 - Embaré): Janelões com ótima iluminação natural">
+          <img src="fotos_top10/rk094_3.jpg" alt="#094 Corredor/Quarto" data-caption="4º Lugar (#094 - Embaré): Piso frio claro impecável">
+        </div>
+        <h3>Embaré · Poucos metros da praia</h3>
+        <p class="address">Embaré (Quadra da praia) · 1º andar</p>
+        <p class="price">R$ 419.000 <span>· 75 m²</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">🚗 Vaga Coletiva SUFICIENTE</span>
+          <span class="tag blue">🏖️ Colado na Praia do Embaré</span>
+          <span class="tag">🚿 2 Banheiros · 1º Andar</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 500 / R$ 180</strong></div>
+          <div><small>Andar</small><strong>1º andar (1 lance)</strong></div>
+          <div><small>Garagem</small><strong>Coletiva Suficiente</strong></div>
+          <div><small>Banheiros</small><strong>2 banheiros</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #4:</b> Resolve as 3 maiores dores do Embaré nessa faixa: é <b>1º andar</b>, tem <b>2 banheiros</b> e a ficha garante expressamente <b>garagem coletiva suficiente</b>. Sala enorme e super clara nas fotos.
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.987/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS419000/id-45676427/" target="_blank" rel="noopener noreferrer">Ver anúncio #094 ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 5º LUGAR: #084 -->
+      <article class="card" data-key="chaves:48300029" data-tags="orla">
+        <div class="cardtop">
+          <span class="rank-pill">5º Lugar</span>
+          <span class="orig-ref">Card #084 · Chaves na Mão</span>
+        </div>
+        <div class="card-gallery two-cols">
+          <img src="fotos_top10/rk084_1.jpg" alt="#084 Sacada" data-caption="5º Lugar (#084 - Embaré): Sacada comprida de frente com guarda-corpo de vidro moderno">
+          <img src="fotos_top10/rk084_2.jpg" alt="#084 Sala" data-caption="5º Lugar (#084 - Embaré): Sala reformada banhada pelo sol da manhã">
+        </div>
+        <h3>Embaré · Sacada de Frente Sol da Manhã</h3>
+        <p class="address">Rua Aureliano Coutinho, 102 · Embaré</p>
+        <p class="price">R$ 426.000 <span>· 80 m²</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">☀️ Sacada de Frente (Sol da Manhã)</span>
+          <span class="tag blue">✨ Recém-reformado (Vazio)</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 600 / R$ 112</strong></div>
+          <div><small>Área útil</small><strong>80 m² (Frente)</strong></div>
+          <div><small>Diferencial</small><strong>Sacada c/ vidro novo</strong></div>
+          <div><small>Estado nas fotos</small><strong>Pintura e piso novos</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #5:</b> Localização nobre no Embaré (Rua Aureliano Coutinho), 80 m², <b>sacada longa de frente com guarda-corpo em vidro</b> e interior todo branco recém-reformado, super ensolarado.
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.775/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-80m2-RS426000/id-48300029/" target="_blank" rel="noopener noreferrer">Ver anúncio #084 ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 6º LUGAR: #032 -->
+      <article class="card" data-key="chaves:48387719" data-tags="orla condo-baixo">
+        <div class="cardtop">
+          <span class="rank-pill">6º Lugar</span>
+          <span class="orig-ref">Card #032 · Chaves na Mão</span>
+        </div>
+        <div class="card-gallery two-cols">
+          <img src="fotos_top10/rk032_1.jpg" alt="#032 Sala e Varanda" data-caption="6º Lugar (#032 - Embaré): Sala modernizada integrada à varanda">
+          <img src="fotos_top10/rk032_2.jpg" alt="#032 Varanda c/ rede" data-caption="6º Lugar (#032 - Embaré): Varanda fechada em vidro voltada para as árvores (com rede!)">
+        </div>
+        <h3>Embaré · Achado c/ Varanda nas Árvores</h3>
+        <p class="address">Rua Oswaldo Cochrane, 332 · Embaré</p>
+        <p class="price">R$ 385.000 <span>· 80,8 m²</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">🌿 Varanda Envidraçada c/ Rede</span>
+          <span class="tag blue">💸 Condomínio R$ 400/mês</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 400 / R$ 157</strong></div>
+          <div><small>Área útil</small><strong>80,8 m²</strong></div>
+          <div><small>Preço / m²</small><strong>R$ 4.812/m²</strong></div>
+          <div><small>Estado nas fotos</small><strong>Modernizado e aconchegante</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #6:</b> A maior surpresa ao abrir as fotos! O texto do anúncio nem menciona, mas as fotos revelam uma <b>deliciosa varanda fechada em vidro na copa das árvores</b>, sala modernizada com LED e ar split no Embaré por R$ 385 mil.
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.112/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS385000/id-48387719/" target="_blank" rel="noopener noreferrer">Ver anúncio #032 ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 7º LUGAR: #098 / #103 -->
+      <article class="card" data-key="chaves:45598463" data-tags="suite condo-baixo">
+        <div class="cardtop">
+          <span class="rank-pill">7º Lugar</span>
+          <span class="orig-ref">Card #098 (dup. #103)</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk098_1.jpg" alt="#098 Sala" data-caption="7º Lugar (#098 - Rua Amazonas): Sala climatizada com piso claro">
+          <img src="fotos_top10/rk098_2.jpg" alt="#098 Quarto" data-caption="7º Lugar (#098 - Rua Amazonas): Suíte repleta de armários planejados espelhados">
+          <img src="fotos_top10/rk098_3.jpg" alt="#098 Sala 2" data-caption="7º Lugar (#098 - Rua Amazonas): Vista geral da sala">
+        </div>
+        <h3>Campo Grande · Rua Amazonas c/ Suíte</h3>
+        <p class="address">Rua Amazonas, 76 · Campo Grande</p>
+        <p class="price">R$ 394.000 <span>no #098 (R$ 399k no #103) · 70 m²</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">🚿 2 Quartos (1 Suíte)</span>
+          <span class="tag blue">🪞 Armários Planejados Espelhados</span>
+          <span class="tag">💸 Cond. R$ 480 + IPTU R$ 75</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 480 / R$ 75</strong></div>
+          <div><small>Banheiros</small><strong>2 (sendo 1 suíte)</strong></div>
+          <div><small>Climatização</small><strong>Splits na sala e quartos</strong></div>
+          <div><small>Duplicata</small><strong>#103 anunciado por R$ 399k</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #7:</b> Rua Amazonas (uma das melhores do Campo Grande, colada no Gonzaga), <b>suíte + banheiro social</b>, marcenaria espelhada impecável nos dormitórios e custo fixo mensal baixíssimo (R$ 555 somando condomínio e IPTU).
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.040/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-campo-grande-70m2-RS394000/id-45598463/" target="_blank" rel="noopener noreferrer">Ver anúncio #098 (R$ 394k - Mais barato) ↗</a>
+          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-campo-grande-70m2-RS399000/id-45144601/" target="_blank" rel="noopener noreferrer">Ver anúncio #103 (R$ 399k) ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 8º LUGAR: #061 / #062 -->
+      <article class="card" data-key="chaves:45897580" data-tags="">
+        <div class="cardtop">
+          <span class="rank-pill">8º Lugar</span>
+          <span class="orig-ref">Card #061 (dup. #062)</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk061_1.jpg" alt="#061 Sala" data-caption="8º Lugar (#061/#062 - Canal 1): Sala ampla em porcelanato com sanca e iluminação em LED">
+          <img src="fotos_top10/rk061_2.jpg" alt="#061 Painel TV" data-caption="8º Lugar (#061/#062 - Canal 1): Painel de TV e sala de jantar">
+          <img src="fotos_top10/rk061_3.jpg" alt="#061 Cozinha" data-caption="8º Lugar (#061/#062 - Canal 1): Cozinha planejada moderna">
+        </div>
+        <h3>Marapé / Canal 1 · Reforma de Alto Padrão</h3>
+        <p class="address">Av. Senador Pinheiro Machado (Em frente ao mercado)</p>
+        <p class="price">R$ 425.000 <span>· 82 m²</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">✨ Porcelanato + Sanca LED</span>
+          <span class="tag blue">📐 82 m² + Cozinha Planejada</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 560 / R$ 110</strong></div>
+          <div><small>Área útil</small><strong>82 m²</strong></div>
+          <div><small>Andar</small><strong>2º andar</strong></div>
+          <div><small>Estado nas fotos</small><strong>Reforma fina impecável</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #8:</b> Visualmente uma das reformas mais bonitas entre todos os 127: <b>82 m² todos em porcelanato grande, teto rebaixado em gesso com sanca iluminada</b>, ar split e cozinha rica em armários.
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.593/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-marape-82m2-RS425000/id-45897580/" target="_blank" rel="noopener noreferrer">Ver anúncio #061 (Chaves na Mão) ↗</a>
+          <a class="button secondary" href="https://rodaimoveis.com.br/apartamento-02-quartos-reformado-marape-santos-sp" target="_blank" rel="noopener noreferrer">Ver anúncio #062 (Roda Imóveis) ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 9º LUGAR: #049 -->
+      <article class="card" data-key="chaves:48132846" data-tags="orla condo-baixo">
+        <div class="cardtop">
+          <span class="rank-pill">9º Lugar</span>
+          <span class="orig-ref">Card #049 · Chaves na Mão</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk049_1.jpg" alt="#049 Sala" data-caption="9º Lugar (#049 - Gonzaga): Sala com piso laminado novo e ar split na Rua Dr. Assis Corrêa">
+          <img src="fotos_top10/rk049_2.jpg" alt="#049 Sala 2" data-caption="9º Lugar (#049 - Gonzaga): Paredes, teto e esquadrias impecáveis">
+          <img src="fotos_top10/rk049_3.jpg" alt="#049 Quarto" data-caption="9º Lugar (#049 - Gonzaga): Dormitório amplo com piso novo">
+        </div>
+        <h3>Gonzaga · Coração do Bairro (Cond. R$ 280!)</h3>
+        <p class="address">Rua Doutor Assis Corrêa · Gonzaga (Colado ao Miramar)</p>
+        <p class="price">R$ 385.000 <span>· 75 m²</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">💸 Condomínio R$ 280/mês</span>
+          <span class="tag blue">📍 Melhor ponto do Gonzaga</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 280 / R$ 121</strong></div>
+          <div><small>Localização</small><strong>Rua Dr. Assis Corrêa</strong></div>
+          <div><small>Garagem</small><strong>1 vaga</strong></div>
+          <div><small>Estado nas fotos</small><strong>Laminado novo + Ar Split</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #9:</b> Ao contrário daquele da Rua Manoel Victorino (que tinha infiltração/mofo no teto), este fica na <b>Rua Dr. Assis Corrêa (ouro do Gonzaga)</b>, está limpo, com piso laminado novo, ar split e <b>condomínio de apenas R$ 280/mês</b>.
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.357/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-RS385000/id-48132846/" target="_blank" rel="noopener noreferrer">Ver anúncio #049 ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- 10º LUGAR: #100 / #099 -->
+      <article class="card" data-key="chaves:47272360" data-tags="condo-baixo">
+        <div class="cardtop">
+          <span class="rank-pill">10º Lugar</span>
+          <span class="orig-ref">Card #100 (dup. #099)</span>
+        </div>
+        <div class="card-gallery two-cols">
+          <img src="fotos_top10/rk100_1.jpg" alt="#100 Sala" data-caption="10º Lugar (#100/#099 - Campo Grande): Vendido Porteira Fechada (totalmente mobiliado)">
+          <img src="fotos_top10/rk100_2.jpg" alt="#100 Jantar" data-caption="10º Lugar (#100/#099 - Campo Grande): Sala de jantar e marcenaria sob medida">
+        </div>
+        <h3>Campo Grande · Porteira Fechada (Mobiliado)</h3>
+        <p class="address">Campo Grande · 2º andar (1 lance de escada)</p>
+        <p class="price">R$ 400.000 <span>· 70 m² (quase 80 m² reais)</span></p>
+        <div class="tags-row">
+          <span class="tag highlight">🛋️ Porteira Fechada (Mobiliado)</span>
+          <span class="tag blue">⚡ Elétrica Revisada</span>
+          <span class="tag">💸 Cond. R$ 420/mês</span>
+        </div>
+        <div class="facts">
+          <div><small>Condomínio / IPTU</small><strong>R$ 420 / R$ 86</strong></div>
+          <div><small>Andar</small><strong>2º andar (1 lance)</strong></div>
+          <div><small>Garagem</small><strong>Coletiva (insuf. no #099)</strong></div>
+          <div><small>Diferencial</small><strong>Vendido mobiliado</strong></div>
+        </div>
+        <div class="analysis-box">
+          <b>Por que é o #10:</b> Vendido <b>Porteira Fechada</b> (com mobília e planejados em todos os cômodos) e elétrica já revisada. <i>Nota: como a ficha #099 informa vaga coletiva insuficiente, veja abaixo as 2 alternativas imediatas (#085 c/ elevador no Embaré e #088/#093 no Gonzaga).</i>
+        </div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.074/m²</b></div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-campo-grande-70m2-RS400000/id-47272360/" target="_blank" rel="noopener noreferrer">Ver anúncio #100 (Chaves na Mão) ↗</a>
+          <a class="button secondary" href="https://invistaii.com.br/imovel/apartamento-a-venda-em-santos-sp-no-bairro-campo-grande-com-2-dormitorios-e-70m2/45105/" target="_blank" rel="noopener noreferrer">Ver anúncio #099 (Invista 45105) ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ================= MENÇÕES HONROSAS ================= -->
+  <section id="alternativas">
+    <div class="section-header">
+      <div>
+        <h2>✨ 2 Menções Honrosas (Substitutos Diretos no Embaré e Gonzaga)</h2>
+        <p class="sub">Caso você queira substituir o #10 por um prédio com elevador no Embaré ou por um apartamento com varanda envidraçada no Gonzaga.</p>
+      </div>
+    </div>
+
+    <div class="top-grid">
+      <article class="card" data-key="chaves:47418254">
+        <div class="cardtop">
+          <span class="rank-pill" style="background:#176c5c;">Menção Honrosa A</span>
+          <span class="orig-ref">Card #085 · Embaré c/ Elevador</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk085_1.jpg" alt="#085 Sala" data-caption="Menção Honrosa (#085 - Embaré): Sala ampla em prédio com elevador">
+          <img src="fotos_top10/rk085_2.jpg" alt="#085 Quarto" data-caption="Menção Honrosa (#085 - Embaré): Dormitório com armários">
+          <img src="fotos_top10/rk085_3.jpg" alt="#085 Cozinha" data-caption="Menção Honrosa (#085 - Embaré): Cozinha espaçosa">
+        </div>
+        <h3>Embaré · Prédio com Elevador e 2 Banheiros</h3>
+        <p class="address">Embaré · Próximo à praia e comércios</p>
+        <p class="price">R$ 420.000 <span>· 72 m² · Condomínio R$ 368/mês</span></p>
+        <div class="analysis-box">
+          <b>Destaque:</b> Raríssimo no Embaré ter <b>Elevador + 2 Banheiros + Condomínio de R$ 368/mês</b> por R$ 420 mil. Excelente opção caso você faça questão de elevador na região do Embaré.
+        </div>
+        <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-72m2-RS420000/id-45909446/" target="_blank" rel="noopener noreferrer">Ver anúncio #085 ↗</a>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <article class="card" data-key="chaves:48075429">
+        <div class="cardtop">
+          <span class="rank-pill" style="background:#176c5c;">Menção Honrosa B</span>
+          <span class="orig-ref">Card #088 (dup. #093 e #113) · Gonzaga</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/rk093_1.jpg" alt="#093 Varanda" data-caption="Menção Honrosa (#088/#093 - Gonzaga): Varanda comprida fechada em vidro">
+          <img src="fotos_top10/rk093_2.jpg" alt="#093 Sala" data-caption="Menção Honrosa (#088/#093 - Gonzaga): Sala ampla (1 apartamento por andar)">
+          <img src="fotos_top10/rk093_3.jpg" alt="#093 Quarto" data-caption="Menção Honrosa (#088/#093 - Gonzaga): Dormitório com acesso à varanda">
+        </div>
+        <h3>Gonzaga · 1 por Andar + Varanda Envidraçada</h3>
+        <p class="address">Av. Francisco Glicério · Gonzaga · 2º andar de frente</p>
+        <p class="price">R$ 400.000 <span>no #088 (R$ 410k no #093 · R$ 420k no #113) · 73 m²</span></p>
+        <div class="analysis-box">
+          <b>Destaque:</b> Apartamento único no andar (<b>1 por andar</b>), de frente, com <b>2 banheiros</b> e uma enorme varanda fechada em vidro. Anunciado em 3 cards diferentes: chame sempre pelo <b>#088 (R$ 400 mil)</b>!
+        </div>
+        <div class="btn-group">
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-73m2-RS400000/id-48075429/" target="_blank" rel="noopener noreferrer">Ver anúncio #088 (R$ 400k - Mais barato) ↗</a>
+          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-73m2-RS410000/id-47418716/" target="_blank" rel="noopener noreferrer">Ver anúncio #093 (R$ 410k) ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= SEUS 2 CONSIDERADOS (#08 e #02) ================= -->
+  <section id="seus-considerados">
+    <div class="section-header">
+      <div>
+        <h2>⭐ Análise dos 2 Imóveis que Você Já Tinha Marcado como "Considerar"</h2>
+        <p class="sub">No seu banco de decisões local, você avaliou do #01 ao #11 e favoritou o #08 e o #02. Veja as fotos reais deles e o diagnóstico:</p>
+      </div>
+    </div>
+
+    <div class="top-grid">
+      <article class="card considered" data-key="chaves:48548448">
+        <div class="cardtop">
+          <span class="rank-pill" style="background:#d8a21d;color:#172931;">★ Seu Favorito #08</span>
+          <span class="orig-ref">Card #08 · Embaré · 96 m²</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/r08_1.jpg" alt="#08 Sala" data-caption="Card #08 (Av. Pedro Lessa, 2147 - Embaré): Sala ampla em piso de taco">
+          <img src="fotos_top10/r08_3.jpg" alt="#08 Cozinha" data-caption="Card #08 (Embaré): Cozinha com armários">
+          <img src="fotos_top10/r08_4.jpg" alt="#08 Banheiro" data-caption="Card #08 (Embaré): Banheiro tradicional">
+        </div>
+        <h3>Embaré · Av. Pedro Lessa, 2147 (96 m²)</h3>
+        <p class="price">R$ 415.000 <span>· 96 m² · Condomínio R$ 530/mês</span></p>
+        <div class="analysis-box">
+          <b>Meu veredito sobre o #08:</b> Excelente metragem (<b>96 m² no Embaré</b>, 2 quartos + dependência revertida para 3º quarto e 2 banheiros, 2º andar de escada). Só não entrou no Top 10 porque o piso de taco e os azulejos são mais antigos que os reformados da lista acima, mas se você prioriza <b>espaço bruto (quase 100 m²)</b>, vale muito manter na sua lista!
+        </div>
+        <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-96m2-RS415000/id-48548448/" target="_blank" rel="noopener noreferrer">Ver anúncio #08 ↗</a>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button" style="display:block">Restaurar</button></div>
+      </article>
+
+      <article class="card considered" data-key="vivareal:2921365673">
+        <div class="cardtop">
+          <span class="rank-pill" style="background:#d8a21d;color:#172931;">★ Seu Favorito #02</span>
+          <span class="orig-ref">Card #02 · Marapé · R$ 290 mil</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_top10/r02_1.webp" alt="#02 Cozinha" data-caption="Card #02 (Rua Dr. Carvalho de Mendonça - Marapé): Cozinha antiga">
+          <img src="fotos_top10/r02_2.webp" alt="#02 Banheiro" data-caption="Card #02 (Marapé): Banheiro precisando de modernização">
+          <img src="fotos_top10/r02_4.webp" alt="#02 Sala" data-caption="Card #02 (Marapé): Sala com piso cerâmico">
+        </div>
+        <h3>Marapé · Rua Dr. Carvalho de Mendonça</h3>
+        <p class="price">R$ 290.000 <span>· 78 a 84 m² · Condomínio R$ 429–500/mês</span></p>
+        <div class="analysis-box">
+          <b>Meu veredito sobre o #02:</b> As fotos explicam o preço baixo (R$ 290 mil): cozinha, banheiro e esquadrias são bem antigos e simples. Só vale a pena se a sua ideia for pagar barato na entrada para fazer uma reforma completa do seu jeito.
+        </div>
+        <a class="button" href="https://www.vivareal.com.br/imovel/2921365673/" target="_blank" rel="noopener noreferrer">Ver anúncio #02 ↗</a>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button" style="display:block">Restaurar</button></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= DUPLICATAS E ARMADILHAS ================= -->
+  <section id="duplicatas">
+    <div class="section-header">
+      <div>
+        <h2>🔁 Mapa de Duplicatas &amp; Armadilhas Eliminadas</h2>
+        <p class="sub">Mesmos imóveis anunciados com preços diferentes nos 127 cards e anúncios que você pode descartar sem perder tempo.</p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>1. Mesmos apartamentos físicos com preços diferentes (Sempre chame pelo mais barato!)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Imóvel / Endereço</th>
+              <th>Anúncio Mais Barato</th>
+              <th>Duplicatas Mais Caras / Iguais</th>
+              <th>Economia Imediata</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>José Menino</b> — Rua Cel. Cândido Gomes, 14 (9º andar, 75 m², suíte)</td>
+              <td><b>Card #101</b> — R$ 413.000</td>
+              <td>Cards <b>#104, #105, #106, #107, #108</b> — R$ 415.000</td>
+              <td><b style="color:#176c5c;">R$ 2.000</b></td>
+            </tr>
+            <tr>
+              <td><b>Boqueirão</b> — Av. Conselheiro Nébias, 515 (1º andar, 70 m² útil / 93 m² total, suíte)</td>
+              <td><b>Card #120</b> — R$ 420.000</td>
+              <td>Card <b>#017</b> (R$ 424.000) e Card <b>#121</b> (R$ 425.000)</td>
+              <td><b style="color:#176c5c;">R$ 4.000 a R$ 5.000</b></td>
+            </tr>
+            <tr>
+              <td><b>Campo Grande</b> — Rua Amazonas, 76 (70 m², 2 quartos sendo 1 suíte)</td>
+              <td><b>Card #098</b> — R$ 394.000</td>
+              <td>Card <b>#103</b> — R$ 399.000</td>
+              <td><b style="color:#176c5c;">R$ 5.000</b></td>
+            </tr>
+            <tr>
+              <td><b>Gonzaga</b> — Av. Francisco Glicério (73 m², 1 por andar, varanda fechada)</td>
+              <td><b>Card #088</b> — R$ 400.000</td>
+              <td>Card <b>#093</b> (R$ 410.000) e Card <b>#113</b> (R$ 420.000)</td>
+              <td><b style="color:#176c5c;">R$ 10.000 a R$ 20.000</b></td>
+            </tr>
+            <tr>
+              <td><b>Marapé / Canal 1</b> — Av. Sen. Pinheiro Machado (82 m², porcelanato/sanca)</td>
+              <td><b>Card #061</b> — R$ 425.000</td>
+              <td>Card <b>#062</b> — R$ 425.000 (mesmo valor na Roda Imóveis)</td>
+              <td>Mesmo valor</td>
+            </tr>
+            <tr>
+              <td><b>Campo Grande</b> — Porteira Fechada / Mobiliado (70 m², Cond. R$ 420)</td>
+              <td><b>Card #099 / #100</b> — R$ 400.000</td>
+              <td>Anunciado na Invista (#099) e Chaves na Mão (#100)</td>
+              <td>Mesmo valor</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>2. Armadilhas e Anúncios Descartados na Triagem</h3>
+      <div class="trap-grid">
+        <div class="trap-item">
+          <b>❌ Card #122 — É Aluguel (Erro de Cadastro)</b>
+          Anunciado como R$ 3.500 no Roda Imóveis: na verdade é locação mensal no Boqueirão que entrou por erro de integração.
+        </div>
+        <div class="trap-item">
+          <b>❌ Card #028 — Anúncio Fora do Ar (Erro 404)</b>
+          O link do Viva Real (Rua Tocantins, Campo Grande) já foi desativado e retorna página não encontrada.
+        </div>
+        <div class="trap-item">
+          <b>❌ Card #109 — Precisa de "Reforma Total"</b>
+          Apesar de ter elevador no José Menino (R$ 410 mil), a própria descrição da Invista avisa em letras maiúsculas: <i>"APARTAMENTO PARA REFORMA TOTAL"</i>.
+        </div>
+        <div class="trap-item">
+          <b>❌ Cards #012 e #053 — Apartamentos Térreos</b>
+          As descrições completas nos portais revelam que são unidades térreas que escaparam do filtro inicial.
+        </div>
+        <div class="trap-item">
+          <b>❌ 10 Cards no 3º Andar Sem Elevador</b>
+          Cards <b>#036, #041, #046, #064, #069, #089, #091, #095, #114 e #125</b> ficam no 3º andar de escada (3 lances completos).
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>Curadoria gerada em 09/11/2026 a partir da inspeção completa dos 127 anúncios de <a href="apartamentos_santos_426mil.html">apartamentos_santos_426mil.html</a>.</div>
+    <div>Compatível com o banco de decisões local (<code>abrir_relatorio.bat</code> / <code>servidor_relatorio.py</code>).</div>
+  </footer>
+</main>
+
+<!-- Lightbox Modal -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada da foto">
+  <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Fechar foto">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<script>
+  // Lightbox para ampliar fotos
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxCaption = document.getElementById('lightboxCaption');
+  const lightboxClose = document.getElementById('lightboxClose');
+
+  document.querySelectorAll('.photo-strip img, .card-gallery img').forEach(img => {
+    img.addEventListener('click', () => {
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightboxCaption.textContent = img.dataset.caption || img.alt;
+      lightbox.classList.add('open');
+    });
+  });
+
+  const closeLightbox = () => lightbox.classList.remove('open');
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', e => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  // Filtros do Top 10
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const top10Cards = document.querySelectorAll('#top10Grid .card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      top10Cards.forEach(card => {
+        if (filter === 'all') {
+          card.style.display = 'flex';
+        } else {
+          const tags = (card.dataset.tags || '').split(' ');
+          card.style.display = tags.includes(filter) ? 'flex' : 'none';
+        }
+      });
+    });
+  });
+
+  // Integração com o banco SQLite local (/api/decision) + fallback em localStorage
+  const decisionCards = [...document.querySelectorAll('.card[data-key]')];
+  const LOCAL_STORAGE_KEY = 'santos_imoveis_decisions_v1';
+
+  function getLocalDecisions() {
+    try {
+      return JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY) || '{}');
+    } catch {
+      return {};
+    }
+  }
+
+  function saveLocalDecision(key, status) {
+    const current = getLocalDecisions();
+    if (!status) delete current[key];
+    else current[key] = status;
+    try {
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(current));
+    } catch {}
+  }
+
+  function applyCardState(card, status) {
+    card.classList.toggle('excluded', status === 'excluded');
+    card.classList.toggle('considered', status === 'considered');
+    const undoBtn = card.querySelector('.undo');
+    if (undoBtn) undoBtn.style.display = status ? 'block' : 'none';
+  }
+
+  async function setDecision(card, status) {
+    const buttons = card.querySelectorAll('.actions button');
+    buttons.forEach(b => b.disabled = true);
+    const key = card.dataset.key;
+    try {
+      const response = await fetch('/api/decision', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ key, status })
+      });
+      if (!response.ok) throw new Error('API offline');
+    } catch {
+      // Fallback silencioso para localStorage quando aberto direto via file://
+    } finally {
+      saveLocalDecision(key, status);
+      applyCardState(card, status);
+      buttons.forEach(b => b.disabled = false);
+    }
+  }
+
+  decisionCards.forEach(card => {
+    const considerBtn = card.querySelector('.consider');
+    const excludeBtn = card.querySelector('.exclude');
+    const undoBtn = card.querySelector('.undo');
+    if (considerBtn) considerBtn.onclick = () => setDecision(card, 'considered');
+    if (excludeBtn) excludeBtn.onclick = () => setDecision(card, 'excluded');
+    if (undoBtn) undoBtn.onclick = () => setDecision(card, null);
+  });
+
+  // Carrega estados salvos do servidor ou do localStorage
+  fetch('/api/decisions')
+    .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+    .then(saved => {
+      decisionCards.forEach(card => {
+        if (saved[card.dataset.key]) applyCardState(card, saved[card.dataset.key]);
+      });
+    })
+    .catch(() => {
+      const localSaved = getLocalDecisions();
+      decisionCards.forEach(card => {
+        if (localSaved[card.dataset.key]) applyCardState(card, localSaved[card.dataset.key]);
+      });
+    });
+</script>
+</body>
+</html>
