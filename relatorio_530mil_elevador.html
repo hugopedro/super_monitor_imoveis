@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Top 10 Escolhas Curadas (dos 128) — Apartamentos em Santos até R$ 530 mil com Elevador</title>
+  <title>Top 10 Escolhas Curadas (dos 163) — Apartamentos em Santos até R$ 530 mil com Elevador</title>
   <style>
     :root {
       --bg: #f3f5f5;
@@ -54,12 +54,12 @@
     .hero h1 {
       font-size: clamp(1.95rem, 4.5vw, 3.1rem);
       line-height: 1.08;
-      max-width: 900px;
+      max-width: 920px;
       margin: 12px 0 14px;
       letter-spacing: -0.02em;
     }
     .lead {
-      max-width: 840px;
+      max-width: 860px;
       color: #d6e9ec;
       margin: 0 0 24px;
       font-size: 1.04rem;
@@ -346,7 +346,7 @@
       color: #172931;
     }
     .orig-ref {
-      font-size: .76rem;
+      font-size: .74rem;
       font-weight: 700;
       color: var(--ink-muted);
       background: #eef3f2;
@@ -640,51 +640,52 @@
   <div class="eyebrow">Curadoria Completa · Santos / SP · Perfil Principal até R$ 530 mil com Elevador</div>
   <h1>A Escolha #1 + O Top 10 Definitivo da Categoria com Elevador (Bairros de Praia)</h1>
   <p class="lead">
-    Vasculhamos todos os 128 anúncios do relatório principal (Embaré, Aparecida, Boqueirão, Gonzaga e Pompéia, todos com elevador confirmado, ≥ 70 m² e condomínio ≤ R$ 1.100), cruzamos duplicatas com até R$ 35 mil de diferença e inspecionamos as fotos de cada candidato.
+    Auditoria completa dos 163 anúncios (36 recentes com data verificada no VivaReal/Zap + 127 das imobiliárias locais e Chaves na Mão), após corrigir o filtro de andar da API do VivaReal/Zap e cruzar duplicatas com até R$ 35 mil de diferença no mesmo imóvel.
   </p>
   <nav class="nav-pills">
-    <a class="nav-pill gold" href="#escolha-1">🏆 Minha Escolha #1 (sem data #51 / #114)</a>
+    <a class="nav-pill gold" href="#escolha-1">🏆 Minha Escolha #1 (VivaReal #34 / Chaves #51)</a>
     <a class="nav-pill" href="#top-10">🔟 Ranking Top 10 Completo</a>
-    <a class="nav-pill" href="#mencoes">✨ Menções Honrosas &amp; Sem Fotos</a>
+    <a class="nav-pill" href="#novos-vivareal">🆕 4 Achados Exclusivos VivaReal/Zap</a>
+    <a class="nav-pill" href="#mencoes">✨ Menções Honrosas</a>
     <a class="nav-pill" href="#duplicatas">🔁 Mapa de Duplicatas (Até R$ 35k de Desconto!)</a>
-    <a class="nav-pill" href="#armadilhas">🚫 Inativos &amp; Armadilhas Eliminadas</a>
-    <a class="nav-pill" href="index.html">⬅️ Ir para Curadoria até R$ 426 mil</a>
-    <a class="nav-pill" href="apartamentos_santos.html">📋 Ver Lista Bruta dos 128 ↗</a>
+    <a class="nav-pill" href="#armadilhas">🚫 Inativos &amp; Armadilhas</a>
+    <a class="nav-pill" href="index.html">⬅️ Curadoria até R$ 426 mil</a>
+    <a class="nav-pill" href="apartamentos_santos.html">📋 Ver Lista Bruta dos 163 ↗</a>
   </nav>
 </header>
 
 <main>
   <div class="stats">
     <div class="stat">
-      <b>128 → 10</b>
-      <span>1 com data + 127 na aba sem data verificados</span>
+      <b>163 → 10</b>
+      <span>36 com data (VivaReal/Zap) + 127 sem data auditados</span>
     </div>
     <div class="stat">
-      <b>#51 / #114 (R$ 520k)</b>
-      <span>Escolha #1 · Embaré reformado c/ suíte, sacada e vaga demarcada</span>
+      <b>#34 VR / #51 CNM</b>
+      <span>Escolha #1 (R$ 520k) · Embaré c/ suíte, sacada e demarcada</span>
     </div>
     <div class="stat">
       <b>Até R$ 35.000</b>
-      <span>de diferença de preço encontrada no mesmo apto (#59 vs #39)</span>
+      <span>de desconto real achado no mesmo apto (VivaReal/Chaves)</span>
     </div>
     <div class="stat">
-      <b>34 duplicatas + 17</b>
-      <span>anúncios repetidos, já vendidos ou com armadilhas filtrados</span>
+      <b>73 VivaReal + 47 Zap</b>
+      <span>destravados após corrigir o bug <code>unitFloor=0</code> da API</span>
     </div>
   </div>
 
   <div class="discovery-banner">
-    <strong>🔎 Por que a seção principal de <code>apartamentos_santos.html</code> só mostra 1 card (#01) e onde estavam os ouro?</strong><br>
-    Ao consultar a API interna do VivaReal para o único card com data (<strong>#01 — Rua Benjamin Constant, 154, Ap 12, Embaré, R$ 520 mil, 110 m²</strong>), descobrimos que é um excelente 2º andar com suíte e 3 banheiros, mas a imobiliária cadastrou <strong>sem descrição e com ZERO fotos</strong>. Enquanto isso, os <strong>127 anúncios completos com fotos</strong> ficaram ocultos dentro da aba recolhida <em>"Ver também 127 anúncios sem data verificável"</em> (apenas porque os portais Chaves na Mão, Invista e Pousada não exportam a tag <code>datePublished</code>). Vasculhamos todos os 128 um por um!
+    <strong>🔧 Correção Aplicada (VivaReal &amp; Zap Imóveis Destravados!):</strong><br>
+    Na API oficial da OLX Brasil (<code>glue-api.vivareal.com</code> / <code>zapimoveis.com.br</code>), quando a imobiliária não preenche o número do andar, a API devolve <code>unitFloor: 0</code> (que o coletor antigo descartava achando que era térreo!). Após corrigirmos isso em <code>monitor_vivareal.py</code> e <code>monitor_zap.py</code>, a seção <em>"Dentro dos últimos cinco meses"</em> saltou de <strong>1 para 36 anúncios verificados</strong>, confirmando a data de publicação de quase todo o nosso Top 10 diretamente no VivaReal/Zap e revelando que o <strong>2º Lugar custa R$ 10.000 a menos no VivaReal (R$ 480 mil vs. R$ 490 mil)</strong>!
   </div>
 
   <!-- ================= ESCOLHA #1 SPOTLIGHT ================= -->
   <section id="escolha-1">
     <div class="winner-card">
-      <div class="winner-ribbon">🏆 Se eu pudesse escolher APENAS 1 dos 128 imóveis com elevador</div>
+      <div class="winner-ribbon">🏆 Se eu pudesse escolher APENAS 1 dos 163 imóveis com elevador</div>
       <div class="winner-grid">
         <div>
-          <h2 class="winner-title">1º Lugar Absoluto: Card sem data #51 (dup. #113 e #114) — Embaré (Rua Nabuco de Araújo, 170/173)</h2>
+          <h2 class="winner-title">1º Lugar Absoluto: VivaReal #34 (20/10/2026) &amp; Chaves #51/#113/#114 — Embaré (Rua Nabuco de Araújo, 170/173)</h2>
           <p class="address">Embaré · Rua tranquila e arborizada próxima à praia · Prédio com Elevador (apenas 2 apartamentos por andar)</p>
           <p class="winner-price">R$ 520.000 <span>· 75 m² úteis (92 m² total) · Condomínio R$ 700/mês · IPTU R$ 277/mês</span></p>
 
@@ -694,12 +695,12 @@
             <span class="tag blue">🌅 Sacada com Vista Livre</span>
             <span class="tag">🛏️ 2 Quartos (1 Suíte) + Despensa</span>
             <span class="tag">🚿 2 Banheiros (Ventilação Natural)</span>
-            <span class="tag">🛗 Elevador (2 por andar)</span>
+            <span class="tag">📅 Publicado em 20/10/2026 no VivaReal</span>
           </div>
 
           <div class="dup-alert">
-            <strong>💡 Tripla Confirmação nos Anúncios:</strong>
-            Os cards <strong>sem data #51 (92 m² total)</strong>, <strong>#113 (72 m² útil)</strong> e <strong>#114 (72 m² útil)</strong> anunciam exatamente este mesmo apartamento na Rua Nabuco de Araújo pelo mesmo valor (R$ 520.000). Use os links abaixo para ver todas as fotos e negociar!
+            <strong>💡 Confirmado no VivaReal/Zap + Chaves na Mão:</strong>
+            Agora com data de publicação verificada no <strong>VivaReal / Zap (#34 — <code>vivareal:2918430549</code>, Falcão Assessoria Imobiliária, 20/10/2026)</strong> além dos cards <strong>sem data #51, #113 e #114</strong> no Chaves na Mão!
           </div>
 
           <ul class="reasons-list">
@@ -709,17 +710,18 @@
           </ul>
 
           <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
-            <a class="button" style="flex:1;min-width:220px;" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-92m2-RS520000/id-3541843/" target="_blank" rel="noopener noreferrer">Abrir Anúncio #51 (Chaves na Mão) ↗</a>
-            <a class="button secondary" style="flex:1;min-width:220px;" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS520000/id-29458770/" target="_blank" rel="noopener noreferrer">Abrir Anúncio #114 (Mais Fotos) ↗</a>
+            <a class="button" style="flex:1;min-width:210px;" href="https://www.vivareal.com.br/imovel/2918430549/" target="_blank" rel="noopener noreferrer">Abrir no VivaReal (#34 com data) ↗</a>
+            <a class="button secondary" style="flex:1;min-width:210px;" href="https://www.zapimoveis.com.br/imovel/2918430549/" target="_blank" rel="noopener noreferrer">Abrir no Zap Imóveis ↗</a>
+            <a class="button secondary" style="flex:1;min-width:210px;" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-92m2-RS520000/id-3541843/" target="_blank" rel="noopener noreferrer">Abrir no Chaves na Mão (#51) ↗</a>
           </div>
         </div>
 
         <div>
           <div class="photo-strip">
-            <img src="fotos_530mil/s115_1.jpg" alt="Escolha #1 (#51/#114) — Sala integrada à sacada" data-caption="1º Lugar (#51/#114 - Embaré): Sala ampla em porcelanato claro integrada à sacada com vista livre">
-            <img src="fotos_530mil/s115_2.jpg" alt="Escolha #1 (#51/#114) — Sala de estar climatizada" data-caption="1º Lugar (#51/#114 - Embaré): Sala climatizada com split novo e portas de madeira novas">
-            <img src="fotos_530mil/s115_3.jpg" alt="Escolha #1 (#51/#114) — Segundo ângulo da sala" data-caption="1º Lugar (#51/#114 - Embaré): Acabamento impecável pronta para entrar e morar">
-            <img src="fotos_530mil/s052_2.jpg" alt="Escolha #1 (#51/#114) — Vista da sacada" data-caption="1º Lugar (#51/#114 - Embaré): Sacada telada e ensolarada na Rua Nabuco de Araújo">
+            <img src="fotos_530mil/s115_1.jpg" alt="Escolha #1 (#34 VR / #51 CNM) — Sala integrada à sacada" data-caption="1º Lugar (Embaré - Rua Nabuco de Araújo): Sala ampla em porcelanato claro integrada à sacada com vista livre">
+            <img src="fotos_530mil/s115_2.jpg" alt="Escolha #1 — Sala de estar climatizada" data-caption="1º Lugar (Embaré): Sala climatizada com split novo e portas de madeira novas">
+            <img src="fotos_530mil/s115_3.jpg" alt="Escolha #1 — Segundo ângulo da sala" data-caption="1º Lugar (Embaré): Acabamento impecável pronta para entrar e morar">
+            <img src="fotos_530mil/s052_2.jpg" alt="Escolha #1 — Vista da sacada" data-caption="1º Lugar (Embaré): Sacada telada e ensolarada na Rua Nabuco de Araújo">
           </div>
           <p class="photo-caption">🔍 Clique em qualquer foto da página para ampliar em tela cheia</p>
         </div>
@@ -732,7 +734,7 @@
     <div class="section-header">
       <div>
         <h2>🔟 O Top 10 Definitivo (Até R$ 530 mil com Elevador)</h2>
-        <p class="sub">Todos têm elevador confirmado e ficam nos 5 bairros nobres de praia. Filtrados por acabamento nas fotos, vaga demarcada, suíte e preço real.</p>
+        <p class="sub">Com links cruzados entre VivaReal, Zap Imóveis, Imobiliárias Locais e Chaves na Mão para você sempre negociar pelo menor preço.</p>
       </div>
       <div class="filter-bar" role="group" aria-label="Filtrar Top 10">
         <button class="filter-btn active" data-filter="all" type="button">Todos (10)</button>
@@ -745,16 +747,16 @@
 
     <div class="top-grid" id="top10Grid">
 
-      <!-- 1º LUGAR: #51 / #113 / #114 -->
-      <article class="card rank-1" data-key="chaves:3541843" data-tags="demarcada suite reformado condo-baixo">
+      <!-- 1º LUGAR: VR #34 / Sem data #51, #113, #114 -->
+      <article class="card rank-1" data-key="vivareal:2918430549" data-tags="demarcada suite reformado condo-baixo">
         <div class="cardtop">
           <span class="rank-pill">🏆 1º Lugar</span>
-          <span class="orig-ref">Sem data #51 (dup. #113 e #114)</span>
+          <span class="orig-ref">VivaReal #34 · Chaves #51/#113/#114</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s115_1.jpg" alt="#51 Sala e Sacada" data-caption="1º Lugar (#51/#114 - Embaré): Sala reformada integrada à sacada">
-          <img src="fotos_530mil/s115_2.jpg" alt="#51 Sala Split" data-caption="1º Lugar (#51/#114 - Embaré): Porcelanato claro e ar split novo">
-          <img src="fotos_530mil/s115_3.jpg" alt="#51 Sala Ângulo 2" data-caption="1º Lugar (#51/#114 - Embaré): Sala para 2 ambientes super iluminada">
+          <img src="fotos_530mil/s115_1.jpg" alt="#51 Sala e Sacada" data-caption="1º Lugar (Embaré): Sala reformada integrada à sacada">
+          <img src="fotos_530mil/s115_2.jpg" alt="#51 Sala Split" data-caption="1º Lugar (Embaré): Porcelanato claro e ar split novo">
+          <img src="fotos_530mil/s115_3.jpg" alt="#51 Sala Ângulo 2" data-caption="1º Lugar (Embaré): Sala para 2 ambientes super iluminada">
         </div>
         <h3>Embaré · Suíte + Sacada + Demarcada</h3>
         <p class="address">Rua Nabuco de Araújo, 170/173 · Apenas 2 por andar</p>
@@ -768,104 +770,104 @@
           <div><small>Condomínio / IPTU</small><strong>R$ 700 / R$ 277</strong></div>
           <div><small>Planta</small><strong>2 dorms (1 suíte) + despensa</strong></div>
           <div><small>Garagem</small><strong>1 vaga demarcada</strong></div>
-          <div><small>Diferencial</small><strong>Sacada c/ vista livre</strong></div>
+          <div><small>Publicação VivaReal</small><strong>20/10/2026 (Falcão Imob.)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que é o #1:</b> O pacote mais equilibrado de todos os 128: <b>Embaré, totalmente reformado em porcelanato, sacada com vista livre, 1 suíte, despensa e vaga demarcada</b> com condomínio de R$ 700.
+          <b>Por que é o #1:</b> O pacote mais completo: <b>Embaré, totalmente reformado em porcelanato, sacada com vista livre, 1 suíte, despensa e vaga demarcada</b> com condomínio de R$ 700.
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.109/m² (total) · R$ 7.806/m² (útil)</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-92m2-RS520000/id-3541843/" target="_blank" rel="noopener noreferrer">Ver anúncio #51 (R$ 520k) ↗</a>
-          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-RS520000/id-29458770/" target="_blank" rel="noopener noreferrer">Ver duplicata #114 ↗</a>
+          <a class="button" href="https://www.vivareal.com.br/imovel/2918430549/" target="_blank" rel="noopener noreferrer">Ver no VivaReal (#34 com data) ↗</a>
+          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-92m2-RS520000/id-3541843/" target="_blank" rel="noopener noreferrer">Ver no Chaves na Mão (#51) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 2º LUGAR: #62 / #63 -->
-      <article class="card" data-key="chaves:30039270" data-tags="demarcada reformado">
+      <!-- 2º LUGAR: VR #27 (R$ 480k!) / Sem data #62 e #63 (R$ 490k) -->
+      <article class="card" data-key="vivareal:2915267554" data-tags="demarcada reformado">
         <div class="cardtop">
           <span class="rank-pill">🥈 2º Lugar</span>
-          <span class="orig-ref">Sem data #62 (dup. #63)</span>
+          <span class="orig-ref">VivaReal #27 (R$ 480k!) · Chaves #62 / Viver #63</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s063_1.jpg" alt="#62 Sala" data-caption="2º Lugar (#62/#63 - Boqueirão/Embaré): Sala ampla em porcelanato acetinado e iluminação em trilho">
-          <img src="fotos_530mil/s063_2.jpg" alt="#62 Quarto" data-caption="2º Lugar (#62/#63 - Boqueirão/Embaré): Dormitório reformado com porcelanato e split">
-          <img src="fotos_530mil/s063_3.jpg" alt="#62 Quarto 2" data-caption="2º Lugar (#62/#63 - Boqueirão/Embaré): Segundo dormitório super espaçoso">
+          <img src="fotos_530mil/vr_2915267554_3.webp" alt="VR #27 Sala" data-caption="2º Lugar (VivaReal #27 - Rua Nabuco de Araújo): Sala em porcelanato acetinado por R$ 480 mil no VivaReal!">
+          <img src="fotos_530mil/s063_1.jpg" alt="#62 Sala" data-caption="2º Lugar (#62/#63 - Rua Nabuco de Araújo): Sala ampla com iluminação em trilho e sacada">
+          <img src="fotos_530mil/s063_2.jpg" alt="#62 Quarto" data-caption="2º Lugar (#62/#63): Dormitório reformado com porcelanato e split">
         </div>
-        <h3>Boqueirão / Divisa Embaré · 85 m²</h3>
+        <h3>Embaré / Divisa Boqueirão · 75 a 85 m²</h3>
         <p class="address">Rua Nabuco de Araújo · Prédio c/ Portaria 24h</p>
-        <p class="price">R$ 490.000 <span>· 85 m² úteis</span></p>
+        <p class="price">R$ 480.000 <span>no VivaReal #27 (R$ 490k no #62/#63!) · 75–85 m² úteis (94 m² total)</span></p>
         <div class="tags-row">
+          <span class="tag gold-tag">💰 R$ 10.000 mais barato no VivaReal #27!</span>
           <span class="tag highlight">✨ Reforma Contemporânea</span>
           <span class="tag highlight">🚗 Vaga Demarcada</span>
-          <span class="tag blue">🛡️ Portaria 24h + Sacada</span>
         </div>
         <div class="facts">
-          <div><small>Condomínio / IPTU</small><strong>R$ 761 / R$ 152</strong></div>
-          <div><small>Área Útil / Banheiros</small><strong>85 m² · 2 banheiros</strong></div>
+          <div><small>Condomínio / IPTU</small><strong>R$ 761 a R$ 848 / R$ 152</strong></div>
+          <div><small>Área / Banheiros</small><strong>75–85 m² úteis · 2 banheiros</strong></div>
           <div><small>Garagem</small><strong>1 vaga demarcada</strong></div>
-          <div><small>Estado nas fotos</small><strong>Porcelanato + trilho LED</strong></div>
+          <div><small>Publicação VivaReal</small><strong>01/10/2026 (Apollo-On)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que é o #2:</b> Abaixo de R$ 500 mil com visual de apartamento decorado: <b>85 m² úteis, porcelanato acetinado de grande formato na sala e nos quartos, sacada, 2 banheiros, portaria 24h e vaga demarcada</b>.
+          <b>Por que é o #2:</b> Reforma moderna linda com <b>porcelanato acetinado grande na sala e nos quartos, trilho LED, sacada, 2 banheiros, portaria 24h e vaga demarcada</b>. E no VivaReal (#27) está <b>R$ 10 mil mais barato (R$ 480 mil)</b>!
         </div>
-        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.302/m²</b></div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.302/m² (#62) · R$ 7.078/m² (#27)</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-85m2-RS490000/id-30039270/" target="_blank" rel="noopener noreferrer">Ver anúncio #62 (Chaves na Mão) ↗</a>
-          <a class="button secondary" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-2-dormitorios-com-2-banheiros-elevador-no-embare/4702" target="_blank" rel="noopener noreferrer">Ver anúncio #63 (Viver em Santos) ↗</a>
+          <a class="button" href="https://www.vivareal.com.br/imovel/2915267554/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #27 (R$ 480k - Mais barato!) ↗</a>
+          <a class="button secondary" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-2-dormitorios-com-2-banheiros-elevador-no-embare/4702" target="_blank" rel="noopener noreferrer">Ver na Viver em Santos #63 (R$ 490k) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 3º LUGAR: #59 (dup #39, #78, #79, #80) -->
-      <article class="card" data-key="chaves:47185910" data-tags="demarcada suite">
+      <!-- 3º LUGAR: VR #15 (R$ 485k) / Chaves #59 (R$ 485k) vs VR #12 / Zap #24 / Chaves #39,#78,#79,#80 (R$ 520k) -->
+      <article class="card" data-key="vivareal:2914919966" data-tags="demarcada suite">
         <div class="cardtop">
           <span class="rank-pill">🥉 3º Lugar</span>
-          <span class="orig-ref">Sem data #59 (dup. #39, #78, #79, #80)</span>
+          <span class="orig-ref">VivaReal #15 &amp; Chaves #59 (R$ 485k!)</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s060_1.jpg" alt="#59 Sala" data-caption="3º Lugar (#59 - Ed. Itacolomy, Embaré): Sala ampla em andar alto recém-pintada">
-          <img src="fotos_530mil/s040_2.jpg" alt="#39/#59 Sala 2" data-caption="3º Lugar (#59/#39 - Embaré): Vista do segundo ambiente da sala">
-          <img src="fotos_530mil/s080_3.jpg" alt="#79/#59 Quarto" data-caption="3º Lugar (#59/#79 - Embaré): Uma das 2 suítes com armários embutidos">
+          <img src="fotos_530mil/s060_1.jpg" alt="#59 Sala" data-caption="3º Lugar (Ed. Itacolomy, Embaré): Sala ampla em andar alto recém-pintada">
+          <img src="fotos_530mil/s040_2.jpg" alt="#39/#59 Sala 2" data-caption="3º Lugar (Embaré): Vista do segundo ambiente da sala">
+          <img src="fotos_530mil/s080_3.jpg" alt="#79/#59 Quarto" data-caption="3º Lugar (Embaré): Uma das 2 suítes com armários embutidos">
         </div>
         <h3>Embaré · Ed. Itacolomy (2 Suítes!)</h3>
-        <p class="address">Embaré · Andar Alto · Portaria 24h e 2 Elevadores</p>
-        <p class="price">R$ 485.000 <span>no #59 (R$ 520k nos outros 4!) · 85 m² úteis (98 m² total)</span></p>
+        <p class="address">Rua General Jardim · Andar Alto · Portaria 24h</p>
+        <p class="price">R$ 485.000 <span>no VR #15 e CNM #59 (R$ 520k nos outros 6!) · 85 m² úteis (98 m² total)</span></p>
         <div class="tags-row">
-          <span class="tag gold-tag">💰 R$ 35.000 mais barato no #59!</span>
+          <span class="tag gold-tag">💰 R$ 35.000 mais barato no VR #15 / CNM #59!</span>
           <span class="tag highlight">🛏️ 2 SUÍTES + Lavabo (3 Banheiros)</span>
           <span class="tag blue">🚗 Vaga Demarcada</span>
         </div>
         <div class="facts">
           <div><small>Condomínio / IPTU</small><strong>R$ 790 / R$ 145</strong></div>
           <div><small>Planta Rara</small><strong>2 Suítes + Lavabo (3 WCs)</strong></div>
-          <div><small>Andar / Prédio</small><strong>Andar alto · Portaria 24h</strong></div>
           <div><small>Garagem</small><strong>1 vaga demarcada</strong></div>
+          <div><small>Publicação VivaReal</small><strong>29/09/2026 (Malavasi Imóveis)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que é o #3:</b> Planta raríssima de <b>85 m² úteis com 2 SUÍTES + lavabo (3 banheiros), andar alto, portaria 24h e vaga demarcada</b> no Embaré. Nos cards #39, #78, #79 e #80 está anunciado por R$ 520 mil — no <b>#59 sai por R$ 485 mil</b>!
+          <b>Por que é o #3:</b> Planta raríssima na Rua General Jardim (Embaré) com <b>85 m² úteis, 2 SUÍTES + lavabo (3 banheiros), andar alto, portaria 24h e vaga demarcada</b>. Economize <b>R$ 35.000</b> entrando pelo VivaReal #15 ou Chaves #59!
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.264/m²</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-85m2-RS485000/id-47185910/" target="_blank" rel="noopener noreferrer">Ver anúncio #59 (R$ 485k - Economize R$ 35k) ↗</a>
-          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-155m2-RS520000/id-47317237/" target="_blank" rel="noopener noreferrer">Comparar com duplicata #39 (R$ 520k) ↗</a>
+          <a class="button" href="https://www.vivareal.com.br/imovel/2914919966/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #15 (R$ 485k - Economize R$ 35k) ↗</a>
+          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-85m2-RS485000/id-47185910/" target="_blank" rel="noopener noreferrer">Ver no Chaves na Mão #59 (R$ 485k) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 4º LUGAR: #66 -->
-      <article class="card" data-key="chaves:15435091" data-tags="demarcada reformado condo-baixo">
+      <!-- 4º LUGAR: VR #17 / Sem data #66 -->
+      <article class="card" data-key="vivareal:2919225150" data-tags="demarcada reformado condo-baixo">
         <div class="cardtop">
           <span class="rank-pill">4º Lugar</span>
-          <span class="orig-ref">Sem data #66 · Chaves na Mão</span>
+          <span class="orig-ref">VivaReal #17 (Invista) · Chaves #66</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s067_1.jpg" alt="#66 Sala" data-caption="4º Lugar (#66 - Aparecida): Sala em porcelanato polido com projeto de iluminação">
-          <img src="fotos_530mil/s067_2.jpg" alt="#66 Sala 2" data-caption="4º Lugar (#66 - Aparecida): Sala para 2 ambientes climatizada">
-          <img src="fotos_530mil/s067_3.jpg" alt="#66 Quarto" data-caption="4º Lugar (#66 - Aparecida): Dormitório com armários planejados e split">
+          <img src="fotos_530mil/s067_1.jpg" alt="#66 Sala" data-caption="4º Lugar (Aparecida - Rua Com. Alfaia Rodrigues): Sala em porcelanato polido com projeto de iluminação">
+          <img src="fotos_530mil/s067_2.jpg" alt="#66 Sala 2" data-caption="4º Lugar (Aparecida): Sala para 2 ambientes climatizada">
+          <img src="fotos_530mil/s067_3.jpg" alt="#66 Quarto" data-caption="4º Lugar (Aparecida): Dormitório com armários planejados e split">
         </div>
         <h3>Aparecida · Reforma de Alto Padrão</h3>
-        <p class="address">Aparecida · Próximo ao Praiamar Shopping e SESC</p>
+        <p class="address">Rua Comendador Alfaia Rodrigues · Próx. Praiamar e SESC</p>
         <p class="price">R$ 520.000 <span>· 87 m²</span></p>
         <div class="tags-row">
           <span class="tag highlight">✨ Porcelanato + Teto Rebaixado</span>
@@ -876,28 +878,29 @@
           <div><small>Condomínio / IPTU</small><strong>R$ 650 / R$ 148</strong></div>
           <div><small>Área / Banheiros</small><strong>87 m² · 2 banheiros</strong></div>
           <div><small>Garagem</small><strong>1 vaga demarcada</strong></div>
-          <div><small>Prédio</small><strong>Elevador + Salão de Festas</strong></div>
+          <div><small>Publicação VivaReal</small><strong>25/10/2026 (Invista Imob.)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que está no Top 4:</b> Tem um dos interiores mais bonitos das 128 galerias: <b>87 m² com porcelanato brilhando, iluminação embutida no gesso, ar split, 2 banheiros reformados e vaga demarcada</b>, com condomínio baixo (R$ 650).
+          <b>Por que está no Top 4:</b> O anúncio do VivaReal (#17, da Invista) revelou o endereço exato na <b>Rua Comendador Alfaia Rodrigues</b>! Tem <b>87 m² com porcelanato polido, gesso rebaixado, 2 banheiros novos, vaga demarcada</b> e cond. de R$ 650.
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.425/m²</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-87m2-RS520000/id-15435091/" target="_blank" rel="noopener noreferrer">Ver anúncio #66 ↗</a>
+          <a class="button" href="https://www.vivareal.com.br/imovel/2919225150/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #17 (Invista - 25/10/2026) ↗</a>
+          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-87m2-RS520000/id-15435091/" target="_blank" rel="noopener noreferrer">Ver no Chaves na Mão #66 ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 5º LUGAR: #07 (15 duplicatas!) -->
-      <article class="card" data-key="chaves:46781668" data-tags="demarcada reformado condo-baixo">
+      <!-- 5º LUGAR: VR #05..#09 / Sem data #07..#18 -->
+      <article class="card" data-key="vivareal:2915532939" data-tags="demarcada reformado condo-baixo">
         <div class="cardtop">
           <span class="rank-pill">5º Lugar</span>
-          <span class="orig-ref">Sem data #07 (+14 duplicatas!)</span>
+          <span class="orig-ref">VivaReal #05 a #09 · Chaves #07 (+20 dups)</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s008_1.jpg" alt="#07 Sala" data-caption="5º Lugar (#07 a #18 - Embaré): Sala gigante de 122 m² no 6º andar com parede em cimento queimado">
-          <img src="fotos_530mil/s008_2.jpg" alt="#07 Sala Jantar" data-caption="5º Lugar (#07 a #18 - Embaré): Sala para 2 ou 3 ambientes super clara">
-          <img src="fotos_530mil/s008_3.jpg" alt="#07 Quarto" data-caption="5º Lugar (#07 a #18 - Embaré): Dormitório amplo com ventilação natural">
+          <img src="fotos_530mil/s008_1.jpg" alt="#07 Sala" data-caption="5º Lugar (Embaré - Rua Major Santos Silva, 74): Sala gigante de 122 m² no 6º andar">
+          <img src="fotos_530mil/s008_2.jpg" alt="#07 Sala Jantar" data-caption="5º Lugar (Embaré): Sala para 2 ou 3 ambientes super clara">
+          <img src="fotos_530mil/s008_3.jpg" alt="#07 Quarto" data-caption="5º Lugar (Embaré): Dormitório amplo com ventilação natural">
         </div>
         <h3>Embaré · Gigante de 122 m² no 6º Andar</h3>
         <p class="address">Rua Major Santos Silva, 74 · 6º andar · Portaria 24h</p>
@@ -911,29 +914,29 @@
           <div><small>Condomínio / IPTU</small><strong>R$ 580 a R$ 850 / R$ 186</strong></div>
           <div><small>Andar / Prédio</small><strong>6º andar · 9 andares</strong></div>
           <div><small>Banheiros / Vaga</small><strong>2 banheiros · Vaga demarcada</strong></div>
-          <div><small>Duplicatas</small><strong>15 cards (#07 a #18, #47, #120, #121)</strong></div>
+          <div><small>Publicação VivaReal</small><strong>02/10/2026 (Lopes / Elton)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que está no Top 5:</b> Se você quer amplitude máxima no Embaré, este apartamento de <b>122 m² no 6º andar</b> (repetido 15 vezes na lista!) entrega sala imensa modernizada, 2 banheiros, portaria 24h e <b>vaga demarcada</b>.
+          <b>Por que está no Top 5:</b> Campeão de espaço no Embaré: <b>122 m² no 6º andar</b> (anunciado na Lopes Conceito, Pousada, VivaReal e Chaves na Mão), sala modernizada em piso claro, 2 banheiros, portaria 24h e <b>vaga demarcada</b>.
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.630/m²</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-141m2-RS530000/id-46781668/" target="_blank" rel="noopener noreferrer">Ver anúncio #07 (Cond. R$ 580) ↗</a>
-          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-122m2-RS530000/id-47096467/" target="_blank" rel="noopener noreferrer">Ver duplicata #08 ↗</a>
+          <a class="button" href="https://www.vivareal.com.br/imovel/2915532939/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #05 (Cond. R$ 580) ↗</a>
+          <a class="button secondary" href="https://imobiliariapousada.com.br/imovel/apartamento-a-venda-2-quartos-embare-santos-sp-122m2-id-3866" target="_blank" rel="noopener noreferrer">Ver na Imobiliária Pousada (#121) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 6º LUGAR: #74 -->
-      <article class="card" data-key="chaves:47995093" data-tags="reformado">
+      <!-- 6º LUGAR: VR #21 / Sem data #74 -->
+      <article class="card" data-key="vivareal:2918774753" data-tags="reformado">
         <div class="cardtop">
           <span class="rank-pill">6º Lugar</span>
-          <span class="orig-ref">Sem data #74 · Chaves na Mão</span>
+          <span class="orig-ref">VivaReal #21 · Chaves #74</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s075_1.jpg" alt="#74 Vista Mar" data-caption="6º Lugar (#74 - Aparecida): Vista livre para o mar a 100 metros da praia!">
-          <img src="fotos_530mil/s075_2.jpg" alt="#74 Sala" data-caption="6º Lugar (#74 - Aparecida): Sala iluminada com janelão piso-teto e vista mar">
-          <img src="fotos_530mil/s075_3.jpg" alt="#74 Sala 2" data-caption="6º Lugar (#74 - Aparecida): Sala ampla para 2 ambientes">
+          <img src="fotos_530mil/s075_1.jpg" alt="#74 Vista Mar" data-caption="6º Lugar (Aparecida): Vista livre para o mar a 100 metros da praia!">
+          <img src="fotos_530mil/s075_2.jpg" alt="#74 Sala" data-caption="6º Lugar (Aparecida): Sala iluminada com janelão piso-teto e vista mar">
+          <img src="fotos_530mil/s075_3.jpg" alt="#74 Sala 2" data-caption="6º Lugar (Aparecida): Sala ampla para 2 ambientes">
         </div>
         <h3>Aparecida · 100m da Praia c/ Vista Mar</h3>
         <p class="address">Quadra da praia da Aparecida · Prédio c/ Portaria 24h</p>
@@ -947,28 +950,29 @@
           <div><small>Condomínio / IPTU</small><strong>R$ 996 / R$ 146</strong></div>
           <div><small>Distância da Praia</small><strong>100 metros (quadra da praia)</strong></div>
           <div><small>Banheiros / Clima</small><strong>2 banheiros · Splits instalados</strong></div>
-          <div><small>Garagem</small><strong>Coletiva suficiente garantida</strong></div>
+          <div><small>Publicação VivaReal</small><strong>22/10/2026 (Malavasi Imóveis)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que está no Top 6:</b> A primeira foto já explica tudo: <b>vista livre para o mar da janela da sala, a apenas 100 metros da areia da praia da Aparecida</b>, com 86 m² muito bem cuidados, 2 banheiros e portaria 24h.
+          <b>Por que está no Top 6:</b> <b>Vista livre para o mar da janela da sala, a apenas 100 metros da areia da praia da Aparecida</b>, com 86 m² muito bem cuidados, 2 banheiros, portaria 24h e garagem coletiva suficiente garantida.
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 6.613/m²</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-100m2-RS509000/id-47995093/" target="_blank" rel="noopener noreferrer">Ver anúncio #74 (Vista Mar) ↗</a>
+          <a class="button" href="https://www.vivareal.com.br/imovel/2918774753/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #21 (22/10/2026) ↗</a>
+          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-100m2-RS509000/id-47995093/" target="_blank" rel="noopener noreferrer">Ver no Chaves na Mão #74 ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 7º LUGAR: #117 / #116 -->
-      <article class="card" data-key="chaves:47212309" data-tags="demarcada reformado">
+      <!-- 7º LUGAR: VR #35 / Viver #116 / Chaves #117 -->
+      <article class="card" data-key="vivareal:2910141822" data-tags="demarcada reformado">
         <div class="cardtop">
           <span class="rank-pill">7º Lugar</span>
-          <span class="orig-ref">Sem data #117 (dup. #116)</span>
+          <span class="orig-ref">VivaReal #35 · Viver em Santos #116 · Chaves #117</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s118_1.jpg" alt="#117 Sala" data-caption="7º Lugar (#117/#116 - Rua Liberdade, Embaré): Sala reformada com sanca de gesso iluminada">
-          <img src="fotos_530mil/s118_2.jpg" alt="#117 Sala 2" data-caption="7º Lugar (#117/#116 - Embaré): Sala para 2 ambientes em porcelanato">
-          <img src="fotos_530mil/s118_3.jpg" alt="#117 Quarto" data-caption="7º Lugar (#117/#116 - Embaré): Dormitório completo em armários planejados">
+          <img src="fotos_530mil/s118_1.jpg" alt="#117 Sala" data-caption="7º Lugar (Rua Liberdade, Embaré): Sala reformada com sanca de gesso iluminada">
+          <img src="fotos_530mil/s118_2.jpg" alt="#117 Sala 2" data-caption="7º Lugar (Embaré): Sala para 2 ambientes em porcelanato">
+          <img src="fotos_530mil/s118_3.jpg" alt="#117 Quarto" data-caption="7º Lugar (Embaré): Dormitório completo em armários planejados">
         </div>
         <h3>Embaré · Rua Liberdade (100% Reformado)</h3>
         <p class="address">Rua Liberdade (próximo ao Canal 5 e praia do Embaré)</p>
@@ -976,26 +980,26 @@
         <div class="tags-row">
           <span class="tag highlight">✨ Sanca + Planejados Novos</span>
           <span class="tag highlight">🚗 Vaga Demarcada</span>
-          <span class="tag">📍 Rua Liberdade (Embaré)</span>
+          <span class="tag">📍 Viver em Santos + VivaReal</span>
         </div>
         <div class="facts">
           <div><small>Condomínio / IPTU</small><strong>R$ 990 / R$ 240</strong></div>
           <div><small>Localização</small><strong>Rua Liberdade (Embaré)</strong></div>
           <div><small>Garagem</small><strong>1 vaga demarcada</strong></div>
-          <div><small>Nota sobre o #116</small><strong>Card #116 digitou "7406 m²" (74,06 m²)</strong></div>
+          <div><small>Publicação VivaReal</small><strong>05/09/2026 (Viver em Santos)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que está no Top 7:</b> Localização nobre na <b>Rua Liberdade (Embaré)</b>, inteiro reformado com sanca de gesso, iluminação indireta, dormitórios repletos de planejados novos e <b>vaga de garagem demarcada</b>.
+          <b>Por que está no Top 7:</b> Anunciado pela <b>Viver em Santos Imóveis</b> (e no VivaReal #35): fica na <b>Rua Liberdade (Embaré)</b>, inteiro reformado com sanca iluminada, planejados novos e <b>vaga demarcada</b>.
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.965/m²</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-74m2-RS530000/id-47212309/" target="_blank" rel="noopener noreferrer">Ver anúncio #117 (Chaves na Mão) ↗</a>
-          <a class="button secondary" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-reformado-2-quartos-elevador-e-vaga-de-garagem-demarcada-no-embare-santos-sp/7664" target="_blank" rel="noopener noreferrer">Ver anúncio #116 (Viver em Santos) ↗</a>
+          <a class="button" href="https://www.viveremsantosimoveis.com.br/imovel/apartamento-reformado-2-quartos-elevador-e-vaga-de-garagem-demarcada-no-embare-santos-sp/7664" target="_blank" rel="noopener noreferrer">Ver direto na Viver em Santos (#116) ↗</a>
+          <a class="button secondary" href="https://www.vivareal.com.br/imovel/2910141822/" target="_blank" rel="noopener noreferrer">Ver no VivaReal (#35) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 8º LUGAR: #87 -->
+      <!-- 8º LUGAR: #87 Gonzaga -->
       <article class="card" data-key="chaves:22135356" data-tags="reformado">
         <div class="cardtop">
           <span class="rank-pill">8º Lugar</span>
@@ -1021,7 +1025,7 @@
           <div><small>Estado nas fotos</small><strong>Reforma recém-concluída</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que está no Top 8:</b> Para quem faz questão de morar no <b>Gonzaga a 2 quadras da praia</b> para fazer tudo a pé: está recém-reformado (porcelanato marmorizado, janelas amplas batendo sol e 2 banheiros) por R$ 480 mil.
+          <b>Por que está no Top 8:</b> Para morar no <b>Gonzaga a 2 quadras da praia</b>: recém-reformado (porcelanato marmorizado, janelas amplas batendo sol e 2 banheiros) por R$ 480 mil. *(Veja abaixo também o #18 do VivaReal na Rua Alexandre Herculano c/ cond. R$ 615!)*
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 7.000/m²</b></div>
         <div class="btn-group">
@@ -1030,74 +1034,74 @@
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 9º LUGAR: #03 (8 duplicatas!) -->
-      <article class="card" data-key="chaves:44665220" data-tags="demarcada">
+      <!-- 9º LUGAR: VR #01 (R$ 524.900!) / Pousada #04 / Prime Trade #06 / Chaves #03 -->
+      <article class="card" data-key="vivareal:2917394669" data-tags="demarcada">
         <div class="cardtop">
           <span class="rank-pill">9º Lugar</span>
-          <span class="orig-ref">Sem data #03 (+7 duplicatas!)</span>
+          <span class="orig-ref">VivaReal #01 (R$ 524,9k) · Pousada #04 · Prime Trade #06</span>
         </div>
         <div class="card-gallery">
-          <img src="fotos_530mil/s005_1.jpg" alt="#03 Cozinha" data-caption="9º Lugar (#03/#04 - Rua Estácio de Sá, 7, Embaré): Cozinha ampla planejada">
-          <img src="fotos_530mil/s004_1.jpg" alt="#03 Sala" data-caption="9º Lugar (#03 - Embaré): Sala de frente em andar alto">
-          <img src="fotos_530mil/s005_3.jpg" alt="#03 Vista/Quarto" data-caption="9º Lugar (#03/#04 - Embaré): Dormitório de frente com vista livre">
+          <img src="fotos_530mil/s005_1.jpg" alt="#03 Cozinha" data-caption="9º Lugar (Rua Estácio de Sá, Embaré): Cozinha ampla planejada">
+          <img src="fotos_530mil/s004_1.jpg" alt="#03 Sala" data-caption="9º Lugar (Embaré): Sala de frente em andar alto">
+          <img src="fotos_530mil/s005_3.jpg" alt="#03 Vista/Quarto" data-caption="9º Lugar (Embaré): Dormitório de frente com vista livre">
         </div>
         <h3>Embaré · Andar Alto c/ Vista Livre (95 m² útil)</h3>
-        <p class="address">Rua Estácio de Sá, 7 · Andar alto de frente</p>
-        <p class="price">R$ 525.000 <span>no #03/#46 (R$ 530k nos outros 6) · 95 m² úteis (125 m² total)</span></p>
+        <p class="address">Rua Estácio de Sá, 7 / 36 · Andar alto de frente</p>
+        <p class="price">R$ 524.900 <span>no VivaReal #01 (R$ 530k nos outros 9) · 95 m² úteis (125 m² total)</span></p>
         <div class="tags-row">
           <span class="tag highlight">🚗 Vaga Demarcada na Escritura</span>
           <span class="tag blue">🌤️ Andar Alto · Frente Vista Livre</span>
-          <span class="tag">🚿 2 Banheiros + Dep. Completa</span>
+          <span class="tag">🏢 Pousada + Prime Trade + VivaReal</span>
         </div>
         <div class="facts">
-          <div><small>Condomínio / IPTU</small><strong>R$ 747 / R$ 196</strong></div>
+          <div><small>Condomínio / IPTU</small><strong>R$ 747 a R$ 750 / R$ 196</strong></div>
           <div><small>Área Útil / Total</small><strong>95 m² úteis / 125 m² total</strong></div>
           <div><small>Garagem</small><strong>Vaga demarcada</strong></div>
-          <div><small>Duplicatas</small><strong>8 cards (#03 a #06, #46, #48, #49, #65)</strong></div>
+          <div><small>Publicação VivaReal</small><strong>14/10/2026 (#01 da lista!)</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que está no Top 9:</b> Planta clássica super espaçosa (<b>95 m² úteis / 125 m² total</b>) na Rua Estácio de Sá (Embaré), <b>andar alto de frente com vista livre definitiva e vaga demarcada</b>. Chame pelo #03 ou #46 (R$ 5.000 mais barato).
+          <b>Por que está no Top 9:</b> É o <b>#01 em custo/m² do VivaReal</b> (125 m² total / 95 m² útil na Rua Estácio de Sá, Embaré), andar alto de frente com vista livre definitiva e <b>vaga demarcada</b>. Anunciado também na Imobiliária Pousada e Prime Trade.
         </div>
         <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 4.559/m²</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-125m2-RS525000/id-44665220/" target="_blank" rel="noopener noreferrer">Ver anúncio #03 (R$ 525k - Mais barato) ↗</a>
-          <a class="button secondary" href="https://imobiliariapousada.com.br/imovel/apartamento-a-venda-2-quartos-embare-santos-sp-125m2-id-2711" target="_blank" rel="noopener noreferrer">Ver ficha na Pousada (#04) ↗</a>
+          <a class="button" href="https://www.vivareal.com.br/imovel/2917394669/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #01 (R$ 524.900) ↗</a>
+          <a class="button secondary" href="https://imobiliariapousada.com.br/imovel/apartamento-a-venda-2-quartos-embare-santos-sp-125m2-id-2711" target="_blank" rel="noopener noreferrer">Ver na Imobiliária Pousada (#04) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- 10º LUGAR: #23 / #02 -->
+      <!-- 10º LUGAR: #23 / #02 / VR #13 e #14 (Roda Imóveis) -->
       <article class="card" data-key="chaves:45897403" data-tags="demarcada condo-baixo">
         <div class="cardtop">
           <span class="rank-pill">10º Lugar</span>
-          <span class="orig-ref">Sem data #23 (dup. #26, #43, #55) &amp; #02</span>
+          <span class="orig-ref">Chaves #23 (R$ 488k) &amp; #02 · VivaReal #13/#14 (Roda)</span>
         </div>
         <div class="card-gallery">
           <img src="fotos_530mil/s024_1.jpg" alt="#23 Sala" data-caption="10º Lugar (#23 - Rua Com. Alfaia Rodrigues, 547, Aparecida): Sala em dois níveis por R$ 488 mil">
           <img src="fotos_530mil/s003_1.jpg" alt="#02 Sala" data-caption="10º Lugar (#02 - Mesmo endereço, Aparecida): Opção com Garagem Fechada e 95 m² úteis">
-          <img src="fotos_530mil/s003_2.jpg" alt="#02 Sala 2" data-caption="10º Lugar (#02 - Aparecida): Sala ensolarada de frente">
+          <img src="fotos_530mil/vr_2919107756_1.webp" alt="VR #14 Roda Imóveis" data-caption="10º Lugar (VivaReal #14 - Roda Imóveis na Rua Com. Alfaia Rodrigues): Sala ampla de 90 m² com cond. R$ 570">
         </div>
-        <h3>Aparecida · Colado ao Praiamar (Cond. R$ 533)</h3>
+        <h3>Aparecida · Rua Com. Alfaia Rodrigues (Praiamar)</h3>
         <p class="address">Rua Comendador Alfaia Rodrigues, 547 · Aparecida</p>
-        <p class="price">R$ 488.000 <span>no #23 (R$ 499k no #26/#43/#55) · 86 a 95 m² úteis</span></p>
+        <p class="price">R$ 488.000 <span>no #23 (R$ 499k no VR #13 / CNM #26) · 86 a 95 m² úteis</span></p>
         <div class="tags-row">
           <span class="tag gold-tag">💰 Economize R$ 11.000 no #23!</span>
           <span class="tag highlight">🚗 Vaga Demarcada (#23) ou Fechada (#02)</span>
           <span class="tag">💸 Condomínio R$ 533 a R$ 600</span>
         </div>
         <div class="facts">
-          <div><small>Condomínio / IPTU</small><strong>R$ 533 (#23) / R$ 600 (#02)</strong></div>
+          <div><small>Condomínio / IPTU</small><strong>R$ 533 (#23) / R$ 570 (VR #14)</strong></div>
           <div><small>Área Útil / Total</small><strong>86–95 m² úteis / 99–127 m² total</strong></div>
           <div><small>Banheiros</small><strong>2 banheiros completos</strong></div>
-          <div><small>Garagem</small><strong>Demarcada (#23) / Fechada (#02)</strong></div>
+          <div><small>Fontes</small><strong>Roda Imóveis (via VR) + Chaves</strong></div>
         </div>
         <div class="analysis-box">
-          <b>Por que fecha o Top 10:</b> Na melhor localização da Aparecida (ao lado do Praiamar Shopping). O <b>#23 custa R$ 488 mil</b> com vaga demarcada e condomínio de R$ 533 (o mesmo apto está por R$ 499 mil nos cards #26, #43 e #55!), e o <b>#02 tem garagem fechada</b>.
+          <b>Por que fecha o Top 10:</b> Na melhor rua da Aparecida (colado ao Praiamar Shopping). O <b>#23 custa R$ 488 mil</b> com vaga demarcada e cond. R$ 533; o <b>#02 tem garagem fechada</b>; e os <b>#13/#14 no VivaReal são da Roda Imóveis</b> (90 m², cond. R$ 570)!
         </div>
-        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.252/m² (#23) · R$ 4.457/m² (#02)</b></div>
+        <div class="score"><span>Índice em 5 anos por m²</span><b>R$ 5.252/m² (#23) · R$ 5.971/m² (VR #13)</b></div>
         <div class="btn-group">
-          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-99m2-RS488000/id-45897403/" target="_blank" rel="noopener noreferrer">Ver anúncio #23 (R$ 488k - Cond. R$ 533) ↗</a>
-          <a class="button secondary" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-127m2-RS530000/id-43696625/" target="_blank" rel="noopener noreferrer">Ver anúncio #02 (Garagem Fechada) ↗</a>
+          <a class="button" href="https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-99m2-RS488000/id-45897403/" target="_blank" rel="noopener noreferrer">Ver #23 (R$ 488k - Cond. R$ 533) ↗</a>
+          <a class="button secondary" href="https://www.vivareal.com.br/imovel/2919107756/" target="_blank" rel="noopener noreferrer">Ver VivaReal #14 (Roda Imóveis - 90 m²) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
@@ -1105,12 +1109,96 @@
     </div>
   </section>
 
-  <!-- ================= MENÇÕES HONROSAS E ANÚNCIOS SEM FOTOS ================= -->
+  <!-- ================= NOVOS ACHADOS EXCLUSIVOS DO VIVAREAL / ZAP ================= -->
+  <section id="novos-vivareal">
+    <div class="section-header">
+      <div>
+        <h2>🆕 4 Achados Exclusivos Resgatados do VivaReal &amp; Zap Imóveis</h2>
+        <p class="sub">Apartamentos que não estavam no Chaves na Mão e apareceram agora após corrigirmos o filtro <code>unitFloor=0</code> e extrairmos o array <code>medias</code> da API.</p>
+      </div>
+    </div>
+
+    <div class="top-grid">
+      <!-- VR #18: Gonzaga Rua Alexandre Herculano -->
+      <article class="card" data-key="vivareal:2891898881">
+        <div class="cardtop">
+          <span class="rank-pill" style="background:#145866;">🆕 VivaReal #18</span>
+          <span class="orig-ref">OCB Administração · Gonzaga</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_530mil/vr_2891898881_2.webp" alt="VR #18 Sala" data-caption="VivaReal #18 (Gonzaga - Rua Alexandre Herculano): Sala ampla e muito ensolarada">
+          <img src="fotos_530mil/vr_2891898881_3.webp" alt="VR #18 Sala 2" data-caption="VivaReal #18 (Gonzaga): Sala para 2 ambientes com vista livre">
+          <img src="fotos_530mil/vr_2891898881_1.webp" alt="VR #18 Fachada" data-caption="VivaReal #18 (Gonzaga): Fachada impecável na Rua Alexandre Herculano">
+        </div>
+        <h3>Gonzaga · Rua Alexandre Herculano (Cond. R$ 615)</h3>
+        <p class="address">Rua Alexandre Herculano (próx. Canal 3 e praia do Gonzaga)</p>
+        <p class="price">R$ 480.000 <span>· 80 m² · Condomínio R$ 615/mês</span></p>
+        <div class="analysis-box">
+          <b>Por que vale a visita:</b> Achado exclusivo do VivaReal no <b>Gonzaga (Rua Alexandre Herculano)</b> com <b>80 m², 2 banheiros, sol da manhã batendo na sala toda e condomínio de apenas R$ 615</b>!
+        </div>
+        <div class="btn-group">
+          <a class="button" href="https://www.vivareal.com.br/imovel/2891898881/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #18 ↗</a>
+          <a class="button secondary" href="https://www.zapimoveis.com.br/imovel/2891898881/" target="_blank" rel="noopener noreferrer">Ver no Zap Imóveis ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- VR #11: Embaré Rua Sampaio Moreira, 3 -->
+      <article class="card" data-key="vivareal:2915697914">
+        <div class="cardtop">
+          <span class="rank-pill" style="background:#145866;">🆕 VivaReal #11</span>
+          <span class="orig-ref">Elton Ayres Imóveis · Embaré</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_530mil/vr_2915697914_1.webp" alt="VR #11 Sala" data-caption="VivaReal #11 (Embaré - Rua Sampaio Moreira, 3): Salão gigante de 109 m² em piso amadeirado">
+          <img src="fotos_530mil/vr_2915697914_2.webp" alt="VR #11 Sala 2" data-caption="VivaReal #11 (Embaré): Sala para 3 ambientes muito clara">
+          <img src="fotos_530mil/vr_2915697914_4.webp" alt="VR #11 Sala 3" data-caption="VivaReal #11 (Embaré): Vista a partir da janela da sala">
+        </div>
+        <h3>Embaré · 109 m² a 1 Quadra da Praia</h3>
+        <p class="address">Rua Sampaio Moreira, 3 · Embaré (publicado em 03/10/2026)</p>
+        <p class="price">R$ 530.000 <span>· 109 m² · Condomínio R$ 1.060/mês</span></p>
+        <div class="analysis-box">
+          <b>Por que vale a visita:</b> Localização espetacular na <b>Rua Sampaio Moreira, 3 (colado à praia do Embaré)</b>, com <b>109 m² úteis</b>, piso amadeirado moderno, luminárias pendentes e 2 banheiros.
+        </div>
+        <div class="btn-group">
+          <a class="button" href="https://www.vivareal.com.br/imovel/2915697914/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #11 ↗</a>
+          <a class="button secondary" href="https://www.zapimoveis.com.br/imovel/2915697914/" target="_blank" rel="noopener noreferrer">Ver no Zap Imóveis ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+
+      <!-- VR #10: Rua Benjamin Constant, 154 (Agora COM fotos!) -->
+      <article class="card" data-key="vivareal:2916375351">
+        <div class="cardtop">
+          <span class="rank-pill" style="background:#145866;">📸 VivaReal #10</span>
+          <span class="orig-ref">Fioravante Imóveis · Embaré</span>
+        </div>
+        <div class="card-gallery">
+          <img src="fotos_530mil/vr_2916375351_1.webp" alt="VR #10 Sala" data-caption="VivaReal #10 (Rua Benjamin Constant, 154, Ap 12, Embaré): Quarto/Sala em piso cerâmico no 2º andar">
+          <img src="fotos_530mil/vr_2916375351_2.webp" alt="VR #10 Quarto" data-caption="VivaReal #10 (Embaré): Dormitório amplo climatizado">
+          <img src="fotos_530mil/vr_2916375351_4.webp" alt="VR #10 Banheiro" data-caption="VivaReal #10 (Embaré): Um dos 3 banheiros (imóvel com acabamento mais antigo)">
+        </div>
+        <h3>Embaré · Rua Benjamin Constant, 154 (2º Andar)</h3>
+        <p class="address">Rua Benjamin Constant, 154, Ap 12 · 2º andar · 1 Suíte + 3 WCs</p>
+        <p class="price">R$ 520.000 <span>· 110 m² úteis (135 m² total) · Cond. R$ 700</span></p>
+        <div class="analysis-box">
+          <b>Mistério resolvido com as 30 fotos extraídas:</b> Tem planta excelente (<b>110 m², 2º andar, 1 suíte, 3 banheiros e cond. R$ 700</b>), porém as fotos revelam piso cerâmico simples na diagonal e banheiros antigos.
+        </div>
+        <div class="btn-group">
+          <a class="button" href="https://www.vivareal.com.br/imovel/2916375351/" target="_blank" rel="noopener noreferrer">Ver no VivaReal #10 ↗</a>
+          <a class="button secondary" href="https://www.zapimoveis.com.br/imovel/2916375351/" target="_blank" rel="noopener noreferrer">Ver no Zap Imóveis ↗</a>
+        </div>
+        <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= MENÇÕES HONROSAS ================= -->
   <section id="mencoes">
     <div class="section-header">
       <div>
-        <h2>✨ Menções Honrosas &amp; Os 2 Mistérios Sem Fotos (#01)</h2>
-        <p class="sub">3 opções com fotos muito específicas (Porteira Fechada ou Suíte + Sacada) e a verdade sobre os dois cards #01 que encabeçam a lista.</p>
+        <h2>✨ Menções Honrosas &amp; Oportunidades Específicas</h2>
+        <p class="sub">Opções Porteira Fechada, Suíte + Sacada na Aparecida e o apartamento de 103 m² direto com proprietário.</p>
       </div>
     </div>
 
@@ -1158,23 +1246,21 @@
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
 
-      <!-- Menção 3: Os 2 Cards #01 sem fotos -->
+      <!-- Menção 3: Sem data #01 sem fotos -->
       <article class="card" data-key="proprietario:863850711218671737">
         <div class="cardtop">
-          <span class="rank-pill" style="background:#8a5a10;">🕵️ Sem Fotos no Portal</span>
-          <span class="orig-ref">Com data #01 &amp; Sem data #01</span>
+          <span class="rank-pill" style="background:#8a5a10;">🕵️ Direto c/ Proprietário</span>
+          <span class="orig-ref">Sem data #01 (Ativo, mas sem fotos)</span>
         </div>
-        <h3>Os 2 Gigantes do Embaré Cadastrados Sem Fotos</h3>
-        <p class="address">Rua Prof. Torres Homem (R$ 390k) &amp; Rua Benjamin Constant, 154 (R$ 520k)</p>
-        <p class="price">R$ 390.000 e R$ 520.000 <span>· 103 m² e 110 m² úteis</span></p>
+        <h3>Embaré · Rua Prof. Torres Homem (103 m² por R$ 390k)</h3>
+        <p class="address">Rua Professor Torres Homem · Prédio de 5 andares c/ elevador</p>
+        <p class="price">R$ 390.000 <span>· 103 m² · Condomínio R$ 600/mês</span></p>
         <div class="analysis-box">
-          <b>O que descobrimos no código-fonte dos portais:</b><br>
-          • <b>Sem data #01 (R$ 390 mil, 103 m², Cond. R$ 600):</b> Continua <b>ativo</b> no Proprietário Direto! Fica na Rua Prof. Torres Homem (prédio de 5 andares c/ elevador, 1 suíte, 3 banheiros, vaga demarcada e porcelanato), mas o dono não subiu fotos (<code>photos: []</code>). Vale pedir fotos por mensagem!<br>
-          • <b>Com data #01 (R$ 520 mil, 110 m², Cond. R$ 700):</b> Rua Benjamin Constant, 154, Ap 12 (2º andar, suíte, 3 WCs), cadastrado no VivaReal sem descrição e sem fotos (<code>images: []</code>).
+          <b>Único dos 4 do Proprietário Direto que continua ATIVO (<code>"available": true</code>):</b><br>
+          A descrição informa <b>103 m², 2 quartos sendo 1 suíte, 3 banheiros, vaga demarcada e reforma em porcelanato</b> por R$ 390 mil, mas o proprietário não subiu fotos no anúncio (<code>photos: []</code>). Vale pedir fotos pelo chat!
         </div>
         <div class="btn-group">
           <a class="button" href="https://www.proprietariodireto.com.br/comprar-apartamento-embare-santos-direto-com-proprietario/863850711218671737" target="_blank" rel="noopener noreferrer">Ver Sem data #01 (R$ 390k - 103 m²) ↗</a>
-          <a class="button secondary" href="https://www.vivareal.com.br/imovel/2916375351/" target="_blank" rel="noopener noreferrer">Ver Com data #01 (R$ 520k - 110 m²) ↗</a>
         </div>
         <div class="actions"><button class="consider" type="button">☆ Considerar</button><button class="exclude" type="button">Excluir</button><button class="undo" type="button">Restaurar</button></div>
       </article>
@@ -1185,8 +1271,8 @@
   <section id="duplicatas">
     <div class="section-header">
       <div>
-        <h2>🔁 Mapa de Duplicatas (Economize até R$ 35.000 no Mesmo Imóvel!)</h2>
-        <p class="sub">Dos 128 cards, 34 são anúncios repetidos do mesmo apartamento físico em diferentes imobiliárias. Sempre faça contato pelo mais barato:</p>
+        <h2>🔁 Mapa de Duplicatas Cruzadas (VivaReal vs. Zap vs. Chaves na Mão)</h2>
+        <p class="sub">Mesmos apartamentos físicos anunciados em múltiplos portais com diferenças de até R$ 35.000:</p>
       </div>
     </div>
 
@@ -1203,57 +1289,51 @@
           </thead>
           <tbody>
             <tr>
-              <td><b>Embaré — Edifício Itacolomy</b> (85 m² útil / 98 m² total, 2 suítes + lavabo, vaga demarcada)</td>
-              <td><b>Card sem data #59</b> — <b>R$ 485.000</b></td>
-              <td>Cards <b>#39, #78, #79 e #80</b> — todos por R$ 520.000</td>
+              <td><b>Embaré — Edifício Itacolomy (Rua General Jardim)</b> (85 m² útil / 98 m² total, 2 suítes + lavabo, demarcada)</td>
+              <td><b>VivaReal #15</b> e <b>Chaves #59</b> — <b>R$ 485.000</b></td>
+              <td>VivaReal <b>#12</b>, Zap <b>#24</b> e Chaves <b>#39, #78, #79, #80</b> — todos por R$ 520.000</td>
               <td><b style="color:#0d6938;font-size:.95rem;">R$ 35.000 (!)</b></td>
             </tr>
             <tr>
               <td><b>Gonzaga — Rua Euclides da Cunha, 50</b> (85 m², 2 dorms, garagem coletiva)</td>
-              <td><b>Card sem data #29</b> — <b>R$ 430.000</b></td>
-              <td>Card <b>#36</b> — R$ 449.000</td>
+              <td><b>Chaves sem data #29</b> — <b>R$ 430.000</b></td>
+              <td>Chaves <b>#36</b> — R$ 449.000</td>
               <td><b style="color:#0d6938;">R$ 19.000</b></td>
             </tr>
             <tr>
               <td><b>Aparecida — Rua Com. Alfaia Rodrigues, 547</b> (86 m² útil / 99 m² total, sala em 2 níveis, demarcada)</td>
-              <td><b>Card sem data #23</b> — <b>R$ 488.000</b> (Cond. R$ 533)</td>
-              <td>Cards <b>#26, #43 e #55</b> — todos por R$ 499.000 (Cond. R$ 586)</td>
+              <td><b>Chaves sem data #23</b> — <b>R$ 488.000</b> (Cond. R$ 533)</td>
+              <td>Chaves <b>#26, #43 e #55</b> — todos por R$ 499.000 (Cond. R$ 586)</td>
               <td><b style="color:#0d6938;">R$ 11.000 + R$ 53/mês no cond.</b></td>
             </tr>
             <tr>
-              <td><b>Embaré — Rua Estácio de Sá, 7</b> (95 m² útil / 125 m² total, andar alto de frente, vaga demarcada)</td>
-              <td><b>Cards sem data #03 e #46</b> — <b>R$ 525.000</b></td>
-              <td>Cards <b>#04, #05, #06, #48, #49 e #65</b> — todos por R$ 530.000 (8 anúncios no total!)</td>
-              <td><b style="color:#0d6938;">R$ 5.000</b></td>
+              <td><b>Embaré / Boqueirão — Rua Nabuco de Araújo</b> (Nosso #2 · 75–85 m², reformado em porcelanato c/ trilho LED)</td>
+              <td><b>VivaReal com data #27</b> — <b>R$ 480.000</b></td>
+              <td>Chaves <b>#62</b> e Viver em Santos <b>#63</b> — R$ 490.000</td>
+              <td><b style="color:#0d6938;">R$ 10.000</b></td>
+            </tr>
+            <tr>
+              <td><b>Embaré — Rua Estácio de Sá, 7 / 36</b> (95 m² útil / 125 m² total, andar alto de frente, vaga demarcada)</td>
+              <td><b>VivaReal #01 (R$ 524.900)</b> e <b>Chaves #03/#46 (R$ 525.000)</b></td>
+              <td>VivaReal <b>#03, #04, #16</b>, Pousada <b>#04</b>, Prime Trade <b>#06</b> e Chaves <b>#05, #48, #49, #65</b> — R$ 530.000</td>
+              <td><b style="color:#0d6938;">R$ 5.100</b></td>
             </tr>
             <tr>
               <td><b>Embaré — Rua Major Santos Silva, 74</b> (122 m², 6º andar, 2 elevadores, vaga demarcada)</td>
-              <td><b>Cards #07 a #10</b> — R$ 530.000 (<b>Cond. R$ 580</b>)</td>
-              <td><b>15 anúncios do mesmo apto:</b> #07 a #18, #47, #120, #121 (e #107 com área truncada em 77 m²)</td>
+              <td><b>VivaReal #05</b> e <b>Chaves #07 a #10</b> — R$ 530.000 (<b>Cond. R$ 580</b>)</td>
+              <td><b>21 anúncios do mesmo apto:</b> VivaReal (#05 a #09, #36), Lopes Conceito (#16, #18), Pousada (#121), Torres Prime (#11) e Chaves (#07 a #17, #47, #107, #120)</td>
               <td>Mesmo preço (diferença no cond. informado)</td>
             </tr>
             <tr>
               <td><b>Embaré — Rua Nabuco de Araújo, 170/173</b> (Nosso #1 · 75 m² útil / 92 m² total, suíte, sacada, demarcada)</td>
-              <td><b>Cards #51, #113 e #114</b> — R$ 520.000</td>
-              <td>3 anúncios no Chaves na Mão com metragens útil (72 m²) vs. total (92 m²)</td>
+              <td><b>VivaReal #34</b> e <b>Chaves #51, #113, #114</b> — R$ 520.000</td>
+              <td>4 anúncios (VivaReal/Zap + Chaves na Mão)</td>
               <td>Mesmo valor</td>
             </tr>
             <tr>
-              <td><b>Boqueirão / Embaré — Rua Nabuco de Araújo</b> (Nosso #2 · 85 m², reformado em porcelanato)</td>
-              <td><b>Cards #62 e #63</b> — R$ 490.000</td>
-              <td>Anunciado no Chaves na Mão (#62) e na Viver em Santos (#63)</td>
-              <td>Mesmo valor</td>
-            </tr>
-            <tr>
-              <td><b>Embaré — Rua Liberdade</b> (Nosso #7 · 74 m², reformado c/ sanca e vaga demarcada)</td>
-              <td><b>Cards #116 e #117</b> — R$ 530.000</td>
-              <td>No #116 a área foi digitada como <code>7406 m²</code> (74,06 m²)</td>
-              <td>Mesmo valor</td>
-            </tr>
-            <tr>
-              <td><b>Aparecida — Ed. Tauna (#91=#92), Alfaia Rodrigues (#93=#94) e (#104=#105)</b></td>
-              <td><b>#91/#92</b> (R$ 499k) · <b>#93/#94</b> (R$ 530k) · <b>#104/#105</b> (R$ 515k)</td>
-              <td>Pares idênticos anunciados em duplicidade no Chaves na Mão e Viver em Santos</td>
+              <td><b>Aparecida — Rua Com. Alfaia Rodrigues (87 m²)</b> (Nosso #4 · porcelanato polido, vaga demarcada)</td>
+              <td><b>VivaReal #17 (Invista)</b> e <b>Chaves #66</b> — R$ 520.000</td>
+              <td>Confirmado em ambos os portais com condomínio de R$ 650</td>
               <td>Mesmo valor</td>
             </tr>
           </tbody>
@@ -1267,7 +1347,7 @@
     <div class="section-header">
       <div>
         <h2>🚫 Lista Negra: Já Vendidos, Erros de Área e Armadilhas Eliminadas</h2>
-        <p class="sub">Estes 17 cards pareciam tentadores na tabela, mas nossa auditoria no código dos portais revelou por que você deve ignorá-los:</p>
+        <p class="sub">Estes cards pareciam tentadores na tabela, mas nossa auditoria no código dos portais revelou por que você deve ignorá-los:</p>
       </div>
     </div>
 
@@ -1278,10 +1358,10 @@
       </div>
       <div class="trap-item">
         <b>❌ Card sem data #119 — É Aluguel Mensal (R$ 3.500)</b>
-        Na Rua Pindorama (Boqueirão), foi cadastrado como venda por R$ 3.500 na Roda Imóveis, mas trata-se de locação pacote.
+        Na Rua Pindorama (Boqueirão), foi cadastrado como venda por R$ 3.500, mas trata-se de locação mensal pacote.
       </div>
       <div class="trap-item">
-        <b>❌ Card sem data #84 — É "1 Quarto Adaptado"</b>
+        <b>❌ VivaReal #25 &amp; Sem data #84 — É "1 Quarto Adaptado"</b>
         Na Rua Galeão Carvalhal, 34 (Gonzaga, R$ 467 mil), a descrição confessa na primeira linha: <i>"Apartamento de 1 Quarto adaptado para 2"</i>.
       </div>
       <div class="trap-item">
@@ -1294,13 +1374,13 @@
       </div>
       <div class="trap-item">
         <b>❌ 8 Cards com Garagem Coletiva Insuficiente</b>
-        As descrições admitem vaga insuficiente (rotativa/sorteio) nos cards: <b>#25, #27, #29, #36, #64, #99, #100 e #118</b> (<i>"insuficiente em datas especiais"</i>).
+        As descrições admitem vaga insuficiente (rotativa/sorteio) nos cards sem data: <b>#25, #27, #29, #36, #64, #99, #100 e #118</b> (<i>"insuficiente em datas especiais"</i>).
       </div>
     </div>
   </section>
 
   <footer>
-    <div>Curadoria gerada em 09/11/2026 a partir da auditoria completa dos 128 anúncios de <a href="apartamentos_santos.html">apartamentos_santos.html</a>.</div>
+    <div>Curadoria atualizada em 09/11/2026 com os 163 anúncios de <a href="apartamentos_santos.html">apartamentos_santos.html</a> (incluindo VivaReal e Zap destravados).</div>
     <div>Veja também: <a href="index.html">Relatório Curado até R$ 426 mil</a> · Compatível com <code>servidor_relatorio.py</code>.</div>
   </footer>
 </main>

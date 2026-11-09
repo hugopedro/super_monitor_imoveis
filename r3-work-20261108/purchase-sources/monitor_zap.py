@@ -418,9 +418,10 @@ class ZapImoveisMonitor:
 
         if (price is None or area is None or bedrooms is None or parking is None
                 or neighborhood == '' or area < 70
-                or bedrooms != 2 or parking < 1 or floor == 0 or 'terreo' in floor_text
+                or bedrooms != 2 or parking < 1 or 'terreo' in floor_text
                 or 'terreo' in title or 'garden' in title or 'quintal' in title
-                or 'garden' in subtype_text or 'quintal' in subtype_text):
+                or 'garden' in subtype_text or 'quintal' in subtype_text
+                or 'backyard' in amenity_text or 'garden' in amenity_text):
             return False
 
         has_elevator = 'elevator' in amenity_text or 'elevador' in amenity_text
