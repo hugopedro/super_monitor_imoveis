@@ -14,7 +14,7 @@
       "elevador": "Confirmado",
       "endereco": "rua doutor manoel victorino 34 gonzaga santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Doutor Manoel Victorino, 34, Gonzaga, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T20:04:22.000Z"
     },
     {
       "site": "chaves",
@@ -27,9 +27,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Embaré, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-29T09:56:04.000Z"
     },
     {
       "site": "chaves",
@@ -44,7 +44,7 @@
       "elevador": "Confirmado",
       "endereco": "rua galeao carvalhal gonzaga santos sp",
       "titulo": "Apartamento à Venda - 2 Quartos / Porteira fechada - Gonzaga - Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-11T23:33:01.000Z"
     },
     {
       "site": "chaves",
@@ -57,9 +57,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel gonzaga santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Gonzaga, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2025-01-07T18:39:33.000Z"
     },
     {
       "site": "chaves",
@@ -74,37 +74,7 @@
       "elevador": "Confirmado",
       "endereco": "rua comendador alfaia rodrigues 519 embare santos sp",
       "titulo": "Apartamento com 2 dormitórios à venda, 70 m² por R$ 479.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "48623928",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-70m2-RS430000/id-48623928/",
-      "bairro": "Gonzaga",
-      "preco": 430000.0,
-      "condominio": 570.0,
-      "area": 70.0,
-      "quartos": 2,
-      "vagas": 1,
-      "elevador": "Confirmado",
-      "endereco": "rua doutor manoel victorino 34 gonzaga santos sp",
-      "titulo": "Apartamento para venda em Gonzaga de 70.00m² com 2 Quartos, 1 Suite e 1 Garagem",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "39802709",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-72m2-RS430000/id-39802709/",
-      "bairro": "Boqueirão",
-      "preco": 430000.0,
-      "condominio": 980.0,
-      "area": 72.0,
-      "quartos": 2.0,
-      "vagas": 1.0,
-      "elevador": "Confirmado",
-      "endereco": "rua pindorama boqueirao santos sp",
-      "titulo": "Apartamento com 2 quartos à venda na Rua Pindorama, --, Boqueirão, Santos por R$ 430.000",
-      "data_publicacao": null
+      "data_publicacao": "2026-07-23T02:30:45.000Z"
     },
     {
       "site": "chaves",
@@ -117,9 +87,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Embaré, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-06T10:41:18.000Z"
     },
     {
       "site": "chaves",
@@ -132,9 +102,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel boqueirao santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 72 m² por R$ 470.000 - Boqueirão - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2024-07-30T02:13:11.000Z"
     },
     {
       "site": "chaves",
@@ -149,7 +119,7 @@
       "elevador": "Confirmado",
       "endereco": "rua professor torres homem aparecida santos sp",
       "titulo": "Apartamento à venda, 2 quartos, 1 vaga, Aparecida - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2025-12-23T14:44:35.000Z"
     },
     {
       "site": "chaves",
@@ -164,37 +134,7 @@
       "elevador": "Confirmado",
       "endereco": "rua galeao carvalhal 34 gonzaga santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Galeão Carvalhal, 34, Gonzaga, Santos",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "31971465",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-72m2-RS510000/id-31971465/",
-      "bairro": "Aparecida",
-      "preco": 510000.0,
-      "condominio": null,
-      "area": 72.0,
-      "quartos": 2.0,
-      "vagas": null,
-      "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
-      "titulo": "Apartamento em Reforma – 2 Dormitórios – Frente Mar – Embaré, Santos/SP",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "25660769",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-72m2-RS516000/id-25660769/",
-      "bairro": "Embaré",
-      "preco": 516000.0,
-      "condominio": null,
-      "area": 72.0,
-      "quartos": 2.0,
-      "vagas": null,
-      "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
-      "titulo": "Apartamento com 2 quartos à venda no Embaré, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2024-04-27T12:32:26.000Z"
     },
     {
       "site": "chaves",
@@ -209,7 +149,7 @@
       "elevador": "Confirmado",
       "endereco": "rua nabuco de araujo 170 embare santos sp",
       "titulo": "Apartamento de 2 dormitórios 72m² com suite, no Embaré 520mil",
-      "data_publicacao": null
+      "data_publicacao": "2025-03-23T14:02:13.000Z"
     },
     {
       "site": "chaves",
@@ -224,7 +164,7 @@
       "elevador": "Confirmado",
       "endereco": "rua professor torres homem embare santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Professor Torres Homem, Embaré, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T12:04:24.000Z"
     },
     {
       "site": "chaves",
@@ -239,7 +179,7 @@
       "elevador": "Confirmado",
       "endereco": "rua torres homem boqueirao santos sp",
       "titulo": "Apartamento à venda, 2 quartos, 1 vaga, Boqueirão - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-07-03T23:46:48.000Z"
     },
     {
       "site": "chaves",
@@ -252,9 +192,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento reformado 2 quartos, elevador e vaga de garagem demarcada no Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-29T20:09:02.000Z"
     },
     {
       "site": "chaves",
@@ -267,9 +207,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento à venda, 2 quartos, 1 vaga, Aparecida - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-21T01:00:36.000Z"
     },
     {
       "site": "chaves",
@@ -282,9 +222,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento 2 Dormitórios, 1 Vaga à Venda no Aparecida, Santos | Ed. Tauna - Ref. GV25243 75 m²",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-30T19:24:46.000Z"
     },
     {
       "site": "chaves",
@@ -297,9 +237,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento 2 Dormitórios, Ambientes Amplos, Elevador e Vaga Demarcada na Aparecida - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2025-01-02T16:14:54.000Z"
     },
     {
       "site": "chaves",
@@ -312,9 +252,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos na quadra da praia da Aparecida por R$ 480 Mil",
-      "data_publicacao": null
+      "data_publicacao": "2024-10-12T02:03:15.000Z"
     },
     {
       "site": "chaves",
@@ -327,9 +267,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel boqueirao santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios, 76 m² - venda por R$ 529.000,00 ou aluguel por R$ 3.500,00/mês - Boqueirão - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2025-04-02T03:07:19.000Z"
     },
     {
       "site": "chaves",
@@ -342,9 +282,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel boqueirao santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 76 m² por R$ 500.000,00 - Boqueirão - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2025-03-18T02:08:40.000Z"
     },
     {
       "site": "chaves",
@@ -359,7 +299,7 @@
       "elevador": "Confirmado",
       "endereco": "rua doutor artur porchat de assis 43 boqueirao santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Doutor Artur Porchat de Assis, 43, Boqueirão, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-06-16T11:50:24.000Z"
     },
     {
       "site": "chaves",
@@ -372,9 +312,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel boqueirao santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Boqueirão, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-23T19:45:55.000Z"
     },
     {
       "site": "chaves",
@@ -387,9 +327,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel boqueirao santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios, 76 m² - venda por R$ 529.000,00 ou aluguel por R$ 3.500,00/mês - Boqueirão - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-16T02:48:33.000Z"
     },
     {
       "site": "chaves",
@@ -404,7 +344,7 @@
       "elevador": "Confirmado",
       "endereco": "rua nabuco de araujo 579 aparecida santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Nabuco de Araújo, 579, Aparecida, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-01-15T21:42:01.000Z"
     },
     {
       "site": "chaves",
@@ -417,9 +357,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 77 m² por R$ 530.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-01T02:13:21.000Z"
     },
     {
       "site": "chaves",
@@ -432,24 +372,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Embare- apartamento 02 dormitorios-wc empregada- moderno-vaga demarcada- portaria 24 hs- ref 2499",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "42939024",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-gonzaga-78m2-RS515000/id-42939024/",
-      "bairro": "Gonzaga",
-      "preco": 515000.0,
-      "condominio": null,
-      "area": 78.0,
-      "quartos": 2.0,
-      "vagas": null,
-      "elevador": "Confirmado",
-      "endereco": "endereco indisponivel gonzaga santos sp",
-      "titulo": "Apartamento com 2 quartos à venda no Gonzaga, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-21T20:57:43.000Z"
     },
     {
       "site": "chaves",
@@ -459,27 +384,12 @@
       "preco": 480000.0,
       "condominio": 1100.0,
       "area": 78.0,
-      "quartos": 2.0,
-      "vagas": null,
+      "quartos": 2,
+      "vagas": "1 coletiva",
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel gonzaga santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Gonzaga, Santos ",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "44113908",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-78m2-RS530000/id-44113908/",
-      "bairro": "Aparecida",
-      "preco": 530000.0,
-      "condominio": 650.0,
-      "area": 78.0,
-      "quartos": 2.0,
-      "vagas": 1.0,
-      "elevador": "Confirmado",
-      "endereco": "rua comendador alfaia rodrigues 519 aparecida santos sp",
-      "titulo": "Apartamento com 2 quartos à venda na Rua Comendador Alfaia Rodrigues, 519, Aparecida, Santos por R$ 530.000",
-      "data_publicacao": null
+      "data_publicacao": "2024-06-13T10:06:17.000Z"
     },
     {
       "site": "chaves",
@@ -494,7 +404,7 @@
       "elevador": "Confirmado",
       "endereco": "rua liberdade embare santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Liberdade, Embaré, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2025-11-07T00:45:16.000Z"
     },
     {
       "site": "chaves",
@@ -507,9 +417,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento à venda, 79 m² por R$ 420.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-05T14:58:42.000Z"
     },
     {
       "site": "chaves",
@@ -524,7 +434,7 @@
       "elevador": "Confirmado",
       "endereco": "rua doutor galeao carvalhal gonzaga santos sp",
       "titulo": "Apartamento com 2 dormitórios à venda, 79 m² por R$ 470.000,00 - Gonzaga - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-13T09:32:15.000Z"
     },
     {
       "site": "chaves",
@@ -539,7 +449,7 @@
       "elevador": "Confirmado",
       "endereco": "rua alexandre herculano 69 boqueirao santos sp",
       "titulo": "Apartamento à venda, 80 m² por R$ 480.000,00 - Boqueirão - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-05-09T02:50:17.000Z"
     },
     {
       "site": "chaves",
@@ -552,9 +462,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Título: Apartamento de Frente, 2 Dormitórios, Vista Livre e Garagem Fechada na Aparecida – Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2025-01-02T16:14:38.000Z"
     },
     {
       "site": "chaves",
@@ -569,7 +479,7 @@
       "elevador": "Confirmado",
       "endereco": "rua alexandre martins 1 aparecida santos sp",
       "titulo": "Apartamento, 2 quartos, Vista Mar, Quadra da Praia,1 vaga de garagem, Bairro: Aparecida, Cidade: Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2025-11-02T14:30:56.000Z"
     },
     {
       "site": "chaves",
@@ -584,7 +494,7 @@
       "elevador": "Confirmado",
       "endereco": "rua alexandre martins 30 aparecida santos sp",
       "titulo": "Oportunidade Incrível na Aparecida: 2 dorm, 80m² a Passos da Praia!",
-      "data_publicacao": null
+      "data_publicacao": "2026-05-22T18:40:43.000Z"
     },
     {
       "site": "chaves",
@@ -597,9 +507,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento 02 Dormitórios, no Bairro Aparecida, em Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-01-25T12:06:20.000Z"
     },
     {
       "site": "chaves",
@@ -612,9 +522,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Embaré, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-14T00:42:54.000Z"
     },
     {
       "site": "chaves",
@@ -627,9 +537,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda na Aparecida, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-29T09:54:06.000Z"
     },
     {
       "site": "chaves",
@@ -644,7 +554,7 @@
       "elevador": "Confirmado",
       "endereco": "rua nabuco de araujo aparecida santos sp",
       "titulo": "Apartamento a venda com 2 dormitórios sendo 1 suíte com vaga de garagem no Aparecida em Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T12:04:27.000Z"
     },
     {
       "site": "chaves",
@@ -659,7 +569,7 @@
       "elevador": "Confirmado",
       "endereco": "rua professor torres homem embare santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Professor Torres Homem, Embaré, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2024-03-25T17:17:47.000Z"
     },
     {
       "site": "chaves",
@@ -674,7 +584,7 @@
       "elevador": "Confirmado",
       "endereco": "rua liberdade 242 embare santos sp",
       "titulo": "Apartamento à venda, 84 m² por R$ 460.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2025-10-17T03:02:39.000Z"
     },
     {
       "site": "chaves",
@@ -687,24 +597,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento 2 Dormitórios, Vista Livre para o Porto e Garagem na Aparecida – Santos/SP",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "48372159",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-boqueirao-85m2-RS3500/id-48372159/",
-      "bairro": "Boqueirão",
-      "preco": 3500.0,
-      "condominio": null,
-      "area": 85.0,
-      "quartos": 2,
-      "vagas": 1,
-      "elevador": "Confirmado",
-      "endereco": "rua pindorama boqueirao santos sp",
-      "titulo": "Apartamento para Locação com 2 Dormitórios e Vaga Coletiva Suficiente no Boqueirão Santos SP - Edifício Espumas",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-29T20:06:08.000Z"
     },
     {
       "site": "chaves",
@@ -717,9 +612,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento 2 Dormitórios (2 Suítes), 1 Vaga à Venda no Embaré, Santos | Ed. Itacolomy - Ref.",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-30T19:26:27.000Z"
     },
     {
       "site": "chaves",
@@ -732,9 +627,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel boqueirao santos sp",
+      "endereco": null,
       "titulo": "Apartamento 2 dormitórios com 2 banheiros, elevador no Embare",
-      "data_publicacao": null
+      "data_publicacao": "2025-04-15T11:21:01.000Z"
     },
     {
       "site": "chaves",
@@ -747,9 +642,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento à venda, 2 quartos, 2 suítes, 1 vaga, Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-01T00:33:57.000Z"
     },
     {
       "site": "chaves",
@@ -764,7 +659,7 @@
       "elevador": "Confirmado",
       "endereco": "rua euclydes da cunha gonzaga santos sp",
       "titulo": "Apartamento próximo da praia com 2 Quartos com Garagem no Gonzaga Próximo ao Shopping Miramar e Balneário – Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T12:06:40.000Z"
     },
     {
       "site": "chaves",
@@ -779,7 +674,7 @@
       "elevador": "Confirmado",
       "endereco": "rua euclides da cunha 50 gonzaga santos sp",
       "titulo": "Apartamento com 2 dormitórios à venda, 85 m² por R$ 449.000,00 - Gonzaga - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-09T19:38:01.000Z"
     },
     {
       "site": "chaves",
@@ -792,24 +687,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Embaré, Santos ",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "42672953",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-86m2-RS510000/id-42672953/",
-      "bairro": "Aparecida",
-      "preco": 510000.0,
-      "condominio": 650.0,
-      "area": 86.0,
-      "quartos": 2.0,
-      "vagas": 1.0,
-      "elevador": "Confirmado",
-      "endereco": "bartolomeu de gusmao de 73 74 a 129 130 71 aparecida santos sp",
-      "titulo": "Apartamento com 2 quartos à venda na Bartolomeu de Gusmão - de 73/74 a 129/130, 71, Aparecida, Santos por R$ 510.000",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-29T11:06:49.000Z"
     },
     {
       "site": "chaves",
@@ -822,9 +702,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento à venda com vista para o Mar na Aparecida com 86,21m² de Área Privativa no Edifício Porto",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-22T11:17:37.000Z"
     },
     {
       "site": "chaves",
@@ -839,7 +719,7 @@
       "elevador": "Confirmado",
       "endereco": "rua comendador alfaia rodrigues aparecida santos sp",
       "titulo": "Apartamento à Venda — Aparecida, Santos/SP | 2 Dormitórios • 86 m² • Vaga Demarcada • Elevador",
-      "data_publicacao": null
+      "data_publicacao": "2026-03-14T00:35:12.000Z"
     },
     {
       "site": "chaves",
@@ -854,7 +734,7 @@
       "elevador": "Confirmado",
       "endereco": "rua alexandre martins aparecida santos sp",
       "titulo": "Apartamento de 2 dormitórios na Aparecida próximo ao Shopping Praiamar",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T12:07:24.000Z"
     },
     {
       "site": "chaves",
@@ -867,24 +747,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda na Aparecida, Santos ",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "45079769",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-RS490000/id-45079769/",
-      "bairro": "Aparecida",
-      "preco": 490000.0,
-      "condominio": null,
-      "area": 87.0,
-      "quartos": 2.0,
-      "vagas": null,
-      "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
-      "titulo": "Apartamento com 2 dormitórios à venda, 87 m² por R$ 490.000,00 - Aparecida - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2023-07-15T11:41:49.000Z"
     },
     {
       "site": "chaves",
@@ -897,9 +762,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel gonzaga santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Gonzaga, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-26T10:16:35.000Z"
     },
     {
       "site": "chaves",
@@ -912,24 +777,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento à Venda com 2 Dormitórios, 2 Banheiros e Vaga de Garagem Privativa no Bairro da Aparecida/Santos.",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "42672749",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-90m2-RS499000/id-42672749/",
-      "bairro": "Aparecida",
-      "preco": 499000.0,
-      "condominio": 586.0,
-      "area": 90.0,
-      "quartos": 2.0,
-      "vagas": 1.0,
-      "elevador": "Confirmado",
-      "endereco": "rua comendador alfaia rodrigues 547 aparecida santos sp",
-      "titulo": "Apartamento com 2 quartos à venda na Rua Comendador Alfaia Rodrigues, 547, Aparecida, Santos por R$ 499.000",
-      "data_publicacao": null
+      "data_publicacao": "2026-05-05T21:51:40.000Z"
     },
     {
       "site": "chaves",
@@ -944,7 +794,7 @@
       "elevador": "Confirmado",
       "endereco": "rua oswaldo cochrane 03 aparecida santos sp",
       "titulo": "Apartamento com 2 quartos, Aparecida, Santos - R$ 520 mil, Cod: 5386",
-      "data_publicacao": null
+      "data_publicacao": "2024-08-29T13:10:10.000Z"
     },
     {
       "site": "chaves",
@@ -959,7 +809,7 @@
       "elevador": "Confirmado",
       "endereco": "rua comendador alfaia rodrigues 547 aparecida santos sp",
       "titulo": "Apartamento à venda na Aparecida, Santos | Elevador | 2 dormitórios | Vaga demarcada",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-21T13:34:21.000Z"
     },
     {
       "site": "chaves",
@@ -972,9 +822,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento à venda em Santos-SP, bairro Aparecida: 2 quartos, 1 sala, 2 banheiros, 1 vaga, 90,00m². Venha conferir!",
-      "data_publicacao": null
+      "data_publicacao": "2023-09-17T02:52:06.000Z"
     },
     {
       "site": "chaves",
@@ -989,7 +839,7 @@
       "elevador": "Confirmado",
       "endereco": "rua comendador alfaia rodrigues aparecida santos sp",
       "titulo": "Apartamento Frente para Venda em Santos (Aparecida) | 2 Dorms | 1 Vaga",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T12:02:06.000Z"
     },
     {
       "site": "chaves",
@@ -1002,9 +852,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios em prédio com elevador na Aparecida",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-17T20:03:39.000Z"
     },
     {
       "site": "chaves",
@@ -1017,24 +867,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel gonzaga santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 Dormitórios/Suíte/Elevador/Garagem à venda, 90 m² por R$ 500.000 - Gonzaga - Santos/SP",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "3541843",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-embare-92m2-RS520000/id-3541843/",
-      "bairro": "Embaré",
-      "preco": 520000.0,
-      "condominio": 700.0,
-      "area": 92.0,
-      "quartos": 2.0,
-      "vagas": 1.0,
-      "elevador": "Confirmado",
-      "endereco": "rua nabuco de araujo 173 embare santos sp",
-      "titulo": "Apartamento com 2 quartos à venda na Rua Nabuco de Araújo, 173, Embaré, Santos por R$ 520.000",
-      "data_publicacao": null
+      "data_publicacao": "2026-03-20T02:45:56.000Z"
     },
     {
       "site": "chaves",
@@ -1047,9 +882,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda no Embaré, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-23T19:44:10.000Z"
     },
     {
       "site": "chaves",
@@ -1064,7 +899,7 @@
       "elevador": "Confirmado",
       "endereco": "rua estacio de sa embare santos sp",
       "titulo": "Apartamento com 95 m², 2 dormitórios e vaga demarcada na Aparecida",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T12:12:07.000Z"
     },
     {
       "site": "chaves",
@@ -1077,9 +912,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda, 95 m² por R$ 530.000 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-01-17T02:02:21.000Z"
     },
     {
       "site": "chaves",
@@ -1094,7 +929,7 @@
       "elevador": "Confirmado",
       "endereco": "rua estacio de sa 7 embare santos sp",
       "titulo": "Apartamento à venda, 95 m² por R$ 525.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2023-09-17T00:00:55.000Z"
     },
     {
       "site": "chaves",
@@ -1107,9 +942,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 96 m² por R$ 530.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-02-11T02:21:59.000Z"
     },
     {
       "site": "chaves",
@@ -1124,7 +959,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva 74 embare santos sp",
       "titulo": "Apartamento amplo de 2 dormitórios com vaga demarcada no Embaré – Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-18T18:08:56.000Z"
     },
     {
       "site": "chaves",
@@ -1137,9 +972,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos à venda na Aparecida, Santos ",
-      "data_publicacao": null
+      "data_publicacao": "2026-11-01T14:34:26.000Z"
     },
     {
       "site": "chaves",
@@ -1152,9 +987,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 98 m² por R$ 520.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-02T03:11:11.000Z"
     },
     {
       "site": "chaves",
@@ -1167,9 +1002,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel aparecida santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 99 m² no Aparecida - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-05T14:59:33.000Z"
     },
     {
       "site": "chaves",
@@ -1184,7 +1019,7 @@
       "elevador": "Confirmado",
       "endereco": "rua comendador alfaia rodrigues aparecida santos sp",
       "titulo": "Apartamento à venda no bairro da Aparecida, em localização privilegiada e com fácil acesso a comércios, serviços e às principais vias da região.",
-      "data_publicacao": null
+      "data_publicacao": "2026-08-20T12:05:34.000Z"
     },
     {
       "site": "chaves",
@@ -1197,9 +1032,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 quartos, Embaré, Santos - R$ 530 mil, Cod: 1562",
-      "data_publicacao": null
+      "data_publicacao": "2024-01-19T12:16:09.000Z"
     },
     {
       "site": "chaves",
@@ -1212,9 +1047,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "OPORTUNIDADE, Apartamento à venda de 2 quartos, no Bairro Embaré",
-      "data_publicacao": null
+      "data_publicacao": "2026-07-30T19:49:13.000Z"
     },
     {
       "site": "chaves",
@@ -1227,9 +1062,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento Espaçoso com 148,16 m² à Venda no Embaré – Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-07-17T17:08:53.000Z"
     },
     {
       "site": "chaves",
@@ -1242,9 +1077,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento à venda, 107 m² por R$ 489.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2024-12-01T03:00:36.000Z"
     },
     {
       "site": "chaves",
@@ -1259,7 +1094,7 @@
       "elevador": "Confirmado",
       "endereco": "rua sampaio moreira 3 embare santos sp",
       "titulo": "Apartamento pra venda de 2 dormitórios, 2 banheiros no Embaré Santos.",
-      "data_publicacao": null
+      "data_publicacao": "2025-08-08T11:45:21.000Z"
     },
     {
       "site": "chaves",
@@ -1272,9 +1107,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Praia - Apartamento à Venda com 2 Dormitórios/2 Banheiros/1 Vaga Garagem Coletiva - Embaré - Santos!",
-      "data_publicacao": null
+      "data_publicacao": "2025-09-17T02:34:28.000Z"
     },
     {
       "site": "chaves",
@@ -1289,7 +1124,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva 51 embare santos sp",
       "titulo": "Venda | apartamento | 2 dormitórios | 2 banheiros | 1 vaga | embaré | santos | sp",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-26T13:17:14.000Z"
     },
     {
       "site": "chaves",
@@ -1302,9 +1137,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento 122 m² no embaré – santos | 2 dormitórios | 1 vaga demarcada",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-16T16:02:54.000Z"
     },
     {
       "site": "chaves",
@@ -1319,7 +1154,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva embare santos sp",
       "titulo": "Andar alto no embaré! 2 dormitórios + vaga demarcada | espaço, conforto e localização!",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-20T13:48:10.000Z"
     },
     {
       "site": "chaves",
@@ -1334,7 +1169,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva 74 embare santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Major Santos Silva, 74, Embaré, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-25T21:13:32.000Z"
     },
     {
       "site": "chaves",
@@ -1349,7 +1184,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva 74 embare santos sp",
       "titulo": "Apartamneto a venda 2 dormitórios, no Embaré, aceita financiamento",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-22T13:00:04.000Z"
     },
     {
       "site": "chaves",
@@ -1364,7 +1199,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva embare santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Major Santos Silva, Embaré, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-16T11:17:29.000Z"
     },
     {
       "site": "chaves",
@@ -1379,7 +1214,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva embare santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Rua Major Santos Silva, Embaré, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-23T11:33:43.000Z"
     },
     {
       "site": "chaves",
@@ -1394,7 +1229,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva embare santos sp",
       "titulo": "Apartamento comercial à venda no Embaré, em Santos, próximo à linha do VLT",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-25T13:40:18.000Z"
     },
     {
       "site": "chaves",
@@ -1409,7 +1244,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva 74 embare santos sp",
       "titulo": "Apartamento com 2 dormitórios à venda, 122 m² por R$ 530.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-10-09T19:36:46.000Z"
     },
     {
       "site": "chaves",
@@ -1422,9 +1257,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento Embaré | 2 Dormitórios | 122 m² | 1 Vaga Demarcada",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-24T23:25:23.000Z"
     },
     {
       "site": "chaves",
@@ -1439,7 +1274,7 @@
       "elevador": "Confirmado",
       "endereco": "rua major santos silva 000 embare santos sp",
       "titulo": "Apartamento de 3 dormitórios 122m² reformado no Embare 530mil",
-      "data_publicacao": null
+      "data_publicacao": "2023-07-06T17:55:25.000Z"
     },
     {
       "site": "chaves",
@@ -1454,7 +1289,7 @@
       "elevador": "Confirmado",
       "endereco": "estacio de sa 7 embare santos sp",
       "titulo": "Apartamento com 2 quartos à venda na Estácio De Sá, 7, Embaré, Santos",
-      "data_publicacao": null
+      "data_publicacao": "2026-05-22T15:29:53.000Z"
     },
     {
       "site": "chaves",
@@ -1467,9 +1302,9 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "endereco indisponivel embare santos sp",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 125 m² por R$ 525.000,00 - Embaré - Santos/SP",
-      "data_publicacao": null
+      "data_publicacao": "2026-07-14T14:21:00.000Z"
     },
     {
       "site": "chaves",
@@ -1484,24 +1319,9 @@
       "elevador": "Confirmado",
       "endereco": "rua estacio de sa 7 embare santos sp",
       "titulo": "Embaré! Apartamento de frente, andar alto, vista livre e vaga demarcada! Aqui na anne lopes corretora!",
-      "data_publicacao": null
-    },
-    {
-      "site": "chaves",
-      "id": "43696625",
-      "url": "https://www.chavesnamao.com.br/imovel/apartamento-a-venda-2-quartos-com-garagem-sp-santos-aparecida-127m2-RS530000/id-43696625/",
-      "bairro": "Aparecida",
-      "preco": 530000.0,
-      "condominio": 600.0,
-      "area": 127.0,
-      "quartos": 2.0,
-      "vagas": 1.0,
-      "elevador": "Confirmado",
-      "endereco": "rua comendador alfaia rodrigues 547 aparecida santos sp",
-      "titulo": "Apartamento com 2 quartos à venda na Rua Comendador Alfaia Rodrigues, 547, Aparecida, Santos por R$ 530.000",
-      "data_publicacao": null
+      "data_publicacao": "2026-09-02T02:54:02.000Z"
     }
   ],
   "errors": [],
-  "total": 1705
+  "total": 1706
 }

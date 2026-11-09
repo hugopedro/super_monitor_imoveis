@@ -27,7 +27,7 @@ LABEL = {
     'gavea': 'Gávea Imobiliária', 'fabricio': 'Fabrício Corretor de Imóveis',
     'bw': 'BW Imóveis', 'remax_evoke_iv': 'RE/MAX Evoke IV',
 }
-LABEL_426 = {k: LABEL[k] for k in ('vivareal', 'zap', 'r3', 'invista', 'chaves', 'roda', 'rhema', 'multiverso', 'proprietario')}
+LABEL_426 = LABEL
 
 def esc(value): return html.escape(str(value or ''), quote=True)
 def money(value): return 'R$ ' + f'{value:,.0f}'.replace(',', '.')

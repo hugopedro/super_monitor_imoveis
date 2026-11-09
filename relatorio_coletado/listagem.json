@@ -1,0 +1,52 @@
+{
+  "site": "listagem",
+  "rows": [
+    {
+      "site": "listagem",
+      "id": "AP1575-SE1",
+      "url": "https://www.listagemimobiliaria.com.br/imovel/apartamento-santos-2-quartos-73-m/AP1575-SE1",
+      "bairro": "Aparecida",
+      "preco": 370000.0,
+      "condominio": 460.0,
+      "area": 73.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "AP1575-SE1 Apartamento Aparecida - Santos - SP 73 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 370.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "listagem",
+      "id": "AP1810-SE1",
+      "url": "https://www.listagemimobiliaria.com.br/imovel/apartamento-santos-2-quartos-70-m/AP1810-SE1",
+      "bairro": "Gonzaga",
+      "preco": 400000.0,
+      "condominio": 580.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "AP1810-SE1 Apartamento Gonzaga - Santos - SP 70 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 400.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "listagem",
+      "id": "AP1513-SE1",
+      "url": "https://www.listagemimobiliaria.com.br/imovel/apartamento-santos-2-quartos-70-m/AP1513-SE1",
+      "bairro": "Boqueirão",
+      "preco": 420000.0,
+      "condominio": 410.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Boqueirão - Santos/SP",
+      "titulo": "AP1513-SE1 Apartamento Boqueirão - Santos - SP 70 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 420.000",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 14
+}

@@ -1,0 +1,67 @@
+{
+  "site": "prime_trade",
+  "rows": [
+    {
+      "site": "prime_trade",
+      "id": "29723",
+      "url": "https://www.primetradeimoveis.com.br/imovel/apartamento-2-quartos-gonzaga-santos-1-vaga-72m2-code-29723",
+      "bairro": "gonzaga",
+      "preco": 370000.0,
+      "condominio": 600.0,
+      "area": 72.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento 2 Dormitórios e 1 Vaga no Gonzaga - Santos R$ 370.000 /venda Cód: 29723 Excelente apartamento à venda no Gonzaga, em Santos, uma das regiões mais valorizadas e desejadas da cidade. Com 72 m... bed 2 2 directions_car 1 other_houses 72 m²",
+      "data_publicacao": null
+    },
+    {
+      "site": "prime_trade",
+      "id": "29714",
+      "url": "https://www.primetradeimoveis.com.br/imovel/apartamento-padrao-2-quartos-embare-santos-1-vaga-70m2-code-29714",
+      "bairro": "embare",
+      "preco": 425000.0,
+      "condominio": 410.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento 2 Dormitórios 1 Vaga no Embaré - Santos/SP R$ 425.000 /venda Cód: 29714 No bairro do Embaré ótimo apartamento, 1º andar, todo reformado, contendo 2 dormitórios com armário embutidos, pisos lam... bed 2 1 directions_car 1 construction 70 m",
+      "data_publicacao": null
+    },
+    {
+      "site": "prime_trade",
+      "id": "29702",
+      "url": "https://www.primetradeimoveis.com.br/imovel/apartamento-padrao-2-quartos-aparecida-santos-1-vaga-84m2-code-29702",
+      "bairro": "aparecida",
+      "preco": 425000.0,
+      "condominio": 500.0,
+      "area": 84.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento de 2 Dormitórios na quadra da praia da Aparecida R$ 425.000 /venda Cód: 29702 Excelente Oportunidade!!! Apartamento de 2 Dormitórios próximo à praia em Santos. Maravilhosa localização na quadr... bed 2 2 bathtub 1 directions_car 1 other_h",
+      "data_publicacao": null
+    },
+    {
+      "site": "prime_trade",
+      "id": "29668",
+      "url": "https://www.primetradeimoveis.com.br/imovel/apartamento-2-quartos-aparecida-santos-1-vaga-70m2-code-29668",
+      "bairro": "aparecida",
+      "preco": 350000.0,
+      "condominio": 580.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": null,
+      "titulo": "Apartamento 2 Dormitórios com Suíte na Aparecida - Santos R$ 350.000 /venda Cód: 29668 Em ótima localização próximo à Pça. Nossa Srª. da Aparecida. Repleto de comércio e serviços variados no seu entrono, me... bed 2 2 bathtub 1 directions_car 1 other",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 142
+}

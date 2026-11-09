@@ -1,0 +1,67 @@
+{
+  "site": "gavea",
+  "rows": [
+    {
+      "site": "gavea",
+      "id": "GV27015",
+      "url": "https://www.gaveaimobi.com.br/site/imovel/GV27015",
+      "bairro": "Campo Grande",
+      "preco": 380000.0,
+      "condominio": 500.0,
+      "area": 80.0,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento 2 Dormitórios, 1 Vaga à Venda no Campo Grande, Santos | Ed. Bernardino De Campos - Ref. GV27015",
+      "data_publicacao": null
+    },
+    {
+      "site": "gavea",
+      "id": "GV25678",
+      "url": "https://www.gaveaimobi.com.br/site/imovel/GV25678",
+      "bairro": "Boqueirão",
+      "preco": 410000.0,
+      "condominio": 460.0,
+      "area": 79.16,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento 2 Dormitórios, 1 Vaga à Venda no Boqueirão, Santos | Ed. La Paz - Ref. GV25678",
+      "data_publicacao": null
+    },
+    {
+      "site": "gavea",
+      "id": "GV14695",
+      "url": "https://www.gaveaimobi.com.br/site/imovel/GV14695",
+      "bairro": "Aparecida",
+      "preco": 340000.0,
+      "condominio": 627.23,
+      "area": 92.58,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento 2 Dormitórios, 1 Vaga à Venda no Aparecida, Santos | Ed. Guacira - Ref. GV14695",
+      "data_publicacao": null
+    },
+    {
+      "site": "gavea",
+      "id": "GV26287",
+      "url": "https://www.gaveaimobi.com.br/site/imovel/GV26287",
+      "bairro": "Campo Grande",
+      "preco": 335000.0,
+      "condominio": 400.0,
+      "area": 75.0,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento 2 Dormitórios, 1 Vaga à Venda no Campo Grande, Santos | Ed. Residencial Icaraí - Ref. GV26287",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 2752
+}

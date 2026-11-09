@@ -1,0 +1,52 @@
+{
+  "site": "lopes_conceito",
+  "rows": [
+    {
+      "site": "lopes_conceito",
+      "id": "REO1217772",
+      "url": "https://www.lopesconceito.com.br/imovel/REO1217772/apartamento-a-venda-2-quartos-campo-grande-santos-sp-brasil",
+      "bairro": "Campo Grande",
+      "preco": 380000.0,
+      "condominio": 550.0,
+      "area": 80.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Avenida Doutor Bernardino de Campos - Campo Grande",
+      "titulo": "+24 fotos REO1217772 Campo Grande, Santos - SP Apartamento à venda com 2 quartos em Campo Grande, Santos, SP R$ 380.000,00 80 m 2 2 quartos 1 vaga",
+      "data_publicacao": "2026-10-07T21:27:12.448259+00:00"
+    },
+    {
+      "site": "lopes_conceito",
+      "id": "REO926481",
+      "url": "https://www.lopesconceito.com.br/imovel/REO926481/apartamento-a-venda-com-2-quartos-em-aparecida-santos-sp",
+      "bairro": "Aparecida",
+      "preco": 420000.0,
+      "condominio": 625.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Avenida Affonso Penna - Aparecida",
+      "titulo": "+32 fotos REO926481 Aparecida, Santos - SP Apartamento à venda com 2 quartos em Aparecida, Santos, SP R$ 420.000,00 70 m 2 2 quartos 1 vaga",
+      "data_publicacao": "2026-04-30T01:17:06.756905+00:00"
+    },
+    {
+      "site": "lopes_conceito",
+      "id": "REO1030227",
+      "url": "https://www.lopesconceito.com.br/imovel/REO1030227/imovel-no-embare",
+      "bairro": "Boqueirão",
+      "preco": 350000.0,
+      "condominio": 350.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Avenida Affonso Penna - Boqueirão",
+      "titulo": "+14 fotos REO1030227 Boqueirão, Santos - SP Apartamento à venda com 2 quartos em Boqueirão, Santos, SP R$ 350.000,00 70 m 2 2 quartos 1 vaga",
+      "data_publicacao": "2026-03-19T19:22:22.658823+00:00"
+    }
+  ],
+  "errors": [],
+  "total": 99
+}

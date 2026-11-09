@@ -1,0 +1,22 @@
+{
+  "site": "bw",
+  "rows": [
+    {
+      "site": "bw",
+      "id": "2872496382",
+      "url": "https://www.zapimoveis.com.br/imovel/2872496382/",
+      "bairro": "Marapé",
+      "preco": 330000.0,
+      "condominio": 400.0,
+      "area": 85.0,
+      "quartos": 2,
+      "vagas": 1,
+      "elevador": null,
+      "endereco": "Rua Napoleão Laureano",
+      "titulo": "Imóvel para venda possui 85 metros quadrados com 2 quartos em Marapé - Santos - SP",
+      "data_publicacao": "2026-02-27T14:26:49.277Z"
+    }
+  ],
+  "errors": [],
+  "total": 11
+}

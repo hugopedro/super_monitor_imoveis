@@ -1,0 +1,67 @@
+{
+  "site": "viver_em_santos",
+  "rows": [
+    {
+      "site": "viver_em_santos",
+      "id": "8081",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-com-2-quartos-reformado-bairro-aparecida-santos/8081",
+      "bairro": "Aparecida",
+      "preco": 426000.0,
+      "condominio": 400.0,
+      "area": 80.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Avenida Doutor Pedro Lessa",
+      "titulo": "apartamento-com-2-quartos-reformado-bairro-aparecida-santos",
+      "data_publicacao": null
+    },
+    {
+      "site": "viver_em_santos",
+      "id": "9016",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-de-frente-79-m-2-dormitorios-varanda-e-vaga-no-embare-santos-sp/9016",
+      "bairro": "Embaré",
+      "preco": 410000.0,
+      "condominio": 450.0,
+      "area": 79.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Delphin Moreira",
+      "titulo": "apartamento-de-frente-79-m-2-dormitorios-varanda-e-vaga-no-embare-santos-sp",
+      "data_publicacao": null
+    },
+    {
+      "site": "viver_em_santos",
+      "id": "8540",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-2-dormitorios-e-excelente-localizacao-na-aparecida-santos-sp/8540",
+      "bairro": "Aparecida",
+      "preco": 370000.0,
+      "condominio": 560.0,
+      "area": 71.96,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua 1º de Maio",
+      "titulo": "apartamento-2-dormitorios-e-excelente-localizacao-na-aparecida-santos-sp",
+      "data_publicacao": null
+    },
+    {
+      "site": "viver_em_santos",
+      "id": "3353",
+      "url": "https://www.viveremsantosimoveis.com.br/imovel/apartamento-com-2-dormitorios-a-venda-70-m-por-r-35000000-embare-santos-sp/3353",
+      "bairro": "Boqueirão",
+      "preco": 350000.0,
+      "condominio": 350.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Avenida Afonso Pena",
+      "titulo": "apartamento-com-2-dormitorios-a-venda-70-m-por-r-35000000-embare-santos-sp",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 67
+}

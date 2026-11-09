@@ -11,6 +11,8 @@
       "area": 70.0,
       "quartos": 2,
       "vagas": 1,
+      "elevador": null,
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 70 m² por R$ 350.000,00 - Boqueirão - Santos/SP",
       "data_publicacao": null
     },
@@ -24,6 +26,8 @@
       "area": 83.0,
       "quartos": 2,
       "vagas": 1,
+      "elevador": "Confirmado",
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios à venda, 83 m² por R$ 370.000,00 - José Menino - Santos/SP",
       "data_publicacao": null
     },
@@ -37,6 +41,8 @@
       "area": 83.0,
       "quartos": 2,
       "vagas": 1,
+      "elevador": null,
+      "endereco": null,
       "titulo": "Apartamento com 2 dormitórios, 83 m² - venda por R$ 410.000,00 ou aluguel por R$ 3.500,00/mês - Marapé - Santos/SP",
       "data_publicacao": null
     }

@@ -184,7 +184,8 @@ def parse_card_item(code, url, text, neighborhood, tipo='Apartamento'):
     """Normaliza os campos comuns que aparecem nas listas públicas."""
     normalized = norm(text)
     prices = re.findall(r'R\$\s*([\d.,]+)', text, re.I)
-    price = prices[-1] if re.search(r'\bpor\s+R\$', text, re.I) and prices else (prices[0] if prices else None)
+    por_match = re.search(r'\bpor\s+R\$\s*([\d.,]+)', text, re.I)
+    price = por_match.group(1) if por_match else (prices[0] if prices else None)
     area_match = re.search(r'([\d.,]+)\s*m\s*(?:²|2)\b', normalized)
     if not area_match:
         area_match = re.search(r'([\d.,]+)\s*m\s*(?:²|2)\b', text, re.I)
@@ -380,10 +381,12 @@ def fetch_prime_trade():
             if not match or urlparse(href).netloc != urlparse(base).netloc:
                 raise RuntimeError('Prime Trade: link ou código de imóvel inválido')
             code = match.group(1)
-            card_text = card.get_text(' ', strip=True)
+            card_text = re.sub(r'^(?:chevron_left\s+|chevron_right\s+)+', '', card.get_text(' ', strip=True), flags=re.I)
             slug = norm(urlparse(href).path)
             neighborhood = next((n for n in neighborhood_names if n in slug), '')
             item = parse_card_item(code, href, card_text, neighborhood)
+            if norm(item.get('endereco')).startswith('rua da paz'):
+                item['endereco'] = ''
             if not item['numeroquartos']:
                 m = re.search(r'\bbed\s*(\d+)\b', norm(card_text))
                 item['numeroquartos'] = m.group(1) if m else None
@@ -569,7 +572,11 @@ def fetch_bw():
                 raise RuntimeError('BW/ZAP: código ausente ou paginação repetida')
             page_codes.add(code)
             address = raw.get('address') or {}
-            pricing = (raw.get('pricingInfos') or [{}])[0]
+            pricing_list = raw.get('pricingInfos') or []
+            pricing = next(
+                (p for p in pricing_list if p.get('businessType') == 'SALE'),
+                next((p for p in pricing_list if not p.get('businessType')), {}),
+            )
             unit_types = raw.get('unitTypes') or []
             title = raw.get('title') or ''
             tipo = 'Apartamento' if 'APARTMENT' in unit_types else title
@@ -577,6 +584,7 @@ def fetch_bw():
             bedrooms = raw.get('bedrooms') or []
             parking = raw.get('parkingSpaces') or []
             url = 'https://www.zapimoveis.com.br/imovel/' + code + '/'
+            unit_floor = raw.get('unitFloor')
             result[code] = {
                 'codigo': code, 'url': url, 'cidade': address.get('city'),
                 'bairro': address.get('neighborhood'), 'tipo': tipo,
@@ -586,7 +594,9 @@ def fetch_bw():
                 'numeroquartos': bedrooms[0] if bedrooms else None,
                 'numerovagas': parking[0] if parking else None,
                 'tipovagas': 'coletiva' if re.search(r'\b(?:vaga|garagem)\s+coletiva\b', norm(raw.get('description'))) else '',
-                'numeroandar': raw.get('unitFloor'),
+                'numeroandar': None if unit_floor == 0 else unit_floor,
+                'endereco': address.get('street') or '',
+                'data_publicacao': raw.get('createdAt'),
                 'descricao': BeautifulSoup(raw.get('description') or '', 'html.parser').get_text(' ', strip=True),
                 '_bw_amenities': raw.get('amenities') or [],
             }
@@ -1171,9 +1181,27 @@ def matches_chaves(item):
         raise ValueError('Link do Chaves na Mão inválido')
     response = SESSION.get(url, headers={'X-Requested-With': None}, timeout=35)
     if response.status_code in (404, 410):
+        item['_unavailable'] = True
         return False, url
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
+    for tag in soup.find_all('script', type='application/ld+json'):
+        try:
+            ld_data = json.loads(tag.string or tag.get_text())
+        except (ValueError, TypeError):
+            continue
+        stack = [ld_data]
+        while stack:
+            obj = stack.pop()
+            if isinstance(obj, list):
+                stack.extend(obj)
+            elif isinstance(obj, dict):
+                if (obj.get('@type') == 'WebPage' and obj.get('datePublished')
+                        and ('/id-' + str(item.get('codigo')) + '/') in str(obj.get('url') or '')):
+                    item['data_publicacao'] = obj['datePublished']
+                    stack.clear()
+                    break
+                stack.extend(obj.values())
     heading = soup.find('h1')
     area_node = soup.select_one('p[aria-label="area-util"]')
     rooms_node = soup.select_one('p[aria-label="Quartos"]')
@@ -1191,8 +1219,10 @@ def matches_chaves(item):
     item['_report_detail_text'] = description + ' ' + features
     address_node = soup.select_one('h2.column')
     street = norm(address_node.get_text(' ', strip=True) if address_node else item.get('endereco'))
-    if street:
+    if street and 'indisponivel' not in street and 'aproximada' not in street:
         item['endereco'] = street
+    elif 'indisponivel' in street or 'aproximada' in street:
+        item['endereco'] = None
     code = re.escape(str(item['codigo']))
     data = next_data(soup)
     prices_match = re.search(r'"url":"[^"]*id-' + code + r'/?",\s*"prices":(\{[^{}]+\})', data)
@@ -1205,15 +1235,15 @@ def matches_chaves(item):
     rooms = number(rooms_node.get_text(' ', strip=True)) if rooms_node else None
     spots = number(spots_node.get_text(' ', strip=True)) if spots_node else None
     collective = bool(re.search(r'\bvaga\s+coletiva\b', description))
+    item.update({'valor': prices.get('main') or price, 'valorcondominio': prices.get('condominiumFee'),
+                 'areaprincipal': area, 'numeroquartos': int(rooms) if rooms is not None else None,
+                 'numerovagas': int(spots) if spots and spots >= 1 else ('1 coletiva' if collective else spots),
+                 'tipovagas': 'coletiva' if collective else ''})
     if (price is None or price <= 0 or price > 530000
             or (condo is not None and (condo < 0 or condo > 1100)) or area is None or area < 70 or rooms != 2
             or ((spots is None or spots < 1) and not collective)
             or re.search(r'\bterreo\b|\bgarden\b|\bquintal\b', description + ' ' + features)):
         return False, url
-    item.update({'valor': prices.get('main') or price, 'valorcondominio': prices.get('condominiumFee'),
-                 'areaprincipal': area, 'numeroquartos': int(rooms),
-                 'numerovagas': int(spots) if spots and spots >= 1 else '1 coletiva',
-                 'tipovagas': 'coletiva' if collective else ''})
     if price <= 426000 and (condo is None or condo <= 800):
         return True, url
     elevator = bool(re.search(r'\belevador(?:es)?\b', description + ' ' + features)) and not bool(
@@ -1306,13 +1336,13 @@ def matches_proprietario(item):
             break
     spots = number(item.get('numerovagas'))
     collective = bool(re.search(r'\bvaga\s+coletiva\b', normalized))
+    item['valorcondominio'] = 'Não informado' if condo is None else 'R$ ' + f'{condo:,.2f}'.replace(',', '_').replace('.', ',').replace('_', '.')
+    if collective and (spots is None or spots < 1):
+        item['numerovagas'] = '1 coletiva'
     if ((condo is not None and (condo < 0 or condo > 1100))
             or ((spots is None or spots < 1) and not collective)
             or re.search(r'\bterreo\b|\bgarden\b|\bquintal\b', normalized)):
         return False, url
-    item['valorcondominio'] = 'Não informado' if condo is None else 'R$ ' + f'{condo:,.2f}'.replace(',', '_').replace('.', ',').replace('_', '.')
-    if collective and (spots is None or spots < 1):
-        item['numerovagas'] = '1 coletiva'
     if price <= 426000 and (condo is None or condo <= 800):
         return True, url
     elevator = bool(re.search(r'\belevador(?:es)?\b', normalized)) and not bool(
@@ -1376,7 +1406,7 @@ def detail(site, item):
             item['endereco'] = address.get_text(' ', strip=True)
         if not item.get('endereco'):
             street = re.search(r'\b(?:rua|avenida|av\.?|alameda|travessa|pra[cç]a)\s+[^,|.;]{3,90}', raw_text, re.I)
-            if street:
+            if street and not (site == 'prime_trade' and norm(street.group(0)).startswith('rua da paz')):
                 item['endereco'] = street.group(0).strip()
 
         normalized_item = parse_card_item(item.get('codigo', ''), url, raw_text,
@@ -1392,6 +1422,8 @@ def detail(site, item):
     else:
         slug = item.get('url_amigavel') if site in UNSOFT else item.get('titulo')
         url = base + 'imovel/' + str(slug).strip('/') + '/' + str(item['codigo']) if slug else None
+        if url:
+            item['url'] = url
     if not url or not url.startswith(base):
         raise ValueError('Link do anúncio ausente ou inválido')
     response = SESSION.get(url, headers={'X-Requested-With': None}, timeout=30)
@@ -1418,12 +1450,13 @@ def matches_b(item):
     kind = norm(item.get('tipo'))
     title = norm(item.get('titulo'))
     description = norm(item.get('descricao'))
+    amenities = norm(item.get('_bw_amenities'))
     price, condo = number(item.get('valor')), number(item.get('valorcondominio'))
     area, rooms = number(item.get('areaprincipal')), number(item.get('numeroquartos'))
     spots = number(item.get('numerovagas'))
     collective = ('coletiv' in norm(item.get('tipovagas'))
                   or bool(re.search(r'\b(?:vaga|garagem)\s+coletiva\b', description)))
-    text = ' '.join([kind, title, description])
+    text = ' '.join([kind, title, description, amenities])
     floor = number(item.get('numeroandar'))
     if (norm(item.get('cidade')) != 'santos' or neighborhood not in B
             or 'apartamento' not in kind or 'garden' in kind or 'terreo' in kind
@@ -1431,7 +1464,7 @@ def matches_b(item):
             or area is None or area < 70 or rooms != 2
             or (condo is not None and (condo < 0 or condo > 800))
             or ((spots is None or spots < 1) and not collective)
-            or floor == 0 or re.search(r'\bterreo\b|\bgarden\b|\bquintal\b', text)):
+            or floor == 0 or re.search(r'\bterreo\b|\bgarden\b|\bquintal\b|\bbackyard\b', text)):
         return False, item.get('url', '')
     return True, item.get('url', '')
 
@@ -1520,6 +1553,7 @@ def matches_maneco(item):
     if not slug:
         raise ValueError('Maneco: ficha sem caminho')
     url = base + 'imovel/' + str(slug).strip('/') + '/' + str(item['codigo'])
+    item['url'] = url
     response = SESSION.get(url, headers={'X-Requested-With': None}, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')

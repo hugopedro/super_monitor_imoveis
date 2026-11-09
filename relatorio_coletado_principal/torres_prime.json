@@ -3,21 +3,6 @@
   "rows": [
     {
       "site": "torres_prime",
-      "id": "AP6523-C8E",
-      "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-122-m/AP6523-C8E",
-      "bairro": "Embaré",
-      "preco": 530000.0,
-      "condominio": 850.0,
-      "area": 122.0,
-      "quartos": "2",
-      "vagas": "1",
-      "elevador": "Confirmado",
-      "endereco": "",
-      "titulo": "AP6523-C8E Apartamento Embaré - Santos - SP 122 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 530.000",
-      "data_publicacao": null
-    },
-    {
-      "site": "torres_prime",
       "id": "AP6334-C8E",
       "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-90-m/AP6334-C8E",
       "bairro": "Embaré",
@@ -33,6 +18,21 @@
     },
     {
       "site": "torres_prime",
+      "id": "AP6523-C8E",
+      "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-122-m/AP6523-C8E",
+      "bairro": "Embaré",
+      "preco": 530000.0,
+      "condominio": 850.0,
+      "area": 122.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": null,
+      "titulo": "AP6523-C8E Apartamento Embaré - Santos - SP 122 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 530.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "torres_prime",
       "id": "AP5781-C8E",
       "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-70-m/AP5781-C8E",
       "bairro": "Aparecida",
@@ -42,7 +42,7 @@
       "quartos": "2",
       "vagas": "1",
       "elevador": "Confirmado",
-      "endereco": "",
+      "endereco": null,
       "titulo": "AP5781-C8E Apartamento Aparecida - Santos - SP 70 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 528.000",
       "data_publicacao": null
     },

@@ -309,9 +309,13 @@ class ZapImoveisMonitor:
                 listing_id = listing_data.get('id')
                 
                 if listing_id:
-                    # Extrai dados de preço
-                    pricing_infos = listing_data.get('pricingInfos', [{}])
-                    price = pricing_infos[0].get('price', 'N/A') if pricing_infos else 'N/A'
+                    # Extrai dados de preço (prioriza modalidade SALE quando o anúncio tem SALE e RENTAL)
+                    pricing_infos = listing_data.get('pricingInfos') or []
+                    sale_pricing = next(
+                        (p for p in pricing_infos if p.get('businessType') == 'SALE'),
+                        next((p for p in pricing_infos if not p.get('businessType')), {}),
+                    )
+                    price = sale_pricing.get('price', 'N/A') if sale_pricing else 'N/A'
                     
                     # Extrai dados de quartos, vagas e área
                     bedrooms_list = listing_data.get('bedrooms', [])
@@ -332,7 +336,7 @@ class ZapImoveisMonitor:
                         'bedrooms': bedrooms,
                         'parkingSpaces': parking,
                         'usableAreas': area,
-                        'monthlyCondoFee': pricing_infos[0].get('monthlyCondoFee') if pricing_infos else None,
+                        'monthlyCondoFee': sale_pricing.get('monthlyCondoFee') if sale_pricing else None,
                         'unitFloor': listing_data.get('unitFloor'),
                         'amenities': listing_data.get('amenities', []),
                         'unitSubTypes': listing_data.get('unitSubTypes', []),

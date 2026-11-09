@@ -1,0 +1,82 @@
+{
+  "site": "torres_prime",
+  "rows": [
+    {
+      "site": "torres_prime",
+      "id": "AP4477-C8E",
+      "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-90-m/AP4477-C8E",
+      "bairro": "Aparecida",
+      "preco": 425000.0,
+      "condominio": 750.0,
+      "area": 90.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Aparecida - Santos/SP",
+      "titulo": "AP4477-C8E Apartamento Aparecida - Santos - SP 90 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 425.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "torres_prime",
+      "id": "AP3668-C8E",
+      "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-70-m/AP3668-C8E",
+      "bairro": "Aparecida",
+      "preco": 420000.0,
+      "condominio": 558.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Aparecida - Santos/SP",
+      "titulo": "AP3668-C8E Apartamento Aparecida - Santos - SP 70 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 420.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "torres_prime",
+      "id": "AP5320-C8E",
+      "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-76-m/AP5320-C8E",
+      "bairro": "Embaré",
+      "preco": 400000.0,
+      "condominio": 500.0,
+      "area": 76.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Embaré - Santos/SP",
+      "titulo": "AP5320-C8E Apartamento Embaré - Santos - SP 76 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 400.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "torres_prime",
+      "id": "AP5438-C8E",
+      "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-75-m/AP5438-C8E",
+      "bairro": "Marapé",
+      "preco": 350000.0,
+      "condominio": 480.0,
+      "area": 75.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "AP5438-C8E Apartamento Marapé - Santos - SP 75 m² 2 Quartos 1 Banheiro 1 Vaga Venda R$ 350.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "torres_prime",
+      "id": "AP3645-C8E",
+      "url": "https://www.torresprime.com.br/imovel/apartamento-santos-2-quartos-90-m/AP3645-C8E",
+      "bairro": "Marapé",
+      "preco": 320000.0,
+      "condominio": 400.0,
+      "area": 90.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Marapé - Santos/SP",
+      "titulo": "AP3645-C8E Apartamento Marapé - Santos - SP 90 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 320.000",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 66
+}

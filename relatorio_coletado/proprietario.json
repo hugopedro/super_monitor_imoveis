@@ -11,6 +11,8 @@
       "area": 76.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Piratininga - Aparecida",
       "titulo": "Cicero Proprietário Apartamento a 700 metros da Praia em Santos. Rua Piratininga - Aparecida 76 m² • 2 Dormitório s • 1 Vaga Venda R$ 400.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -24,6 +26,8 @@
       "area": 99.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Professor Torres Homem, Boqueirão, Santos-SP - Boqueirão",
       "titulo": "Iuri Proprietário Apartamento 99 m² - GARAGEM FECHADA Rua Professor Torres Homem, Boqueirão, Santos-SP - Boqueirão 99 m² • 2 Dormitório s • 1 Vaga Venda R$ 425.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -37,6 +41,8 @@
       "area": 98.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Doutor Armando Salles de Oliveira - Boqueirão",
       "titulo": "Katia Proprietário Apartamento mobiliado Boqueirão Rua Doutor Armando Salles de Oliveira - Boqueirão 98 m² • 2 Dormitório s • 1 Vaga Venda R$ 379.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -50,6 +56,8 @@
       "area": 76.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Praça Joaquim Murtinho - Embaré, Santos - SP, Brasil - Embaré",
       "titulo": "Victor Proprietário Apartamento próximo da praia Embaré Santos Praça Joaquim Murtinho - Embaré, Santos - SP, Brasil - Embaré 76 m² • 2 Dormitório s • 1 Vaga Venda R$ 370.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -63,6 +71,8 @@
       "area": 80.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Avenida Doutor Pedro Lessa - Embaré",
       "titulo": "Angélica Proprietário Apto em ótima localização em Santos Avenida Doutor Pedro Lessa - Embaré 80 m² • 2 Dormitório s • 1 Vaga Venda R$ 350.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -76,6 +86,8 @@
       "area": 71.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Nabuco de Araújo - Embaré",
       "titulo": "Cintya Proprietário Apartamento 2 dormitorios de frente Rua Nabuco de Araújo - Embaré 71 m² • 2 Dormitório s • 1 Vaga Venda R$ 350.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -89,6 +101,8 @@
       "area": 79.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Senador Dantas - Embaré",
       "titulo": "Sollange Proprietário Otima oportunidade Vende-se apt no Embaré Rua Senador Dantas - Embaré 79 m² • 2 Dormitório s • 1 Vaga Venda R$ 365.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -102,6 +116,8 @@
       "area": 90.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Oswaldo Cochrane - Embaré",
       "titulo": "Paulo Proprietário Apartamento dos sonhos quase na praia Rua Oswaldo Cochrane - Embaré 90 m² • 2 Dormitório s • 1 Vaga Venda R$ 400.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -115,6 +131,8 @@
       "area": 103.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Professor Torres Homem - Embaré, Santos - SP, Brasil - Embaré",
       "titulo": "Sem foto Fernando Proprietário Apartamento Rua Professor Torres Homem - Embaré, Santos - SP, Brasil - Embaré 103 m² • 2 Dormitório s • 1 Vaga Venda R$ 390.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -128,6 +146,8 @@
       "area": 99.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Espírito Santo - Campo Grande",
       "titulo": "Maria Proprietário Apto grande bem localizado Rua Espírito Santo - Campo Grande 99 m² • 2 Dormitório s • 1 Vaga Venda R$ 410.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -141,6 +161,8 @@
       "area": 72.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Espírito Santo - Campo Grande",
       "titulo": "Gabriel Proprietário Apartamento perto da praia em Santos Rua Espírito Santo - Campo Grande 72 m² • 2 Dormitório s • 1 Vaga Venda R$ 315.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -154,6 +176,8 @@
       "area": 80.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": "Rua Doutor Arnaldo de Carvalho - Campo Grande",
       "titulo": "Marilene Proprietário Venha morar na melhor região de Santos! Rua Doutor Arnaldo de Carvalho - Campo Grande 80 m² • 2 Dormitório s • 1 Vaga Venda R$ 350.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -167,6 +191,8 @@
       "area": 90.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua João Carvalhal Filho - Campo Grande",
       "titulo": "Paulo Proprietário Apartamento Rua João Carvalhal Filho - Campo Grande 90 m² • 2 Dormitório s • 1 Vaga Venda R$ 400.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -180,6 +206,8 @@
       "area": 70.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Duque de Caxias - Campo Grande",
       "titulo": "Adriana Proprietário Apartamento Canal 1 - Santos Rua Duque de Caxias - Campo Grande 70 m² • 2 Dormitório s • 1 Vaga Venda R$ 345.000 Enviar Mensagem",
       "data_publicacao": null
     },
@@ -193,6 +221,8 @@
       "area": 76.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": "Rua Cásper Líbero, José Menino, Santos-SP - José Menino",
       "titulo": "Abrahão Proprietário Confortável Apto 2 Dorms com Varanda em Santos Rua Cásper Líbero, José Menino, Santos-SP - José Menino 76 m² • 2 Dormitório s • 1 Vaga Venda R$ 350.000 Aluguel R$ 2.500 Enviar Mensagem",
       "data_publicacao": null
     }

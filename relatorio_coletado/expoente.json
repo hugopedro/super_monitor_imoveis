@@ -1,0 +1,37 @@
+{
+  "site": "expoente",
+  "rows": [
+    {
+      "site": "expoente",
+      "id": "AP0042-DOOO",
+      "url": "https://www.expoenteimobiliaria.com.br/imovel/apartamento-santos-2-quartos-75-m/AP0042-DOOO",
+      "bairro": "Gonzaga",
+      "preco": 375000.0,
+      "condominio": 370.0,
+      "area": 75.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": "Gonzaga - Santos/SP",
+      "titulo": "AP0042-DOOO Apartamento Gonzaga - Santos - SP 75 m² 2 Quartos 1 Vaga Venda R$ 375.000",
+      "data_publicacao": null
+    },
+    {
+      "site": "expoente",
+      "id": "AP0224-DOOO",
+      "url": "https://www.expoenteimobiliaria.com.br/imovel/apartamento-santos-2-quartos-70-m/AP0224-DOOO",
+      "bairro": "Gonzaga",
+      "preco": 400000.0,
+      "condominio": 420.0,
+      "area": 70.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "AP0224-DOOO Apartamento Gonzaga - Santos - SP 70 m² 2 Quartos 1 Suíte 1 Banheiro 1 Vaga Venda R$ 400.000",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 4
+}

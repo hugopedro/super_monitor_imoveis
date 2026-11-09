@@ -1,8 +1,22 @@
 {
   "site": "multiverso",
-  "rows": [],
-  "errors": [
-    "15736: sem URL"
+  "rows": [
+    {
+      "site": "multiverso",
+      "id": "15736",
+      "url": "https://www.multiversoimob.com.br/imovel/apartamento-a-venda-2-quartos-no-bairro-embare-em-santos/15736",
+      "bairro": "Embaré",
+      "preco": 520000.0,
+      "condominio": 700.0,
+      "area": 72.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": null,
+      "titulo": "apartamento-a-venda-2-quartos-no-bairro-embare-em-santos",
+      "data_publicacao": null
+    }
   ],
+  "errors": [],
   "total": 292
 }

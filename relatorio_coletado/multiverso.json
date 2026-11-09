@@ -11,6 +11,8 @@
       "area": 80.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-a-venda-2-quartos-no-bairro-aparecida-em-santos",
       "data_publicacao": null
     },
@@ -24,6 +26,8 @@
       "area": 72.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-de-2-dormitorios-a-venda-no-gonzaga-excelente-localizacao-e-72-m",
       "data_publicacao": null
     },
@@ -37,6 +41,8 @@
       "area": 79.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-2-quartos-2-banheiros-campo-grande-santos",
       "data_publicacao": null
     },
@@ -50,6 +56,8 @@
       "area": 70.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-a-venda-2-quartos-no-bairro-embare-em-santos",
       "data_publicacao": null
     },
@@ -63,6 +71,8 @@
       "area": 77.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-completo-na-aparecida-conforto-localizacao-e-praticidade-em-um-so-lugar",
       "data_publicacao": null
     },
@@ -76,6 +86,8 @@
       "area": 82.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-a-venda-2-quartos-no-bairro-marape-em-santos",
       "data_publicacao": null
     },
@@ -89,6 +101,8 @@
       "area": 80.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-a-venda-2-quartos-no-bairro-embare-em-santos",
       "data_publicacao": null
     },
@@ -102,10 +116,12 @@
       "area": 70.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "apartamento-a-venda-2-quartos-no-bairro-boqueirao-em-santos",
       "data_publicacao": null
     }
   ],
   "errors": [],
-  "total": 124
+  "total": 292
 }

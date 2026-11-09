@@ -12,7 +12,7 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "",
+      "endereco": null,
       "titulo": "Apartamento 2 Dormitórios, 1 Vaga à Venda no Aparecida, Santos | Ed. Tauna - Ref. GV25243",
       "data_publicacao": null
     },
@@ -27,11 +27,11 @@
       "quartos": 2,
       "vagas": 1,
       "elevador": "Confirmado",
-      "endereco": "",
+      "endereco": null,
       "titulo": "Apartamento 2 Dormitórios (2 Suítes), 1 Vaga à Venda no Embaré, Santos | Ed. Itacolomy - Ref. GV26823",
       "data_publicacao": null
     }
   ],
   "errors": [],
-  "total": 2733
+  "total": 2752
 }

@@ -1,6 +1,52 @@
 {
   "site": "maneco",
-  "rows": [],
+  "rows": [
+    {
+      "site": "maneco",
+      "id": "7560",
+      "url": "https://www.manecoimoveis.com.br/imovel/apartamento-a-venda-aparecida-santos-sp/7560",
+      "bairro": "Aparecida",
+      "preco": 460000.0,
+      "condominio": 1100.0,
+      "area": 85.46,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": null,
+      "titulo": "Apartamento à venda, Aparecida - Santos/SP",
+      "data_publicacao": null
+    },
+    {
+      "site": "maneco",
+      "id": "6086",
+      "url": "https://www.manecoimoveis.com.br/imovel/apartamento-a-venda-aparecida-santos-sp/6086",
+      "bairro": "Aparecida",
+      "preco": 450000.0,
+      "condominio": 875.0,
+      "area": 90.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": null,
+      "titulo": "Apartamento à venda, Aparecida - Santos/SP",
+      "data_publicacao": null
+    },
+    {
+      "site": "maneco",
+      "id": "7287",
+      "url": "https://www.manecoimoveis.com.br/imovel/apartamento-a-venda-embare-santos-sp/7287",
+      "bairro": "Embaré",
+      "preco": 530000.0,
+      "condominio": 850.0,
+      "area": 122.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": "Confirmado",
+      "endereco": null,
+      "titulo": "Apartamento à venda, Embaré - Santos/SP",
+      "data_publicacao": null
+    }
+  ],
   "errors": [],
   "total": 595
 }

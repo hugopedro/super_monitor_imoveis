@@ -257,42 +257,57 @@ class MonitorImoveis:
             'Referer': 'https://invistaii.com.br/imovel/comprar/',
         }
         try:
-            response = requests.get(
-                'https://invistaii.com.br/imovel/comprar/',
-                params=params,
-                headers=headers,
-                timeout=30,
-            )
-            response.raise_for_status()
             found = {}
-            hrefs = re.findall(r'href=[\"\']([^\"\']*/imovel/[^\"\']+/\d+/?)[\"\']', response.text, re.IGNORECASE)
-            for href in hrefs:
-                url = urljoin('https://invistaii.com.br/', html.unescape(href))
-                parsed = urlparse(url)
-                if parsed.netloc.lower() != 'invistaii.com.br':
-                    continue
-                code_match = re.search(r'/(\d+)/?$', parsed.path)
-                segments = parsed.path.rstrip('/').split('/')
-                if not code_match or len(segments) < 3:
-                    continue
-                slug = segments[-2]
-                code = code_match.group(1)
-                area_match = re.search(r'-(\d+)m2(?:-|$)', slug)
-                bedrooms_match = re.search(r'com-(\d+)-dormitorios?', slug)
-                neighborhood_match = re.search(r'no-bairro-(.+?)-com-', slug)
-                found[code] = {
-                    'codigo': code,
-                    'titulo': slug.replace('-', ' ').title(),
-                    'bairro': neighborhood_match.group(1).replace('-', ' ') if neighborhood_match else '',
-                    'cidade': 'Santos',
-                    'tipo': 'apartamento',
-                    'areaprincipal': area_match.group(1) if area_match else None,
-                    'numeroquartos': bedrooms_match.group(1) if bedrooms_match else None,
-                    'numerovagas': None,
-                    'valor': None,
-                    'valorcondominio': None,
-                    'url': url,
-                }
+            for page in range(1, 31):
+                page_url = (
+                    'https://invistaii.com.br/imovel/comprar/'
+                    if page == 1
+                    else f'https://invistaii.com.br/imovel/comprar/page/{page}/'
+                )
+                response = requests.get(
+                    page_url,
+                    params=params,
+                    headers=headers,
+                    timeout=30,
+                )
+                if response.status_code == 404 or '/imovel/comprar' not in response.url:
+                    break
+                response.raise_for_status()
+                before = len(found)
+                hrefs = re.findall(r'href=[\"\']([^\"\']*/imovel/[^\"\']+/\d+/?)[\"\']', response.text, re.IGNORECASE)
+                for href in hrefs:
+                    url = urljoin('https://invistaii.com.br/', html.unescape(href))
+                    parsed = urlparse(url)
+                    if parsed.netloc.lower() != 'invistaii.com.br':
+                        continue
+                    if '/imovel/comprar' in parsed.path.lower():
+                        continue
+                    code_match = re.search(r'/(\d+)/?$', parsed.path)
+                    segments = parsed.path.rstrip('/').split('/')
+                    if not code_match or len(segments) < 3:
+                        continue
+                    slug = segments[-2]
+                    if slug.lower() == 'page':
+                        continue
+                    code = code_match.group(1)
+                    area_match = re.search(r'-(\d+)m2(?:-|$)', slug)
+                    bedrooms_match = re.search(r'com-(\d+)-dormitorios?', slug)
+                    neighborhood_match = re.search(r'no-bairro-(.+?)-com-', slug)
+                    found[code] = {
+                        'codigo': code,
+                        'titulo': slug.replace('-', ' ').title(),
+                        'bairro': neighborhood_match.group(1).replace('-', ' ') if neighborhood_match else '',
+                        'cidade': 'Santos',
+                        'tipo': 'apartamento',
+                        'areaprincipal': area_match.group(1) if area_match else None,
+                        'numeroquartos': bedrooms_match.group(1) if bedrooms_match else None,
+                        'numerovagas': None,
+                        'valor': None,
+                        'valorcondominio': None,
+                        'url': url,
+                    }
+                if len(found) == before:
+                    break
             logger.info(f"Invista: {len(found)} anúncios encontrados na busca pública atual")
             return list(found.values())
         except requests.exceptions.RequestException as e:

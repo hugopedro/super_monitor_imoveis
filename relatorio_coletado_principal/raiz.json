@@ -12,7 +12,7 @@
       "quartos": "2",
       "vagas": "1",
       "elevador": "Confirmado",
-      "endereco": "",
+      "endereco": null,
       "titulo": "AP0332-RIMOB Apartamento Boqueirão - Santos - SP 77 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 500.000",
       "data_publicacao": null
     },
@@ -27,7 +27,7 @@
       "quartos": "2",
       "vagas": "1",
       "elevador": "Confirmado",
-      "endereco": "",
+      "endereco": null,
       "titulo": "AP0325-RIMOB Apartamento Pompéia - Santos - SP 78 m² 2 Quartos 2 Banheiros 1 Vaga Venda R$ 520.000",
       "data_publicacao": null
     }

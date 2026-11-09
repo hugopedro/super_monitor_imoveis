@@ -11,10 +11,12 @@
       "area": 75.0,
       "quartos": "2",
       "vagas": "1",
+      "elevador": null,
+      "endereco": null,
       "titulo": "Apartamento 2 Dormitórios (1 suíte) no José Menino ",
       "data_publicacao": null
     }
   ],
   "errors": [],
-  "total": 13
+  "total": 54
 }

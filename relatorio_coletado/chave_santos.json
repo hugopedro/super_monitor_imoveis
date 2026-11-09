@@ -1,0 +1,52 @@
+{
+  "site": "chave_santos",
+  "rows": [
+    {
+      "site": "chave_santos",
+      "id": "11108",
+      "url": "https://www.chavesantosimoveis.com.br/imovel/aparamento-a-venda-2-quartos-no-bairro-da-aparecida-santos-sp/11108",
+      "bairro": "Aparecida",
+      "preco": 340000.0,
+      "condominio": 490.0,
+      "area": 72.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Aparamento a venda, 2 quartos, no bairro da aparecida, Santos - SP",
+      "data_publicacao": null
+    },
+    {
+      "site": "chave_santos",
+      "id": "10949",
+      "url": "https://www.chavesantosimoveis.com.br/imovel/apartamento-a-venda-no-campo-grande-santos/10949",
+      "bairro": "Campo Grande",
+      "preco": 415000.0,
+      "condominio": 420.0,
+      "area": 77.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento à venda no Campo Grande - Santos",
+      "data_publicacao": null
+    },
+    {
+      "site": "chave_santos",
+      "id": "1628",
+      "url": "https://www.chavesantosimoveis.com.br/imovel/apartamento-a-venda-73-m-por-r-37000000-aparecida-santos-sp/1628",
+      "bairro": "Aparecida",
+      "preco": 415000.0,
+      "condominio": 420.0,
+      "area": 73.0,
+      "quartos": "2",
+      "vagas": "1",
+      "elevador": null,
+      "endereco": null,
+      "titulo": "Apartamento à venda, 73 m² por R$ 370.000,00 - Aparecida - Santos/SP",
+      "data_publicacao": null
+    }
+  ],
+  "errors": [],
+  "total": 72
+}

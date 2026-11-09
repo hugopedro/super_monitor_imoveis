@@ -11,6 +11,8 @@
       "area": 72.0,
       "quartos": "2 Dormitório(s)",
       "vagas": "1 Vaga(s)",
+      "elevador": null,
+      "endereco": null,
       "titulo": "Apartamento à venda, 2 quartos, 1 vaga, Aparecida - Santos/SP",
       "data_publicacao": "2026-10-17T09:19:43-03:00",
       "data_atualizacao_preco": "2026-10-17"
@@ -25,6 +27,8 @@
       "area": 90.0,
       "quartos": "2 Dormitório(s)",
       "vagas": "1 Vaga(s)",
+      "elevador": "Confirmado",
+      "endereco": null,
       "titulo": "Apartamento residencial à venda, Boqueirão, Santos.",
       "data_publicacao": "2026-10-17T09:29:32-03:00",
       "data_atualizacao_preco": "2026-10-17"
@@ -39,6 +43,8 @@
       "area": 85.0,
       "quartos": "2 Dormitório(s)",
       "vagas": "1 Vaga(s)",
+      "elevador": null,
+      "endereco": null,
       "titulo": "Apartamento À venda | 2 Dormitórios |  85,47 m²  | 1 vaga | Gonzaga/Santos-sp",
       "data_publicacao": "2026-10-17T07:59:28-03:00",
       "data_atualizacao_preco": "2026-10-17"
@@ -53,6 +59,8 @@
       "area": 75.0,
       "quartos": "2 Dormitório(s)",
       "vagas": "1 Vaga(s)",
+      "elevador": "Confirmado",
+      "endereco": null,
       "titulo": "Apartamento à venda próximo à praia | 2 dormitórios | 1 suíte | Home office reversível | 1 vaga",
       "data_publicacao": "2026-10-17T19:58:09-03:00",
       "data_atualizacao_preco": "2026-10-17"
@@ -67,11 +75,13 @@
       "area": 82.0,
       "quartos": "2 Dormitório(s)",
       "vagas": "1 Vaga(s)",
+      "elevador": null,
+      "endereco": null,
       "titulo": "Apartamento 02 Quartos, Reformado, Marapé,  Santos SP",
       "data_publicacao": "2026-10-17T17:53:18-03:00",
       "data_atualizacao_preco": "2026-10-17"
     }
   ],
   "errors": [],
-  "total": 18
+  "total": 70
 }
